@@ -37,6 +37,36 @@ permalink: /
   </div>
 </nav>
 
+<section class="mm-clone-hero-bg">
+  <div class="mm-hero-line mm-hero-line-top"></div>
+
+  <div class="mm-container mm-clone-hero-content">
+    <p class="mm-clone-hero-subtitle">
+      Online Counselling Session for mental well-being
+    </p>
+
+    <h1>
+      A strong image of yourself is our success
+    </h1>
+
+    <p class="mm-clone-hero-copy">
+      We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life.It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behavior.
+    </p>
+
+    <div class="mm-clone-hero-actions">
+      <a class="mm-clone-btn mm-clone-btn-pink" href="{{ '/contact/' | relative_url }}">
+        Get a Counselling
+      </a>
+
+      <a class="mm-clone-btn mm-clone-btn-pink" href="{{ '/about/' | relative_url }}">
+        About us
+      </a>
+    </div>
+  </div>
+
+  <div class="mm-hero-line mm-hero-line-bottom"></div>
+</section>
+
 <section class="mm-section">
   <div class="mm-container mm-two-col">
     <div>
