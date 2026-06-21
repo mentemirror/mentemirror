@@ -1,7 +1,7 @@
 ---
 layout: single
-title: About
-permalink: /about/
+title: Therapists
+permalink: /therapists/
 ---
 
 About page content.

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: About
-permalink: /about/
+title: Faq
+permalink: /faq/
 ---
 
 About page content.
