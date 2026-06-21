@@ -1,31 +1,41 @@
 ---
-layout: home
-title: "MenteMirror"
+layout: home-clone
+title: "Best Online Counselling & Therapy Services India | Psychologist near me"
 permalink: /
 ---
 
-<section class="mm-topbar">
+<div class="mm-original-topbar">
   GOVERNMENT OF INDIA - MSME REGISTERED NUMBER :- UDYAM-GJ-25-0006643 | GSTIN 24ALMPD5984B1Z6
-</section>
+</div>
 
-<section class="mm-hero">
-  <div class="mm-container mm-hero-grid">
-    <div>
-      <p class="mm-eyebrow">Online Counselling Session for mental well-being</p>
-      <h1>A strong image of yourself is our success</h1>
-      <p>
-        We facilitate individuals with skills to manage symptoms, reduce stress and improve quality of life.
-      </p>
-      <a class="mm-btn mm-btn-primary" href="{{ '/contact/' | relative_url }}">Get a Counselling</a>
-      <a class="mm-btn mm-btn-secondary" href="{{ '/about/' | relative_url }}">About Us</a>
-    </div>
-    <div class="mm-hero-card">
-      <h3>A team of Psychologists and Psychiatrists</h3>
-      <p>Professional and confidential counselling support.</p>
-      <a href="https://wa.me/918240203755">+91-8240203755</a>
+<header class="mm-original-header">
+  <div class="mm-container mm-original-header-inner">
+    <a class="mm-logo" href="{{ '/' | relative_url }}">
+      <span class="mm-logo-text">Mente Mirror</span>
+    </a>
+
+    <div class="mm-header-right">
+      <div class="mm-header-tagline">A team of Psychologists and Psychiatrists</div>
+      <a class="mm-phone" href="https://wa.me/918240203755">+91- 8240203755</a>
+      <a class="mm-appointment" href="{{ '/contact/' | relative_url }}">MAKE AN APPOINTMENT</a>
     </div>
   </div>
-</section>
+</header>
+
+<nav class="mm-original-nav">
+  <div class="mm-container">
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
+      <li><a href="{{ '/services/online-counselling/' | relative_url }}">Online Counselling</a></li>
+      <li><a href="{{ '/services/psychological-testing/' | relative_url }}">Psychological Testing</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}">Diary</a></li>
+      <li><a href="{{ '/faq/' | relative_url }}">FAQs</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact us</a></li>
+    </ul>
+  </div>
+</nav>
 
 <section class="mm-section">
   <div class="mm-container mm-two-col">
