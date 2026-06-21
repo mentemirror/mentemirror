@@ -11,7 +11,7 @@ permalink: /
 <header class="mm-original-header">
   <div class="mm-container mm-original-header-inner">
     <a class="mm-logo" href="{{ '/' | relative_url }}">
-      <span class="mm-logo-text">Mente Mirror</span>
+      <img class="mm-logo-img" src="{{ '/assets/images/logo.png' | relative_url }}" alt="Mente Mirror">
     </a>
 
     <div class="mm-header-right">
@@ -26,11 +26,11 @@ permalink: /
   <div class="mm-container">
     <ul>
       <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">About ▾</a></li>
       <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
       <li><a href="{{ '/services/online-counselling/' | relative_url }}">Online Counselling</a></li>
       <li><a href="{{ '/services/psychological-testing/' | relative_url }}">Psychological Testing</a></li>
-      <li><a href="{{ '/blog/' | relative_url }}">Diary</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}">Diary ▾</a></li>
       <li><a href="{{ '/faq/' | relative_url }}">FAQs</a></li>
       <li><a href="{{ '/contact/' | relative_url }}">Contact us</a></li>
     </ul>

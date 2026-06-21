@@ -245,20 +245,23 @@
 }
 
 .mm-original-topbar {
-  background: #0b5f67;
-  color: #fff;
+  background: #f45b9a !important;
+  color: #ffffff !important;
   text-align: center;
-  padding: 8px 15px;
-  font-size: 13px;
-  font-weight: 600;
+  padding: 9px 15px !important;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .mm-original-header {
-  background: #fff;
-  padding: 18px 0;
+  background: #ffffff !important;
+  padding: 12px 0 20px !important;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .mm-original-header-inner {
+  width: min(1160px, calc(100% - 30px));
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -278,27 +281,29 @@
   display: flex;
   align-items: center;
   gap: 22px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .mm-phone {
-  color: #333;
+  color: #f45b9a !important;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .mm-appointment {
-  background: #f6a623;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 2px;
-  font-weight: 700;
+  background: #000000 !important;
+  color: #ffffff !important;
+  padding: 13px 28px !important;
+  border-radius: 4px !important;
+  font-weight: 800;
   text-decoration: none;
   font-size: 13px;
 }
 
 .mm-original-nav {
-  background: #0b5f67;
+  background: #ffffff !important;
+  border-bottom: 3px solid #e8e4d5;
 }
 
 .mm-original-nav ul {
@@ -306,20 +311,20 @@
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .mm-original-nav a {
   display: block;
-  color: #fff;
+  color: #3d4652 !important;
   text-decoration: none;
-  padding: 15px 16px;
-  font-size: 14px;
+  padding: 16px 18px !important;
+  font-size: 15px;
   font-weight: 600;
 }
 
 .mm-original-nav a:hover {
-  background: rgba(255,255,255,0.12);
+  background: transparent !important;
+  color: #f45b9a !important;
 }
 
 @media (max-width: 900px) {
@@ -337,4 +342,50 @@
   .mm-original-nav ul {
     flex-direction: column;
   }
+}
+
+.mm-logo-img {
+  max-height: 66px !important;
+  width: auto;
+  display: block;
+}
+
+.mm-header-tagline {
+  color: #8c8f96 !important;
+  font-weight: 700;
+}
+
+.mm-original-nav .mm-container {
+  width: min(1140px, calc(100% - 30px));
+  margin: 0 auto;
+}
+
+.mm-original-nav li {
+  position: relative;
+}
+
+.mm-original-header {
+  padding: 14px 0;
+}
+
+.mm-logo-img {
+  max-height: 74px;
+}
+
+.mm-header-right {
+  gap: 24px;
+}
+
+.mm-original-nav a {
+  padding: 16px 15px;
+  font-size: 15px;
+}
+
+.mm-original-topbar {
+  padding: 8px 15px;
+}
+
+.mm-phone::before {
+  content: "☏ | ";
+  color: #8c8f96;
 }
