@@ -1,0 +1,164 @@
+---
+---
+
+@import "minimal-mistakes";
+
+.mm-container {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.mm-home {
+  font-size: 17px;
+}
+
+.mm-hero {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #f5efe6 0%, #eef7f4 100%);
+}
+
+.mm-hero-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.mm-eyebrow {
+  color: #2f8f83;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+.mm-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  line-height: 1.05;
+  margin: 0 0 20px;
+  color: #243b3a;
+}
+
+.mm-hero-text {
+  max-width: 620px;
+  font-size: 1.15rem;
+  color: #53615f;
+}
+
+.mm-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.mm-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.mm-btn-primary {
+  background: #2f8f83;
+  color: #fff !important;
+}
+
+.mm-btn-secondary {
+  background: #fff;
+  color: #2f8f83 !important;
+  border: 1px solid #2f8f83;
+}
+
+.mm-hero-card,
+.mm-note-card,
+.mm-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 18px 45px rgba(36, 59, 58, 0.12);
+}
+
+.mm-section {
+  padding: 72px 0;
+}
+
+.mm-soft {
+  background: #f7fbfa;
+}
+
+.mm-section h2 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin-top: 0;
+  color: #243b3a;
+}
+
+.mm-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.mm-card {
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mm-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 50px rgba(36, 59, 58, 0.16);
+}
+
+.mm-card h3 {
+  color: #243b3a;
+  margin-top: 0;
+}
+
+.mm-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+  align-items: center;
+}
+
+.mm-avatar {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: #dfeeea;
+  margin-bottom: 18px;
+}
+
+.mm-whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #25d366;
+  color: #fff !important;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+@media (max-width: 900px) {
+  .mm-hero-grid,
+  .mm-two-col,
+  .mm-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mm-hero {
+    padding: 60px 0;
+  }
+
+  .mm-section {
+    padding: 52px 0;
+  }
+}

@@ -24,6 +24,8 @@ baseurl: "/mentemirror"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
+atom_feed:
+  hide: true
 search: true
 
 # Build settings
