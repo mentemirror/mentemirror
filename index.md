@@ -67,25 +67,61 @@ permalink: /
   <div class="mm-hero-line mm-hero-line-bottom"></div>
 </section>
 
-<section class="mm-section">
-  <div class="mm-container mm-two-col">
-    <div>
-      <p class="mm-eyebrow">Mente Mirror</p>
-      <h2>Reflection of your mind</h2>
+<section class="mm-about-original">
+  <div class="mm-container mm-about-original-grid">
+    <div class="mm-about-video">
+      <iframe
+        src="https://www.youtube.com/embed/31nJ5kTAsYE"
+        title="Introducing Modules of Mente Mirror"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="mm-about-text">
+      <p class="mm-script-title">Mente Mirror</p>
+      <h2>
+        Reflection of <strong>your mind</strong>
+      </h2>
+
       <p>
-        Our mission is to provide counselling services to children, adolescents, adults and senior adults from diverse backgrounds.
+        Our mission is to provide counselling services to children, adolescents, adults and senior adults from diverse backgrounds and varying socio economic contacts .We are privileged to cater to our clients as they navigate the uncertainties and challenges of life. We equip them to be caring and compassionate through our powerful connection to evolve as strong and resilient personality.
       </p>
+
       <p>
-        We enhance communication and coping skills to strengthen self-esteem and promote behaviour change for a healthy lifestyle.
+        We follow the traditional stages of reflection through self-awareness, critical analysis and evaluation. We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life. It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behavior.
+      </p>
+
+      <p>
+        We enhance the communication and coping skills to strengthen their self-esteem and promote behavior change for a healthy lifestyle.
       </p>
     </div>
-    <div class="mm-note-card">
-      <h3>Why we need Counselling</h3>
+  </div>
+</section>
+
+<section class="mm-why-counselling">
+  <div class="mm-container mm-why-grid">
+
+    <div class="mm-why-content">
+      <h2>
+        Why we need <strong>Counselling</strong>
+      </h2>
+
       <p>
-        Counselling helps people manage stress, relationship disputes, academic problems, career concerns and emotional challenges.
+        Counselling may help those who are struggling in the world with issues like stress, disputes in relation, or academic and career related problems. The Counsellor can facilitate the person to get back on their feet and feel empowered and stronger than ever. it is a process where the client learns more about oneself and also learns new skills to adapt to the challenges of life.
       </p>
-      <a class="mm-btn mm-btn-primary" href="{{ '/services/' | relative_url }}">Get Now</a>
+
+      <a href="{{ '/contact/' | relative_url }}" class="mm-why-btn">
+        GET NOW
+      </a>
     </div>
+
+    <div class="mm-why-image">
+      <img
+        src="{{ '/assets/images/home/why-counselling.jpg' | relative_url }}"
+        alt="Why we need counselling">
+    </div>
+
   </div>
 </section>
 
