@@ -1,0 +1,67 @@
+<div class="mm-registration-bar">
+  <div class="mm-container">
+    <span>GOVERNMENT OF INDIA - MSME REGISTERED NUMBER :- {{ site.msme_number | default: 'UDYAM-GJ-25-0006643' }}</span>
+    <span class="mm-registration-divider">|</span>
+    <span>GSTIN {{ site.gstin | default: '24ALMPD5984B1Z6' }}</span>
+  </div>
+</div>
+
+<header class="mm-header" data-header>
+  <div class="mm-utility">
+    <div class="mm-container mm-utility__inner">
+      <a class="mm-brand" href="{{ '/' | relative_url }}" aria-label="Mente Mirror home">
+        {% include mm-logo.html class="mm-brand__logo" width=250 height=84 %}
+      </a>
+
+      <div class="mm-utility__right">
+        <div class="mm-utility__message">A team of Psychologists and Psychiatrists</div>
+        <a class="mm-phone" href="{{ site.whatsapp_url | default: 'https://wa.me/918240203755' }}">
+          <span aria-hidden="true">☎</span>
+          <span>{{ site.phone_display | default: '+91- 8240203755' }}</span>
+        </a>
+        <a class="mm-appointment" href="{{ '/contact/' | relative_url }}">MAKE AN APPOINTMENT</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mm-nav-shell">
+    <div class="mm-container mm-header__inner">
+      <button class="mm-menu-toggle" type="button" aria-expanded="false" aria-controls="mm-primary-nav" data-menu-toggle>
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="mm-primary-nav" class="mm-nav" aria-label="Primary navigation" data-menu>
+        <ul class="mm-nav__list">
+          {% for item in site.data.mm_navigation.main %}
+            <li class="mm-nav__item{% if item.children %} has-children{% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% if item.children %}
+                <button class="mm-submenu-toggle" type="button" aria-label="Open {{ item.title }} menu" aria-expanded="false" data-submenu-toggle>⌄</button>
+                <ul class="mm-submenu">
+                  {% for child in item.children %}
+                    <li class="mm-submenu__item{% if child.children %} has-children{% endif %}">
+                      <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                      {% if child.children %}
+                        <button class="mm-submenu-toggle mm-submenu-toggle--nested" type="button" aria-label="Open {{ child.title }} menu" aria-expanded="false" data-submenu-toggle>›</button>
+                        <ul class="mm-submenu mm-submenu--nested">
+                          {% for grandchild in child.children %}
+                            <li><a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+        <div class="mm-nav__actions">
+          <a class="mm-link-action" href="{{ site.app_url | default: 'https://app.mentemirror.com' }}">SIGN IN</a>
+          <a class="mm-btn mm-btn--primary mm-btn--small" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">START WELLNESS CHECK</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>

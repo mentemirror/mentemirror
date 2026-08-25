@@ -1,0 +1,46 @@
+{% comment %}
+  Mente Mirror brand logo resolver.
+  Priority:
+    1. brand_logo in _config.yml
+    2. existing Minimal Mistakes/Jekyll site.logo
+    3. first local static asset whose path contains "logo"
+
+  This lets the V2 shell reuse the exact migrated Mente Mirror logo instead of
+  drawing a substitute mark or wordmark.
+{% endcomment %}
+
+{% assign mm_logo_src = site.brand_logo | default: site.logo %}
+
+{% if mm_logo_src == nil or mm_logo_src == empty %}
+  {% for static_file in site.static_files %}
+    {% assign mm_static_path = static_file.path | downcase %}
+    {% if mm_static_path contains 'logo' %}
+      {% if mm_static_path contains '.png' or mm_static_path contains '.jpg' or mm_static_path contains '.jpeg' or mm_static_path contains '.webp' or mm_static_path contains '.svg' %}
+        {% assign mm_logo_src = static_file.path %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if mm_logo_src and mm_logo_src != empty %}
+  {% assign mm_logo_first_char = mm_logo_src | slice: 0, 4 %}
+  {% if mm_logo_first_char == 'http' %}
+    <img class="{{ include.class | default: 'mm-brand__logo' }}"
+         src="{{ mm_logo_src }}"
+         alt="{{ include.alt | default: 'Mente Mirror' }}"
+         width="{{ include.width | default: 250 }}"
+         height="{{ include.height | default: 84 }}">
+  {% else %}
+    <img class="{{ include.class | default: 'mm-brand__logo' }}"
+         src="{{ mm_logo_src | relative_url }}"
+         alt="{{ include.alt | default: 'Mente Mirror' }}"
+         width="{{ include.width | default: 250 }}"
+         height="{{ include.height | default: 84 }}">
+  {% endif %}
+{% else %}
+  <span class="mm-brand__fallback" aria-label="Mente Mirror">
+    <strong>Mente Mirror</strong>
+    <small>Reflection of your mind</small>
+  </span>
+{% endif %}

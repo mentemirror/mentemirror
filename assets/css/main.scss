@@ -485,41 +485,106 @@
   }
 }
 
-/* Exact original-style hero override */
+/* --------------------------------------------------------------------------
+   HERO FINAL FIX - PROOF-CLEAN VERSION
+
+   Root cause:
+   The Mentemirror banner image from:
+   https://mentemirror.com/img/home_page/banner2%20(2).jpg
+   already contains a colored rectangular frame. If CSS also draws gradient
+   lines on top of that image, the page shows duplicate lines and a left
+   vertical frame.
+
+   This version is deterministic:
+   1) Use a CLEANED hero.jpg with the baked-in frame removed.
+   2) CSS draws exactly two horizontal gradient lines.
+   3) There are no .mm-hero-line divs and no left/bottom frame elements.
+   -------------------------------------------------------------------------- */
 
 .mm-clone-hero {
   display: none !important;
 }
 
-.mm-clone-hero-bg {
+.mm-clone-hero-bg.mm-hero-proof-clean {
   position: relative;
-  min-height: 560px;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.16),
-      rgba(255, 255, 255, 0.16)
-    ),
-    url("/mentemirror/assets/images/home/hero.jpg");
-  background-size: cover;
-  background-position: center center;
+  min-height: 565px;
   overflow: hidden;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)),
+    url("/mentemirror/assets/images/home/hero.jpg");
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
 }
 
-.mm-clone-hero-content {
+/* Safety: if old markup is accidentally still present, it must not render. */
+.mm-clone-hero-bg.mm-hero-proof-clean .mm-hero-line,
+.mm-clone-hero-bg.mm-hero-proof-clean [class*="hero-line"],
+.mm-hero-line,
+.mm-hero-line-top,
+.mm-hero-line-bottom,
+.mm-hero-paint,
+.mm-home-hero {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Draw exactly two horizontal gradient lines. */
+.mm-clone-hero-bg.mm-hero-proof-clean::before,
+.mm-clone-hero-bg.mm-hero-proof-clean::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #f8a21a 0%, #f653a1 55%, #7c39ff 100%) !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.mm-clone-hero-bg.mm-hero-proof-clean::before {
+  top: 86px !important;
+  width: 56% !important;
+}
+
+.mm-clone-hero-bg.mm-hero-proof-clean::after {
+  bottom: 80px !important;
+  width: 72% !important;
+}
+
+.mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-content {
   position: relative;
   z-index: 2;
-  padding-top: 125px;
+  padding-top: 168px;
   max-width: 1140px;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
-.mm-clone-hero-bg .mm-clone-hero-subtitle {
+.mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-subtitle {
   font-family: "Brush Script MT", "Segoe Script", cursive;
   color: #7d00b5 !important;
   font-size: 31px;
   font-weight: 500;
-  margin: 0 0 28px;
+  margin: 0 0 26px;
 }
 
-.mm-clone-hero-bg h1 {
+.mm-clone-hero-bg.mm-hero-proof-clean h1 {
   color: #000 !important;
   font-size: 29px;
   line-height: 1.25;
@@ -528,7 +593,7 @@
   max-width: 620px;
 }
 
-.mm-clone-hero-bg .mm-clone-hero-copy {
+.mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-copy {
   color: #333 !important;
   font-size: 17px;
   line-height: 1.55;
@@ -536,12 +601,12 @@
   margin: 0 0 26px;
 }
 
-.mm-clone-hero-bg .mm-clone-hero-actions {
+.mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-actions {
   display: flex;
   gap: 4px;
 }
 
-.mm-clone-hero-bg .mm-clone-btn {
+.mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-btn {
   background: #f653a1 !important;
   color: #fff !important;
   border-radius: 3px;
@@ -552,50 +617,39 @@
   text-decoration: none;
 }
 
-.mm-hero-line {
-  position: absolute;
-  height: 3px;
-  width: 56%;
-  background: linear-gradient(90deg, #f8a21a, #f653a1, #7c39ff);
-  z-index: 3;
-}
-
-.mm-hero-line-top {
-  top: 96px;
-  left: 0;
-}
-
-.mm-hero-line-bottom {
-  bottom: 65px;
-  left: 0;
-  width: 70%;
-}
-
 @media (max-width: 900px) {
-  .mm-clone-hero-bg {
-    min-height: 520px;
-    background-position: center right;
+  .mm-clone-hero-bg.mm-hero-proof-clean {
+    min-height: auto;
+    padding-bottom: 70px;
   }
 
-  .mm-clone-hero-content {
-    padding-top: 95px;
+  .mm-clone-hero-bg.mm-hero-proof-clean::before {
+    top: 76px !important;
+    width: 72% !important;
   }
 
-  .mm-clone-hero-bg .mm-clone-hero-subtitle {
-    font-size: 25px;
+  .mm-clone-hero-bg.mm-hero-proof-clean::after {
+    bottom: 56px !important;
+    width: 88% !important;
   }
 
-  .mm-clone-hero-bg h1 {
-    font-size: 25px;
+  .mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-content {
+    padding-top: 120px;
   }
 
-  .mm-clone-hero-bg .mm-clone-hero-copy {
-    font-size: 15px;
-    max-width: 90%;
+  .mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-subtitle {
+    font-size: 26px;
+  }
+
+  .mm-clone-hero-bg.mm-hero-proof-clean h1 {
+    font-size: 30px;
+  }
+
+  .mm-clone-hero-bg.mm-hero-proof-clean .mm-clone-hero-copy {
+    max-width: 100%;
   }
 }
 
-/* About section matching original */
 
 .mm-about-original {
   background: #ffffff;

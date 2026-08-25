@@ -1,282 +1,203 @@
 ---
-layout: home-clone
-title: "Best Online Counselling & Therapy Services India | Psychologist near me"
+layout: mm-default
+title: Mente Mirror
+description: AI-powered, preventive and personalised mental wellness combining psychological science, behavioural insights, wearables and human care.
 permalink: /
+body_class: mm-home
 ---
 
-<div class="mm-original-topbar">
-  GOVERNMENT OF INDIA - MSME REGISTERED NUMBER :- UDYAM-GJ-25-0006643 | GSTIN 24ALMPD5984B1Z6
-</div>
+<section class="mm-hero">
+  <div class="mm-container mm-hero__grid">
+    <div class="mm-hero__copy">
+      <span class="mm-eyebrow">Preventive • Personalised • Human-centred</span>
+      <h1>Your mind deserves more than a crisis response.</h1>
+      <p class="mm-hero__lead">Understand your mind. Strengthen your wellbeing. Stay ahead of mental health challenges.</p>
+      <p class="mm-hero__support">AI-powered, preventive and personalised mental wellness for adolescents, adults and seniors—bringing together psychological science, behavioural insights, wearables and human care.</p>
+      <div class="mm-actions">
+        <a class="mm-btn mm-btn--primary" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Start My Wellness Check</a>
+        <a class="mm-btn mm-btn--secondary" href="{{ '/ai-wellness/' | relative_url }}">Explore AI Wellness</a>
+        <a class="mm-btn mm-btn--ghost" href="{{ '/human-care/psychologists/' | relative_url }}">Talk to a Psychologist</a>
+      </div>
+      <p class="mm-hero__micro">Why wait until something feels wrong?</p>
+    </div>
 
-<header class="mm-original-header">
-  <div class="mm-container mm-original-header-inner">
-    <a class="mm-logo" href="{{ '/' | relative_url }}">
-      <img class="mm-logo-img" src="{{ '/assets/images/logo.png' | relative_url }}" alt="Mente Mirror">
-    </a>
-
-    <div class="mm-header-right">
-      <div class="mm-header-tagline">A team of Psychologists and Psychiatrists</div>
-      <a class="mm-phone" href="https://wa.me/918240203755">+91- 8240203755</a>
-      <a class="mm-appointment" href="{{ '/contact/' | relative_url }}">MAKE AN APPOINTMENT</a>
+    <div class="mm-hero__visual" aria-label="Mente Mirror wellness image">
+      <div class="mm-hero-photo">
+        <img src="{{ '/assets/images/home/why-counselling.jpg' | relative_url }}" alt="A calm wellbeing moment" loading="eager">
+        <div class="mm-hero-photo__frame" aria-hidden="true"></div>
+        <div class="mm-hero-photo__butterfly" aria-hidden="true">🦋</div>
+      </div>
     </div>
   </div>
-</header>
+</section>
 
-<nav class="mm-original-nav">
+<section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <ul>
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">About ▾</a></li>
-      <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
-      <li><a href="{{ '/services/online-counselling/' | relative_url }}">Online Counselling</a></li>
-      <li><a href="{{ '/services/psychological-testing/' | relative_url }}">Psychological Testing</a></li>
-      <li><a href="{{ '/blog/' | relative_url }}">Diary ▾</a></li>
-      <li><a href="{{ '/faq/' | relative_url }}">FAQs</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}">Contact us</a></li>
-    </ul>
-  </div>
-</nav>
-
-<section class="mm-clone-hero-bg">
-  <div class="mm-hero-line mm-hero-line-top"></div>
-
-  <div class="mm-container mm-clone-hero-content">
-    <p class="mm-clone-hero-subtitle">
-      Online Counselling Session for mental well-being
-    </p>
-
-    <h1>
-      A strong image of yourself is our success
-    </h1>
-
-    <p class="mm-clone-hero-copy">
-      We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life.It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behavior.
-    </p>
-
-    <div class="mm-clone-hero-actions">
-      <a class="mm-clone-btn mm-clone-btn-pink" href="{{ '/contact/' | relative_url }}">
-        Get a Counselling
-      </a>
-
-      <a class="mm-clone-btn mm-clone-btn-pink" href="{{ '/about/' | relative_url }}">
-        About us
-      </a>
-    </div>
-  </div>
-
-  <div class="mm-hero-line mm-hero-line-bottom"></div>
-</section>
-
-<section class="mm-about-original">
-  <div class="mm-container mm-about-original-grid">
-    <div class="mm-about-video">
-      <iframe
-        src="https://www.youtube.com/embed/31nJ5kTAsYE"
-        title="Introducing Modules of Mente Mirror"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
+    <div class="mm-section-heading mm-section-heading--center">
+      <span class="mm-eyebrow">One platform</span>
+      <h2>Your whole mental wellness journey.</h2>
     </div>
 
-    <div class="mm-about-text">
-      <p class="mm-script-title">Mente Mirror</p>
-      <h2>
-        Reflection of <strong>your mind</strong>
-      </h2>
+    <div class="mm-carousel" data-carousel aria-roledescription="carousel" aria-label="Your whole mental wellness journey">
+      <div class="mm-carousel__viewport">
+        <div class="mm-carousel__track" data-carousel-track>
+          <article class="mm-carousel__slide" data-carousel-slide>
+            <span class="mm-carousel__number" aria-hidden="true">01</span>
+            <h3>Understand</h3>
+            <p>Understand your emotional, cognitive and behavioural patterns</p>
+          </article>
+          <article class="mm-carousel__slide" data-carousel-slide>
+            <span class="mm-carousel__number" aria-hidden="true">02</span>
+            <h3>Track</h3>
+            <p>Track your wellbeing changes over time</p>
+          </article>
+          <article class="mm-carousel__slide" data-carousel-slide>
+            <span class="mm-carousel__number" aria-hidden="true">03</span>
+            <h3>Guide</h3>
+            <p>Get personalized guidance and daily support</p>
+          </article>
+          <article class="mm-carousel__slide" data-carousel-slide>
+            <span class="mm-carousel__number" aria-hidden="true">04</span>
+            <h3>Practice</h3>
+            <p>Practice breathing, meditation, journaling, focus and cognitive exercises</p>
+          </article>
+          <article class="mm-carousel__slide" data-carousel-slide>
+            <span class="mm-carousel__number" aria-hidden="true">05</span>
+            <h3>Escalate when needed</h3>
+            <p>Connect with psychologists and psychiatrists when needed</p>
+          </article>
+        </div>
+      </div>
 
-      <p>
-        Our mission is to provide counselling services to children, adolescents, adults and senior adults from diverse backgrounds and varying socio economic contacts .We are privileged to cater to our clients as they navigate the uncertainties and challenges of life. We equip them to be caring and compassionate through our powerful connection to evolve as strong and resilient personality.
-      </p>
-
-      <p>
-        We follow the traditional stages of reflection through self-awareness, critical analysis and evaluation. We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life. It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behavior.
-      </p>
-
-      <p>
-        We enhance the communication and coping skills to strengthen their self-esteem and promote behavior change for a healthy lifestyle.
-      </p>
+      <div class="mm-carousel__controls">
+        <button class="mm-carousel__arrow mm-carousel__arrow--prev" type="button" data-carousel-prev aria-label="Previous wellness journey item">←</button>
+        <div class="mm-carousel__dots" data-carousel-dots aria-label="Choose carousel slide"></div>
+        <button class="mm-carousel__arrow mm-carousel__arrow--next" type="button" data-carousel-next aria-label="Next wellness journey item">→</button>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="mm-why-counselling">
-  <div class="mm-container mm-why-grid">
-
-    <div class="mm-why-content">
-      <h2>
-        Why we need <strong>Counselling</strong>
-      </h2>
-
-      <p>
-        Counselling may help those who are struggling in the world with issues like stress, disputes in relation, or academic and career related problems. The Counsellor can facilitate the person to get back on their feet and feel empowered and stronger than ever. it is a process where the client learns more about oneself and also learns new skills to adapt to the challenges of life.
-      </p>
-
-      <a href="{{ '/contact/' | relative_url }}" class="mm-why-btn">
-        GET NOW
-      </a>
-    </div>
-
-    <div class="mm-why-image">
-      <img
-        src="{{ '/assets/images/home/why-counselling.jpg' | relative_url }}"
-        alt="Why we need counselling">
-    </div>
-
-  </div>
-</section>
-
-<section class="mm-section mm-soft">
+<section class="mm-section mm-section--soft">
   <div class="mm-container">
-    <p class="mm-eyebrow">Our Team</p>
-    <h2>Meet Our Experts</h2>
-
-    <div class="mm-card-grid">
-      <a class="mm-card" href="{{ '/therapists/dr-g-gopalakrishnan/' | relative_url }}">
-        <div class="mm-avatar"></div>
-        <h3>Dr. G. Gopalakrishnan</h3>
-        <p>Psychiatry (MBBS, MD)</p>
-        <span>About Doctor</span>
+    <div class="mm-section-heading">
+      <span class="mm-eyebrow">Choose your journey</span>
+      <h2>Who are you caring for today?</h2>
+    </div>
+    <div class="mm-card-grid mm-card-grid--4">
+      <a class="mm-card mm-audience-card" href="{{ '/for-you/students-teens/' | relative_url }}">
+        <span class="mm-card__icon">🎓</span><h3>Me — Student</h3><p>Focus, academic stress, sleep, emotional wellbeing and parent-supported wellness.</p><span class="mm-card__link">Explore student wellness →</span>
       </a>
-
-      <a class="mm-card" href="{{ '/therapists/dr-a-nithya/' | relative_url }}">
-        <div class="mm-avatar"></div>
-        <h3>Dr. A. Nithya</h3>
-        <p>Consultant Psychiatrist</p>
-        <span>About Doctor</span>
+      <a class="mm-card mm-audience-card" href="{{ '/for-you/adults/' | relative_url }}">
+        <span class="mm-card__icon">💼</span><h3>Me — Adult</h3><p>Stress, burnout, work-life balance, emotional regulation, resilience and human counselling.</p><span class="mm-card__link">Explore adult wellness →</span>
       </a>
-
-      <a class="mm-card" href="{{ '/therapists/mrs-ipsita-das/' | relative_url }}">
-        <div class="mm-avatar"></div>
-        <h3>Mrs Ipsita Das</h3>
-        <p>Counsellor & Psychologist</p>
-        <span>About Doctor</span>
+      <a class="mm-card mm-audience-card" href="{{ '/for-you/seniors/' | relative_url }}">
+        <span class="mm-card__icon">👴</span><h3>My Parent</h3><p>Memory, mood, loneliness, activity, sleep, voice interaction and caregiver support.</p><span class="mm-card__link">Explore senior wellness →</span>
+      </a>
+      <a class="mm-card mm-audience-card" href="{{ '/for-you/families/' | relative_url }}">
+        <span class="mm-card__icon">👨‍👩‍👧</span><h3>My Family</h3><p>One wellness ecosystem connecting teens, adults, seniors and caregivers.</p><span class="mm-card__link">Explore family wellness →</span>
       </a>
     </div>
   </div>
 </section>
 
 <section class="mm-section">
-  <div class="mm-container mm-two-col">
+  <div class="mm-container">
+    <div class="mm-section-heading mm-section-heading--center">
+      <span class="mm-eyebrow">How it works</span>
+      <h2>Understand → Connect → Learn → Practise → Improve</h2>
+      <p>This five-step journey is the backbone of the Mente Mirror ecosystem.</p>
+    </div>
+    <ol class="mm-journey">
+      <li><span class="mm-journey__number">01</span><h3>Understand</h3><p>Assessment + conversation</p></li>
+      <li><span class="mm-journey__number">02</span><h3>Connect</h3><p>Wearable + behavioural signals</p></li>
+      <li><span class="mm-journey__number">03</span><h3>Learn</h3><p>AI identifies patterns</p></li>
+      <li><span class="mm-journey__number">04</span><h3>Practise</h3><p>Personalised tools & exercises</p></li>
+      <li><span class="mm-journey__number">05</span><h3>Improve</h3><p>Track progress + human support when needed</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="mm-section mm-section--dark">
+  <div class="mm-container">
+    <div class="mm-section-heading mm-section-heading--center">
+      <span class="mm-eyebrow">The Mente Mirror model</span>
+      <h2>AI + Psychology + Human Care</h2>
+      <p>Technology handles scale and pattern recognition. Psychological science brings interpretation and evidence-based tools. Human professionals bring context, empathy and clinical judgement.</p>
+    </div>
+    <div class="mm-card-grid mm-card-grid--3">
+      <article class="mm-card mm-card--dark"><span class="mm-card__icon">✦</span><h3>AI</h3><ul><li>Pattern recognition</li><li>Continuous monitoring</li><li>Personalisation</li><li>Daily support</li><li>Voice interaction</li></ul></article>
+      <article class="mm-card mm-card--dark"><span class="mm-card__icon">◉</span><h3>Psychology</h3><ul><li>Assessment</li><li>Psychological interpretation</li><li>Evidence-based tools</li><li>Behaviour change</li><li>Progress tracking</li></ul></article>
+      <article class="mm-card mm-card--dark"><span class="mm-card__icon">♡</span><h3>Human</h3><ul><li>Therapist support</li><li>Psychiatrist support</li><li>Human empathy</li><li>Complex decision-making</li><li>Escalation when appropriate</li></ul></article>
+    </div>
+
+    <div class="mm-outcome" aria-label="Outcome">
+      <span class="mm-outcome__label">Outcome</span>
+      <p>Better awareness. Better habits. Better resilience. Better quality of life.</p>
+    </div>
+  </div>
+</section>
+
+<section class="mm-section mm-section--soft">
+  <div class="mm-container mm-split">
     <div>
-      <h2>What Type of Issues Can Be Treated Online?</h2>
-      <p>
-        Most mental health issues can be treated online, including depression, anxiety, stress-related issues, panic disorder and relationship concerns.
-      </p>
+      <span class="mm-eyebrow">Mente Mirror Intelligence</span>
+      <h2>The Five Wells of Happiness</h2>
+      <p>We believe true well-being is not simply the absence of distress, but the ability to live with greater awareness, balance, connection, and purpose. We encourage individuals to pause, reflect, understand themselves, and consciously nurture every dimension of their well-being by maintaining a beautiful rhythm to make it rewarding.</p>
+      <p><strong>Our aim is to create a holistic pathway to well-being by nurturing the Five Wells of Happiness — Physical, Emotional, Social, Cognitive, and Spiritual.</strong></p>
+      <p class="mm-wells-tagline"><strong>Check. Reflect. Replenish.</strong></p>
+      <a class="mm-text-link" href="{{ '/understand-yourself/mente-mirror-intelligence/' | relative_url }}">Explore the framework →</a>
     </div>
-    <div class="mm-note-card">
-      <ul>
-        <li>Anxiety and panic attacks</li>
-        <li>Workplace stress</li>
-        <li>Relationship issues</li>
-        <li>Depression and low mood</li>
-        <li>Trauma and grief</li>
-        <li>Low self-esteem</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="mm-stats">
-  <div class="mm-container mm-stats-grid">
-    <div><strong>0</strong><span>Years of Experience</span></div>
-    <div><strong>0</strong><span>Happy Clients</span></div>
-    <div><strong>1850</strong><span>Consulting</span></div>
-  </div>
-</section>
-
-<section class="mm-section">
-  <div class="mm-container">
-    <p class="mm-eyebrow">Consulting</p>
-    <h2>Our Services</h2>
-
-    <div class="mm-card-grid">
-      <a class="mm-card" href="{{ '/services/counselling-services/' | relative_url }}">
-        <h3>Counselling Services</h3>
-        <p>Individual, relationship, family and emotional wellness support.</p>
-        <span>Learn More</span>
-      </a>
-
-      <a class="mm-card" href="{{ '/services/psychological-testing/' | relative_url }}">
-        <h3>Psychological Testing</h3>
-        <p>Assessment support for children, adolescents and adults.</p>
-        <span>Learn More</span>
-      </a>
-
-      <a class="mm-card" href="{{ '/services/consultation-with-psychiatrists/' | relative_url }}">
-        <h3>Consultation with Renowned Psychiatrists</h3>
-        <p>Professional psychiatric consultation and guidance.</p>
-        <span>Learn More</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="mm-section mm-soft">
-  <div class="mm-container">
-    <p class="mm-eyebrow">Testimonials</p>
-    <h2>What Our Clients Say</h2>
-
-    <div class="mm-card-grid">
-      <div class="mm-card">
-        <p>“Now, my daughter is back to being the happy soul she was...”</p>
-        <strong>Puja Bhatnagar, Parent</strong>
-      </div>
-      <div class="mm-card">
-        <p>“She counselled me, talked to me openly and helped clear my mind...”</p>
-        <strong>Aryansh Choudhari</strong>
-      </div>
-      <div class="mm-card">
-        <p>“Ipsita has mentored well like a second mother...”</p>
-        <strong>Mrs Hetal Lad</strong>
-      </div>
+    <div class="mm-wells" aria-label="Five Wells of Happiness">
+      <div><span>❤️</span><strong>Emotional</strong><small>How am I feeling?</small></div>
+      <div><span>🧠</span><strong>Cognitive</strong><small>How am I thinking and learning?</small></div>
+      <div><span>🏃</span><strong>Physical</strong><small>How is my body recovering?</small></div>
+      <div><span>👨‍👩‍👧</span><strong>Social</strong><small>How connected am I?</small></div>
+      <div><span>🌱</span><strong>Spiritual / Purpose</strong><small>What gives my life meaning?</small></div>
     </div>
   </div>
 </section>
 
 <section class="mm-section">
-  <div class="mm-container">
-    <p class="mm-eyebrow">Insights and News</p>
-    <h2>Our Latest News & Blog</h2>
-
-    <div class="mm-card-grid">
-      <a class="mm-card" href="{{ '/blog/' | relative_url }}">
-        <h3>Struggle to Flourish</h3>
-        <p>A story about growth, struggle and transformation.</p>
-        <span>Read More</span>
-      </a>
-
-      <a class="mm-card" href="{{ '/blog/' | relative_url }}">
-        <h3>Parent Coaching Strategies</h3>
-        <p>Helping parents support children through challenges.</p>
-        <span>Read More</span>
-      </a>
-
-      <a class="mm-card" href="{{ '/blog/' | relative_url }}">
-        <h3>Get Wild With Your Creativity</h3>
-        <p>Creativity, imagination and emotional expression.</p>
-        <span>Read More</span>
-      </a>
+  <div class="mm-container mm-split mm-split--reverse">
+    <div class="mm-app-panel">
+      <div class="mm-app-panel__top"><span></span><span></span><span></span></div>
+      <div class="mm-app-panel__body">
+        <span class="mm-eyebrow">Introducing Mjuzi</span>
+        <h3>Your AI wellness companion</h3>
+        <div class="mm-chat mm-chat--ai">How are you feeling today?</div>
+        <div class="mm-chat mm-chat--user">A little stressed and unfocused.</div>
+        <div class="mm-chat mm-chat--ai">We can reflect on what changed, then choose a short breathing or focus exercise.</div>
+      </div>
     </div>
-  </div>
-</section>
-
-<section class="mm-section mm-soft">
-  <div class="mm-container mm-two-col">
     <div>
-      <h2>Frequently Asked Questions</h2>
-      <h3>What is online counselling?</h3>
-      <p>Online counselling is live, face-to-face counselling using your web browser.</p>
-      <h3>How do I know if I need counselling?</h3>
-      <p>You may seek counselling during a crisis or when encouraged by family, friends or colleagues.</p>
-    </div>
-    <div class="mm-note-card">
-      <h3>Get a Consultation Right Now!</h3>
-      <p>We are a group of professional and experienced psychologists and psychiatrists.</p>
-      <a class="mm-btn mm-btn-primary" href="{{ '/contact/' | relative_url }}">Make an Appointment</a>
+      <span class="mm-eyebrow">AI Wellness</span>
+      <h2>Reflect. Recognise patterns. Practise healthier responses.</h2>
+      <p>Mjuzi brings together self-report, behavioural signals, wearable context, cognitive performance and conversation to generate personalised wellness insights.</p>
+      <ul class="mm-check-list"><li>Text and voice conversation</li><li>Daily check-ins</li><li>Stress, sleep and focus support</li><li>Journaling and breathing exercises</li><li>Personalised recommendations</li><li>Human escalation when appropriate</li></ul>
+      <a class="mm-btn mm-btn--secondary" href="{{ '/ai-wellness/mjuzi/' | relative_url }}">Meet Mjuzi</a>
     </div>
   </div>
 </section>
 
-<a class="mm-whatsapp" href="https://wa.me/918240203755" target="_blank" rel="noopener">
-  WhatsApp
-</a>
+<section class="mm-section mm-section--soft">
+  <div class="mm-container">
+    <div class="mm-section-heading">
+      <span class="mm-eyebrow">Human Care</span>
+      <h2>When technology isn't enough, a human is here.</h2>
+      <p>Professional support remains a core part of the ecosystem.</p>
+    </div>
+    <div class="mm-card-grid mm-card-grid--3">
+      <a class="mm-card" href="{{ '/human-care/psychologists/' | relative_url }}"><span class="mm-card__icon">🫶</span><h3>Psychologists</h3><p>Psychological assessment, counselling, behaviour change and emotional wellbeing support.</p><span class="mm-card__link">Find support →</span></a>
+      <a class="mm-card" href="{{ '/human-care/psychiatrists/' | relative_url }}"><span class="mm-card__icon">⚕️</span><h3>Psychiatrists</h3><p>Psychiatric evaluation, medical assessment and treatment when clinically appropriate.</p><span class="mm-card__link">Explore psychiatry →</span></a>
+      <a class="mm-card" href="{{ '/human-care/corporate-counselling/' | relative_url }}"><span class="mm-card__icon">🏢</span><h3>Corporate Counselling</h3><p>Workplace-focused mental wellness and counselling programmes.</p><span class="mm-card__link">Explore corporate care →</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="mm-section mm-section--cta">
+  <div class="mm-container mm-cta-panel">
+    <div><span class="mm-eyebrow">Start with awareness</span><h2>Understand where you are today.</h2><p>A quick wellness check can be the first step toward a more personalised mental wellness journey.</p></div>
+    <div class="mm-actions"><a class="mm-btn mm-btn--primary" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Start My Wellness Check</a><a class="mm-btn mm-btn--ghost" href="{{ '/human-care/psychologists/' | relative_url }}">Talk to a Psychologist</a></div>
+  </div>
+</section>
