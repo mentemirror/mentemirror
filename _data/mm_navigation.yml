@@ -98,12 +98,8 @@ main:
         url: /about/team/
       - title: Technology
         url: /about/technology/
-      - title: Terms & Conditions
-        url: /terms-condition/
       - title: Safety & Privacy
         url: /about/safety-privacy/
-      - title: Cancellation/Refund Policy
-        url: /cancellation-refund-policy/
       - title: Contact
         url: /contact/
 
