@@ -27,7 +27,7 @@ main:
     children:
       - title: AI Companion
         url: /ai-wellness/mjuzi/
-      - title: Smart WEARABLE INSIGHTS
+      - title: Smart Wearable Insights
         url: /ai-wellness/wearables/
         children:
           - title: Sleep
@@ -91,15 +91,19 @@ main:
     url: /about/
     children:
       - title: Our Story
-        url: /about/
+        url: /about/our-story/
       - title: Founder
         url: /about/founder/
       - title: Team
         url: /about/team/
       - title: Technology
         url: /about/technology/
+      - title: Terms & Conditions
+        url: /terms-condition/
       - title: Safety & Privacy
         url: /about/safety-privacy/
+      - title: Cancellation/Refund Policy
+        url: /cancellation-refund-policy/
       - title: Contact
         url: /contact/
 
@@ -129,3 +133,7 @@ footer:
         url: /contact/
       - title: Safety & Privacy
         url: /about/safety-privacy/
+      - title: Terms & Conditions
+        url: /terms-condition/
+      - title: Cancellation/Refund Policy
+        url: /cancellation-refund-policy/

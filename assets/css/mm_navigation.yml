@@ -1,0 +1,139 @@
+main:
+  - title: For You
+    url: /for-you/
+    children:
+      - title: Students & Teens
+        url: /for-you/students-teens/
+      - title: Adults
+        url: /for-you/adults/
+      - title: Seniors
+        url: /for-you/seniors/
+      - title: Families
+        url: /for-you/families/
+
+  - title: Understand Yourself
+    url: /understand-yourself/
+    children:
+      - title: Wellness Assessment
+        url: /understand-yourself/wellness-assessment/
+      - title: Psychological Tests
+        url: /understand-yourself/psychological-tests/
+      - title: Mente Mirror Intelligence
+        url: /understand-yourself/mente-mirror-intelligence/
+
+  # Keep this hierarchy exactly aligned with the supplied Word sitemap.
+  - title: AI Wellness – Introducing Mjuzi
+    url: /ai-wellness/
+    children:
+      - title: AI Companion
+        url: /ai-wellness/mjuzi/
+      - title: Smart WEARABLE INSIGHTS
+        url: /ai-wellness/wearables/
+        children:
+          - title: Sleep
+            url: /ai-wellness/wearables/sleep/
+          - title: HRV
+            url: /ai-wellness/wearables/hrv/
+          - title: Stress
+            url: /ai-wellness/wearables/stress/
+          - title: Recovery
+            url: /ai-wellness/wearables/recovery/
+          - title: Activity
+            url: /ai-wellness/wearables/activity/
+      - title: Daily Check-ins
+        url: /ai-wellness/daily-check-ins/
+      - title: Personal Insights
+        url: /ai-wellness/personal-insights/
+      - title: Wellness Recommendations
+        url: /ai-wellness/wellness-recommendations/
+      - title: Wellness tools
+        url: /ai-wellness/wellness-tools/
+
+  - title: Human Care
+    url: /human-care/
+    children:
+      - title: Psychologists
+        url: /human-care/psychologists/
+      - title: Psychiatrists
+        url: /human-care/psychiatrists/
+      - title: Corporate Counselling
+        url: /human-care/corporate-counselling/
+
+  # Keep all four Family Wellness items visible in the navigation, per the Word sitemap.
+  - title: Family Wellness
+    url: /family-wellness/
+    children:
+      - title: Family Dashboard
+        url: /family-wellness/family-dashboard/
+      - title: Parent Support
+        url: /family-wellness/parent-support/
+      - title: Senior Care
+        url: /family-wellness/senior-care/
+      - title: Caregiver Support
+        url: /family-wellness/caregiver-support/
+
+  # The source calls this section NEWS & BLOGS, not Resources.
+  - title: News & Blogs
+    url: /resources/
+    children:
+      - title: Blogs
+        url: /blog/
+      - title: News
+        url: /resources/news/
+      - title: FAQs
+        url: /faqs/
+      - title: Testimonials
+        url: /resources/testimonials/
+      - title: Important Links
+        url: /resources/important-links/
+
+  - title: About
+    url: /about/
+    children:
+      - title: Our Story
+        url: /about/our-story/
+      - title: Founder
+        url: /about/founder/
+      - title: Team
+        url: /about/team/
+      - title: Technology
+        url: /about/technology/
+      - title: Terms & Conditions
+        url: /terms-condition/
+      - title: Safety & Privacy
+        url: /about/safety-privacy/
+      - title: Cancellation/Refund Policy
+        url: /cancellation-refund-policy/
+      - title: Contact
+        url: /contact/
+
+footer:
+  - title: Explore
+    links:
+      - title: For You
+        url: /for-you/
+      - title: Understand Yourself
+        url: /understand-yourself/
+      - title: AI Wellness – Introducing Mjuzi
+        url: /ai-wellness/
+      - title: Human Care
+        url: /human-care/
+      - title: Family Wellness
+        url: /family-wellness/
+      - title: News & Blogs
+        url: /resources/
+
+  - title: Support
+    links:
+      - title: Psychologists
+        url: /human-care/psychologists/
+      - title: FAQs
+        url: /faqs/
+      - title: Contact
+        url: /contact/
+      - title: Safety & Privacy
+        url: /about/safety-privacy/
+      - title: Terms & Conditions
+        url: /terms-condition/
+      - title: Cancellation/Refund Policy
+        url: /cancellation-refund-policy/

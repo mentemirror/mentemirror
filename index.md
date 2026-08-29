@@ -23,7 +23,7 @@ body_class: mm-home
 
     <div class="mm-hero__visual" aria-label="Mente Mirror wellness image">
       <div class="mm-hero-photo">
-        <img src="{{ '/assets/images/home/why-counselling.jpg' | relative_url }}" alt="A calm wellbeing moment" loading="eager">
+        <img src="{{ '/assets/images/home/consulings.png' | relative_url }}" alt="A calm wellbeing moment" loading="eager">
         <div class="mm-hero-photo__frame" aria-hidden="true"></div>
         <div class="mm-hero-photo__butterfly" aria-hidden="true">🦋</div>
       </div>

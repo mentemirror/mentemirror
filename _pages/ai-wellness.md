@@ -1,17 +1,65 @@
 ---
 layout: mm-default
 title: AI Wellness – Introducing Mjuzi
-description: Discover the Mjuzi AI Companion, Smart Wearable Insights, daily check-ins, personal insights, wellness recommendations and wellness tools.
+description: Discover Mjuzi, Mente Mirror's predictive, preventive and personalized multi-generational AI mental wellness platform.
 permalink: /ai-wellness/
 ---
-<section class="mm-page-hero">
+<section class="mm-page-hero mm-ai-hero">
   <div class="mm-container">
     <span class="mm-eyebrow">AI Wellness</span>
     <h1>Introducing Mjuzi.</h1>
-    <p>A predictive, preventive and personalised multi-generational AI mental wellness platform.</p>
+    <p>A predictive, preventive and personalized multi-generational AI mental wellness platform.</p>
     <div class="mm-actions">
       <a class="mm-btn mm-btn--primary" href="{{ '/ai-wellness/mjuzi/' | relative_url }}">AI Companion</a>
       <a class="mm-btn mm-btn--secondary" href="{{ '/ai-wellness/wearables/' | relative_url }}">Smart Wearable Insights</a>
+    </div>
+  </div>
+</section>
+
+<section class="mm-section mm-section--soft mm-ai-process-section">
+  <div class="mm-container">
+    <div class="mm-section-heading mm-section-heading--center mm-ai-process-heading">
+      <span class="mm-eyebrow">How Mjuzi works</span>
+      <h2>From everyday signals to personalized wellness insights.</h2>
+      <p>Mjuzi brings together what you report, how you behave, signals from wearables, cognitive performance and AI conversation to build a more complete view of wellbeing.</p>
+    </div>
+
+    <div class="mm-ai-flow" aria-label="Mjuzi wellness insight process">
+      <article class="mm-ai-flow__step mm-ai-flow__step--pink">
+        <span class="mm-ai-flow__number">01</span>
+        <span class="mm-ai-flow__icon" aria-hidden="true">✎</span>
+        <h3>Self-report</h3>
+      </article>
+
+      <article class="mm-ai-flow__step mm-ai-flow__step--purple">
+        <span class="mm-ai-flow__number">02</span>
+        <span class="mm-ai-flow__icon" aria-hidden="true">◎</span>
+        <h3>Behaviour recognition</h3>
+      </article>
+
+      <article class="mm-ai-flow__step mm-ai-flow__step--orange">
+        <span class="mm-ai-flow__number">03</span>
+        <span class="mm-ai-flow__icon" aria-hidden="true">⌁</span>
+        <h3>Wearable signals</h3>
+      </article>
+
+      <article class="mm-ai-flow__step mm-ai-flow__step--green">
+        <span class="mm-ai-flow__number">04</span>
+        <span class="mm-ai-flow__icon" aria-hidden="true">◈</span>
+        <h3>Cognitive performance</h3>
+      </article>
+
+      <article class="mm-ai-flow__step mm-ai-flow__step--purple">
+        <span class="mm-ai-flow__number">05</span>
+        <span class="mm-ai-flow__icon" aria-hidden="true">◌</span>
+        <h3>AI conversation</h3>
+      </article>
+
+      <article class="mm-ai-flow__step mm-ai-flow__step--result">
+        <span class="mm-ai-flow__number">06</span>
+        <span class="mm-ai-flow__icon" aria-hidden="true">✦</span>
+        <h3>Personalized Wellness Insights</h3>
+      </article>
     </div>
   </div>
 </section>
@@ -21,17 +69,17 @@ permalink: /ai-wellness/
     <div class="mm-section-head">
       <span class="mm-eyebrow">AI Wellness</span>
       <h2>The Mjuzi wellness ecosystem</h2>
-      <p>This section follows the hierarchy in the supplied website requirements.</p>
     </div>
 
     <div class="mm-card-grid mm-card-grid--3">
       <a class="mm-card" href="{{ '/ai-wellness/mjuzi/' | relative_url }}">
         <h2>AI Companion</h2>
-        <p>Conversational support for reflection, daily check-ins and healthier responses.</p>
+        <p>A conversational AI designed to help you reflect, understand patterns and practise healthier responses.</p>
+        <span class="mm-text-link">Explore AI Companion →</span>
       </a>
 
       <article class="mm-card">
-        <h2>Smart WEARABLE INSIGHTS</h2>
+        <h2>Smart Wearable Insights</h2>
         <p>Your body can provide context to your mind.</p>
         <ul class="mm-check-list">
           <li><a href="{{ '/ai-wellness/wearables/sleep/' | relative_url }}">Sleep</a></li>
@@ -45,22 +93,26 @@ permalink: /ai-wellness/
 
       <a class="mm-card" href="{{ '/ai-wellness/daily-check-ins/' | relative_url }}">
         <h2>Daily Check-ins</h2>
-        <p>A recurring Mjuzi wellness touchpoint. Detailed website copy remains to be finalised in the source requirements.</p>
+        <p>Short, recurring reflections that capture how you feel and add your own experience to the wellness picture.</p>
+        <span class="mm-text-link">Explore Daily Check-ins →</span>
       </a>
 
       <a class="mm-card" href="{{ '/ai-wellness/personal-insights/' | relative_url }}">
         <h2>Personal Insights</h2>
-        <p>Personalised insight is part of the planned Mjuzi experience. Detailed website copy remains to be finalised.</p>
+        <p>Bring check-ins and available wellness signals together to notice patterns, changes and useful questions over time.</p>
+        <span class="mm-text-link">Explore Personal Insights →</span>
       </a>
 
       <a class="mm-card" href="{{ '/ai-wellness/wellness-recommendations/' | relative_url }}">
         <h2>Wellness Recommendations</h2>
-        <p>Personalised wellness recommendations are part of the planned experience. Detailed website copy remains to be finalised.</p>
+        <p>Turn insights into small, practical wellness actions while keeping human support available when it is needed.</p>
+        <span class="mm-text-link">Explore Recommendations →</span>
       </a>
 
       <a class="mm-card" href="{{ '/ai-wellness/wellness-tools/' | relative_url }}">
         <h2>Wellness tools</h2>
         <p>Breathing, meditation, journaling, sleep tools, focus training, memory games, emotional exercises, PMRT and progress tracking.</p>
+        <span class="mm-text-link">Explore Wellness Tools →</span>
       </a>
     </div>
   </div>
