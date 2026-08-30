@@ -23,8 +23,9 @@
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/brand/favicon.svg' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/mm-site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/mm-modern-refinement.css' | relative_url }}">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Mente Mirror","url":"{{ '/' | absolute_url }}","email":"{{ site.email | default: 'welcome@mentemirror.com' }}","telephone":"+91-8240203755"}</script>
 </head>
 <body class="mm-body {% if page.body_class %}{{ page.body_class }}{% endif %}" data-page-title="{{ page.title | escape }}">
@@ -34,5 +35,6 @@
   <main id="main-content" tabindex="-1">{{ content }}</main>
   {% include mm-footer.html %}
   <script src="{{ '/assets/js/mm-site.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/mm-modern-refinement.js' | relative_url }}" defer></script>
 </body>
 </html>
