@@ -24,13 +24,6 @@ og_image: /assets/images/home/consulings.png
       </div>
     </div>
 
-    <div class="mm-hero__visual" aria-label="Mente Mirror wellness image">
-      <div class="mm-hero-photo">
-        <img src="{{ '/assets/images/home/consulings.png' | relative_url }}" alt="A calm wellbeing moment" loading="eager">
-        <div class="mm-hero-photo__frame" aria-hidden="true"></div>
-        <div class="mm-hero-photo__butterfly" aria-hidden="true">{% include mm-icon.html name="butterfly" %}</div>
-      </div>
-    </div>
   </div>
 </section>
 
