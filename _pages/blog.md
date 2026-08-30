@@ -8,7 +8,7 @@ permalink: /blog/
   <div class="mm-container">
     <span class="mm-eyebrow">News &amp; Blogs</span>
     <h1>Reflections for resilience, parenting and everyday wellbeing.</h1>
-    <p>Articles migrated from the existing Mente Mirror blog into the new website experience.</p>
+    <p>Reflections and practical perspectives on resilience, parenting, creativity and everyday wellbeing.</p>
   </div>
 </section>
 

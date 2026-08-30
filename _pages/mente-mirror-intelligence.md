@@ -23,7 +23,7 @@ body_class: mm-intelligence-page
 
     <p>Many people try to create happiness by improving only one area—for example, earning more money or exercising or achieving career goals or spending time with family. Yet they may still feel empty, stressed or disconnected. <strong>“Happiness is not a destination to reach; it is a set of wells we need to keep replenishing.”</strong> When one well runs dry, life feels harder.</p>
 
-    <p><strong>When we consciously replenish all five, we create a stronger foundation for happiness and well-being.</strong></p>
+    <p><strong>When we consciously replenish all five, we create a stronger foundation for happiness and wellbeing.</strong></p>
 
     <div class="mm-intelligence-callout">
       <strong>Mente Mirror Wellbeing:</strong> the “Five Wells of Happiness” is a holistic framework that helps a person understand that lasting happiness does not come from one single source. Just as a person needs different sources of nourishment for the body, the mind also needs its different wells to be replenished.
@@ -48,11 +48,11 @@ body_class: mm-intelligence-page
         </thead>
         <tbody>
           <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--emotional">♥</span><strong>Emotional</strong></td>
+            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--emotional">{% include mm-icon.html name="heart" %}</span><strong>Emotional</strong></td>
             <td data-label="Question">How am I feeling? - gives you balance.</td>
           </tr>
           <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--cognitive">◉</span><strong>Cognitive</strong></td>
+            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--cognitive">{% include mm-icon.html name="brain" %}</span><strong>Cognitive</strong></td>
             <td data-label="Question">How am I thinking and learning? - gives you growth.</td>
           </tr>
           <tr>
@@ -64,7 +64,7 @@ body_class: mm-intelligence-page
             <td data-label="Question">How connected am I? - gives you connection.</td>
           </tr>
           <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--spiritual">✦</span><strong>Spiritual / Purpose</strong></td>
+            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--spiritual">{% include mm-icon.html name="sparkles" %}</span><strong>Spiritual / Purpose</strong></td>
             <td data-label="Question">What gives my life meaning?</td>
           </tr>
         </tbody>
@@ -78,12 +78,12 @@ body_class: mm-intelligence-page
     <div class="mm-section-heading mm-section-heading--framework">
       <span class="mm-eyebrow">Mente Mirror signature framework</span>
       <h2>Quality of Life Score</h2>
-      <p>The ultimate objective is <strong>sustainable well-being</strong> rather than temporary happiness.</p>
+      <p>The ultimate objective is <strong>sustainable wellbeing</strong> rather than temporary happiness.</p>
     </div>
 
     <div class="mm-wellbeing-map" aria-label="Five dimensions of wellbeing">
       <article class="mm-wellbeing-petal mm-wellbeing-petal--emotional">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">♥</div>
+        <div class="mm-wellbeing-petal__icon" aria-hidden="true">{% include mm-icon.html name="heart" %}</div>
         <h3>Emotional</h3>
         <ul>
           <li>Feelings about self &amp; others</li>
@@ -118,13 +118,13 @@ body_class: mm-intelligence-page
       </article>
 
       <div class="mm-wellbeing-core">
-        <span class="mm-wellbeing-core__mark" aria-hidden="true">✦</span>
+        <span class="mm-wellbeing-core__mark" aria-hidden="true">{% include mm-icon.html name="sparkles" %}</span>
         <strong>Wellbeing</strong>
         <small>Five wells in balance</small>
       </div>
 
       <article class="mm-wellbeing-petal mm-wellbeing-petal--intellectual">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">◉</div>
+        <div class="mm-wellbeing-petal__icon" aria-hidden="true">{% include mm-icon.html name="brain" %}</div>
         <h3>Intellectual</h3>
         <ul>
           <li>Information processing</li>
@@ -135,7 +135,7 @@ body_class: mm-intelligence-page
       </article>
 
       <article class="mm-wellbeing-petal mm-wellbeing-petal--spiritual">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">✦</div>
+        <div class="mm-wellbeing-petal__icon" aria-hidden="true">{% include mm-icon.html name="sparkles" %}</div>
         <h3>Spiritual</h3>
         <ul>
           <li>Faith</li>

@@ -24,7 +24,7 @@ body_class: mm-family-detail-page
         <p>Caregiver Support is designed around two needs at once: helping the family coordinate useful support for the person who needs care, and helping the caregiver notice and respond to their own stress before it becomes overwhelming.</p>
       </div>
       <aside class="mm-family-summary-card">
-        <span class="mm-family-summary-card__icon" aria-hidden="true">💗</span>
+        <span class="mm-family-summary-card__icon" aria-hidden="true">{% include mm-icon.html name="heart" %}</span>
         <h3>You are part of the care system too</h3>
         <p>A sustainable care plan includes the wellbeing of the person providing care.</p>
       </aside>
@@ -36,12 +36,12 @@ body_class: mm-family-detail-page
   <div class="mm-container">
     <div class="mm-section-heading"><span class="mm-eyebrow">Practical caregiver support</span><h2>What can make caregiving more sustainable</h2></div>
     <div class="mm-support-grid">
-      <article class="mm-support-card"><span class="mm-support-card__icon">🗂️</span><h3>Coordinate support</h3><p>Keep important routines, responsibilities and agreed family actions easier to organise and share.</p></article>
-      <article class="mm-support-card"><span class="mm-support-card__icon">🔔</span><h3>Meaningful alerts</h3><p>Use relevant notifications to reduce the need for constant checking and make it clearer when attention may be useful.</p></article>
-      <article class="mm-support-card"><span class="mm-support-card__icon">🌿</span><h3>Notice caregiver stress</h3><p>Pay attention to persistent exhaustion, irritability, poor sleep, withdrawal or feeling unable to switch off from caregiving responsibilities.</p></article>
-      <article class="mm-support-card"><span class="mm-support-card__icon">🧭</span><h3>Healthy boundaries</h3><p>Clarify what one caregiver can realistically do and where responsibility should be shared with family or professionals.</p></article>
-      <article class="mm-support-card"><span class="mm-support-card__icon">☕</span><h3>Recovery routines</h3><p>Protect small but regular periods for sleep, movement, social connection, enjoyable activity and personal time.</p></article>
-      <article class="mm-support-card"><span class="mm-support-card__icon">🤝</span><h3>Ask for help earlier</h3><p>Seeking support before reaching exhaustion can make care more sustainable for both the caregiver and the family member receiving care.</p></article>
+      <article class="mm-support-card"><span class="mm-support-card__icon">{% include mm-icon.html name="folder" %}</span><h3>Coordinate support</h3><p>Keep important routines, responsibilities and agreed family actions easier to organise and share.</p></article>
+      <article class="mm-support-card"><span class="mm-support-card__icon">{% include mm-icon.html name="bell" %}</span><h3>Meaningful alerts</h3><p>Use relevant notifications to reduce the need for constant checking and make it clearer when attention may be useful.</p></article>
+      <article class="mm-support-card"><span class="mm-support-card__icon">{% include mm-icon.html name="leaf" %}</span><h3>Notice caregiver stress</h3><p>Pay attention to persistent exhaustion, irritability, poor sleep, withdrawal or feeling unable to switch off from caregiving responsibilities.</p></article>
+      <article class="mm-support-card"><span class="mm-support-card__icon">{% include mm-icon.html name="compass" %}</span><h3>Healthy boundaries</h3><p>Clarify what one caregiver can realistically do and where responsibility should be shared with family or professionals.</p></article>
+      <article class="mm-support-card"><span class="mm-support-card__icon">{% include mm-icon.html name="coffee" %}</span><h3>Recovery routines</h3><p>Protect small but regular periods for sleep, movement, social connection, enjoyable activity and personal time.</p></article>
+      <article class="mm-support-card"><span class="mm-support-card__icon">{% include mm-icon.html name="handshake" %}</span><h3>Ask for help earlier</h3><p>Seeking support before reaching exhaustion can make care more sustainable for both the caregiver and the family member receiving care.</p></article>
     </div>
   </div>
 </section>

@@ -1,7 +1,7 @@
 ---
 layout: mm-default
-title: "Shalini Bhardwaj, Housewife, DelhiShyamly Sharma, Housewife, Europe — Testimonial"
-description: "Mente Mirror testimonial from Shalini Bhardwaj, Housewife, DelhiShyamly Sharma, Housewife, Europe."
+title: "Shyamly Sharma — Testimonial"
+description: "Mente Mirror testimonial from Shyamly Sharma."
 permalink: /resources/testimonials/shyamly-sharma/
 ---
 
@@ -10,7 +10,7 @@ permalink: /resources/testimonials/shyamly-sharma/
     <div>
       <a class="mm-testimonial-back" href="{{ '/resources/testimonials/' | relative_url }}">← All testimonials</a>
       <span class="mm-eyebrow">Testimonial</span>
-      <h1>Shalini Bhardwaj, Housewife, DelhiShyamly Sharma, Housewife, Europe</h1>
+      <h1>Shyamly Sharma, Housewife, Europe</h1>
     </div>
     <div class="mm-testimonial-hero__mark" aria-hidden="true">“</div>
   </div>
@@ -26,7 +26,7 @@ permalink: /resources/testimonials/shyamly-sharma/
 <p class="blockquote-01__text text-justify"></p>
 <p>Mente Mirror helped me to change my thinking process and made me believe that there is a door of positivity always opened which sometimes we forget, to open or even to look at. Moreover it taught to how to handle situations in a better way. It made me implement the life mantras practically in my day to day life, these are the mantras that all of us already know but hesitate to follow or choose negative path over the right one. It gave me enough courage to choose the right way.</p>
 <p class="blockquote-01__author">
-<span>—</span><strong>Shalini Bhardwaj, Housewife, DelhiShyamly Sharma, Housewife, Europe</strong>
+<span>—</span><strong>Shyamly Sharma, Housewife, Europe</strong>
 </p>
       </blockquote>
     </article>

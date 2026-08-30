@@ -16,7 +16,7 @@ permalink: /blog/get-wild-with-your-creativity/
 
   <section class="mm-section">
     <div class="mm-container mm-blog-copy">
-      <p>The existing Mente Mirror blog introduces this article with Albert Einstein's well-known observation that imagination can be more important than knowledge. The emphasis is on creativity as the ability to move beyond familiar answers and allow the mind to explore possibilities.</p>
+      <p>Creativity is the ability to move beyond familiar answers and allow the mind to explore possibilities. Imagination can help us see alternatives, experiment and approach a problem from a different direction.</p>
 
       <p>Knowledge gives us material to work with; imagination helps us rearrange, question and extend that material. Creative thinking can therefore be relevant not only to art, but also to learning, problem-solving and finding new ways to respond to everyday situations.</p>
 

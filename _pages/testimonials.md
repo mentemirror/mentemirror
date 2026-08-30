@@ -21,7 +21,7 @@ permalink: /resources/testimonials/
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">Client experiences</span>
       <h2>Support across different stages of life</h2>
-      <p>Select any testimonial to read the full migrated client story within this website.</p>
+      <p>Select any testimonial to read the full client story.</p>
     </div>
 
     <div class="mm-testimonial-grid">
@@ -156,9 +156,9 @@ permalink: /resources/testimonials/
       <a class="mm-testimonial-card mm-testimonial-card--link" href="{{ '/resources/testimonials/shyamly-sharma/' | relative_url }}" aria-label="Read the testimonial by Shyamly Sharma">
         <div class="mm-testimonial-card__photo"><img src="{{ '/assets/images/testimonials/shyamly-sharma.png' | relative_url }}" alt="" loading="lazy"></div>
         <span class="mm-testimonial-card__type">Personal Growth</span>
-        <p>The legacy page attributes a testimonial about shifting thought patterns, choosing positivity and applying familiar life principles more consistently; the name line is malformed and should be verified.</p>
+        <p>She describes learning to notice negative thought patterns, choose more constructive responses and apply familiar life principles more consistently in everyday situations.</p>
         <span class="mm-testimonial-card__read">Read testimonial <span aria-hidden="true">→</span></span>
-        <footer><strong>Shyamly Sharma</strong><span>Housewife · Europe · attribution to verify</span></footer>
+        <footer><strong>Shyamly Sharma</strong><span>Housewife · Europe</span></footer>
       </a>
 
       <a class="mm-testimonial-card mm-testimonial-card--link" href="{{ '/resources/testimonials/rajat-chakraborty/' | relative_url }}" aria-label="Read the testimonial by Rajat Chakraborty">
@@ -217,7 +217,7 @@ permalink: /resources/testimonials/
     <div>
       <span class="mm-eyebrow">Human care</span>
       <h2>Every person’s experience is different.</h2>
-      <p>The testimonials above have been migrated into this website. Counselling outcomes vary depending on a person’s circumstances, goals and engagement with care.</p>
+      <p>These stories reflect individual experiences. Counselling outcomes vary depending on a person’s circumstances, goals and engagement with care.</p>
     </div>
     <div class="mm-testimonial-note__links">
       <a class="mm-btn mm-btn--primary" href="{{ '/human-care/psychologists/' | relative_url }}">Explore Psychologists</a>

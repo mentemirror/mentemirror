@@ -1,0 +1,112 @@
+<svg class="mm-icon mm-icon--{{ include.name | default: 'sparkles' }}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  {% case include.name %}
+  {% when 'butterfly' %}
+    <path d="M12 10.8c-1.5-4.2-4.2-6.4-7.3-6.3-.5 3.1.7 6 4.2 7.5-3.2.8-4.9 2.9-4.8 6.2 3.4.4 6.3-1.3 7.9-4.5"/><path d="M12 10.8c1.5-4.2 4.2-6.4 7.3-6.3.5 3.1-.7 6-4.2 7.5 3.2.8 4.9 2.9 4.8 6.2-3.4.4-6.3-1.3-7.9-4.5"/><path d="M12 8.5v8.5"/>
+  {% when 'student' %}
+    <path d="M2.5 9 12 4l9.5 5L12 14 2.5 9Z"/><path d="M6.5 11.5v4.2c3.5 2.2 7.5 2.2 11 0v-4.2"/><path d="M21.5 9v6"/>
+  {% when 'briefcase' %}
+    <rect x="3" y="7" width="18" height="12" rx="2"/><path d="M8 7V5.5A1.5 1.5 0 0 1 9.5 4h5A1.5 1.5 0 0 1 16 5.5V7M3 12h18M10 12v2h4v-2"/>
+  {% when 'senior' %}
+    <circle cx="10" cy="6.5" r="2.5"/><path d="M5.5 20c.3-5 1.6-8 4.5-8s4.2 3 4.5 8M17 8v12M17 14c1.8 0 3 .8 3 2.5"/>
+  {% when 'family' %}
+    <circle cx="12" cy="7" r="2.5"/><circle cx="5.5" cy="9" r="2"/><circle cx="18.5" cy="9" r="2"/><path d="M7.5 20c.2-4.4 1.5-7 4.5-7s4.3 2.6 4.5 7M2 20c.1-3.3 1-5.4 3.5-5.4 1.1 0 2 .4 2.7 1M22 20c-.1-3.3-1-5.4-3.5-5.4-1.1 0-2 .4-2.7 1"/>
+  {% when 'sparkles' %}
+    <path d="M12 3l1.1 3.1L16 7.2l-2.9 1.1L12 11l-1.1-2.7L8 7.2l2.9-1.1L12 3ZM18.5 12l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2ZM6 13l1.1 3L10 17.1l-2.9 1.1L6 21l-1.1-2.8L2 17.1 4.9 16 6 13Z"/>
+  {% when 'brain' %}
+    <path d="M9.5 5.2A3.2 3.2 0 0 0 4 7.5c0 .5.1 1 .3 1.4A3.4 3.4 0 0 0 5 15.3 3.3 3.3 0 0 0 10 18V6.3c0-.4-.2-.8-.5-1.1ZM14.5 5.2A3.2 3.2 0 0 1 20 7.5c0 .5-.1 1-.3 1.4a3.4 3.4 0 0 1-.7 6.4A3.3 3.3 0 0 1 14 18V6.3c0-.4.2-.8.5-1.1Z"/><path d="M7 9.5c1.6 0 3 1.2 3 2.8M17 9.5c-1.6 0-3 1.2-3 2.8M6.8 15c1.5-.2 2.7.4 3.2 1.6M17.2 15c-1.5-.2-2.7.4-3.2 1.6"/>
+  {% when 'heart' %}
+    <path d="M20.8 5.7c-2-2-5.3-1.8-7.2.3L12 7.8 10.4 6C8.5 3.9 5.2 3.7 3.2 5.7c-2.1 2.1-2 5.5.1 7.6L12 21l8.7-7.7c2.1-2.1 2.2-5.5.1-7.6Z"/>
+  {% when 'medical' %}
+    <circle cx="12" cy="12" r="9"/><path d="M12 7v10M7 12h10"/>
+  {% when 'building' %}
+    <path d="M4 21V5l8-3 8 3v16M2 21h20M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2M10 21v-3h4v3"/>
+  {% when 'target' %}
+    <circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/><path d="m15 9 6-6M17 3h4v4"/>
+  {% when 'book' %}
+    <path d="M4 4.5h5.5A2.5 2.5 0 0 1 12 7v13a3 3 0 0 0-3-3H4V4.5ZM20 4.5h-5.5A2.5 2.5 0 0 0 12 7v13a3 3 0 0 1 3-3h5V4.5Z"/>
+  {% when 'clipboard' %}
+    <rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.8h6V4M8 9h8M8 13h8M8 17h5"/>
+  {% when 'phone' %}
+    <rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M10 5h4M11 18.5h2"/>
+  {% when 'puzzle' %}
+    <path d="M9 3h4v3.2a2.2 2.2 0 1 0 3 0V3h5v6h-3.2a2.2 2.2 0 1 0 0 3H21v6h-6v-3.2a2.2 2.2 0 1 0-3 0V18H6v-5H2.8a2.2 2.2 0 1 1 0-3H6V6a3 3 0 0 1 3-3Z"/>
+  {% when 'moon' %}
+    <path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.5 8.5 0 1 0 20 15.5Z"/>
+  {% when 'meditation' %}
+    <circle cx="12" cy="5" r="2"/><path d="M9 10c1-1.2 2-1.8 3-1.8s2 .6 3 1.8M12 8.2V14M5 12l4 2.5M19 12l-4 2.5M8 20l4-6 4 6M4 20h16"/>
+  {% when 'flame' %}
+    <path d="M13 2c1 4-2 5.4-2 8 0 1.5 1 2.5 2.4 2.5 2.8 0 4-2.4 3.6-5.2 2.7 2.2 4 5.2 3 8.2A8 8 0 0 1 4.5 15c-.8-3.3.7-6.6 3.7-9-.1 3.1 1.2 4.5 2.5 4.5C12 10.5 13 9.4 13 8V2Z"/>
+  {% when 'balance' %}
+    <path d="M12 3v18M6 6h12M5 6l-3 6h6L5 6ZM19 6l-3 6h6l-3-6ZM8 21h8"/>
+  {% when 'leaf' %}
+    <path d="M20 4C11 4 5 8.7 5 15c0 2.8 2.2 5 5 5 6.3 0 10-7 10-16Z"/><path d="M5 20c3-5 7-8 12-11"/>
+  {% when 'watch' %}
+    <path d="M9 2h6l1 4H8l1-4ZM8 18h8l-1 4H9l-1-4Z"/><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M12 9v3l2 1"/>
+  {% when 'chat' %}
+    <path d="M4 5h16v12H9l-5 4V5Z"/><path d="M8 9h8M8 13h5"/>
+  {% when 'microphone' %}
+    <rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4M8 21h8"/>
+  {% when 'check' %}
+    <circle cx="12" cy="12" r="9"/><path d="m8 12 2.7 2.7L16.5 9"/>
+  {% when 'edit' %}
+    <path d="M4 20h4l11-11-4-4L4 16v4Z"/><path d="m13.5 6.5 4 4M4 20h16"/>
+  {% when 'person' %}
+    <circle cx="12" cy="7" r="3"/><path d="M5 21c.5-5 2.6-8 7-8s6.5 3 7 8"/>
+  {% when 'user' %}
+    <circle cx="12" cy="8" r="3"/><path d="M5 21c.6-5.2 2.8-8 7-8s6.4 2.8 7 8"/>
+  {% when 'users' %}
+    <circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.2"/><path d="M2.5 21c.5-5 2.5-8 6.5-8s6 3 6.5 8M15 14c3.5 0 5.4 2.5 6 6"/>
+  {% when 'folder' %}
+    <path d="M3 6h7l2 2h9v11H3V6Z"/>
+  {% when 'bell' %}
+    <path d="M6 10a6 6 0 0 1 12 0v4l2 3H4l2-3v-4ZM10 20h4"/>
+  {% when 'compass' %}
+    <circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/>
+  {% when 'coffee' %}
+    <path d="M4 8h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Z"/><path d="M17 10h2a3 3 0 0 1 0 6h-2M8 4c0 1-1 1.5-1 2.5M12 4c0 1-1 1.5-1 2.5"/>
+  {% when 'handshake' %}
+    <path d="m3 9 4-4 4 2 2-1 4 2 4 4-6 7-3-2-2 1-5-5-2-4Z"/><path d="m8 12 5 5M10 10l6 6M12 8l5 5"/>
+  {% when 'shield' %}
+    <path d="M12 2 20 5v6c0 5-3.3 8.5-8 11-4.7-2.5-8-6-8-11V5l8-3Z"/><path d="m8.5 12 2.2 2.2 4.8-5"/>
+  {% when 'bulb' %}
+    <path d="M9 18h6M10 21h4M8 14c-1.2-1.1-2-2.7-2-4.5a6 6 0 1 1 12 0c0 1.8-.8 3.4-2 4.5-.8.8-1 1.5-1 2H9c0-.5-.2-1.2-1-2Z"/>
+  {% when 'settings' %}
+    <circle cx="12" cy="12" r="3"/><path d="M19 13.5v-3l-2-.7-.7-1.7.9-1.9-2.1-2.1-1.9.9-1.7-.7L10.5 2h-3l-.7 2-1.7.7-1.9-.9-2.1 2.1.9 1.9-.7 1.7-2 .7v3l2 .7.7 1.7-.9 1.9 2.1 2.1 1.9-.9 1.7.7.7 2h3l.7-2 1.7-.7 1.9.9 2.1-2.1-.9-1.9.7-1.7 2-.4Z" transform="translate(1.5 0) scale(.88)"/>
+  {% when 'file' %}
+    <path d="M6 2h8l4 4v16H6V2Z"/><path d="M14 2v5h5M9 12h6M9 16h6"/>
+  {% when 'mail' %}
+    <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/>
+  {% when 'link' %}
+    <path d="M9.5 14.5 7 17a3.5 3.5 0 1 1-5-5l3-3a3.5 3.5 0 0 1 5 0M14.5 9.5 17 7a3.5 3.5 0 1 1 5 5l-3 3a3.5 3.5 0 0 1-5 0M8 12h8"/>
+  {% when 'support' %}
+    <circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="m5.6 5.6 4.3 4.3M14.1 14.1l4.3 4.3M18.4 5.6l-4.3 4.3M9.9 14.1l-4.3 4.3"/>
+  {% when 'calendar' %}
+    <rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6M17 2v6M3 10h18M7 14h2M11 14h2M15 14h2M7 18h2M11 18h2"/>
+  {% when 'news' %}
+    <path d="M4 4h16v16H4V4Z"/><path d="M7 8h6v4H7V8ZM15 8h2M15 11h2M7 15h10M7 18h10"/>
+  {% when 'megaphone' %}
+    <path d="M4 10v4h4l9 4V6L8 10H4Z"/><path d="m8 14 1.5 5h3L11 15M20 9c1 1.5 1 4 0 5.5"/>
+  {% when 'chart' %}
+    <path d="M4 20V4M4 20h16M7 16l4-5 3 2 5-7"/>
+  {% when 'thought' %}
+    <path d="M6 16a5 5 0 0 1 1-9.9A6 6 0 0 1 18.5 8 4 4 0 0 1 18 16H9l-4 3 1-3Z"/><circle cx="9" cy="11" r=".7"/><circle cx="12" cy="11" r=".7"/><circle cx="15" cy="11" r=".7"/>
+  {% when 'smile' %}
+    <circle cx="12" cy="12" r="9"/><path d="M8.5 10h.01M15.5 10h.01M8 14c1 2 2.3 3 4 3s3-1 4-3"/>
+  {% when 'activity' %}
+    <path d="M3 12h4l2-5 4 10 2-5h6"/>
+  {% when 'accessibility' %}
+    <circle cx="12" cy="4" r="2"/><path d="M6 8h12M12 6v6M8 21l4-9 4 9M8 14l-3 4M16 14l3 4"/>
+  {% when 'wind' %}
+    <path d="M3 8h10c2.5 0 2.5-4 0-4-1 0-1.8.5-2.2 1.2M3 12h15c3 0 3 5 0 5-1.2 0-2.2-.7-2.6-1.6M3 16h8"/>
+  {% when 'bolt' %}
+    <path d="m13 2-8 12h6l-1 8 9-13h-6V2Z"/>
+  {% when 'chevron' %}
+    <path d="m6 9 6 6 6-6"/>
+  {% when 'phone-call' %}
+    <path d="M7 3 4.5 5.5c-.8.8-.7 2.3-.2 3.7 1.7 4.7 5.8 8.8 10.5 10.5 1.4.5 2.9.6 3.7-.2L21 17l-4.5-3-2 2c-2.4-1.1-5.4-4.1-6.5-6.5l2-2L7 3Z"/><path d="M14 4c3.3.4 5.6 2.7 6 6M14 8c1.2.2 1.8.8 2 2"/>
+  {% when 'back' %}
+    <path d="m9 6-6 6 6 6M3 12h11c4 0 7 2 7 6"/>
+  {% else %}
+    <path d="M12 3l1.1 3.1L16 7.2l-2.9 1.1L12 11l-1.1-2.7L8 7.2l2.9-1.1L12 3ZM18.5 12l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z"/>
+  {% endcase %}
+</svg>

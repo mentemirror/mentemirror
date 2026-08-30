@@ -11,16 +11,18 @@ permalink: /ai-wellness/daily-check-ins/
   <div class="mm-container">
     <div class="mm-section-head"><span class="mm-eyebrow">A simple rhythm</span><h2>Check. Reflect. Continue.</h2><p>Check-ins should be quick enough to become part of everyday life while still capturing useful context.</p></div>
     <div class="mm-ai-point-grid mm-ai-point-grid--5">
-      <article><span class="mm-ai-mini-icon" aria-hidden="true">♡</span><h3>Mood</h3><p>How are you feeling today?</p></article>
-      <article><span class="mm-ai-mini-icon" aria-hidden="true">◌</span><h3>Stress</h3><p>How stretched or settled do you feel?</p></article>
-      <article><span class="mm-ai-mini-icon" aria-hidden="true">☾</span><h3>Sleep</h3><p>How rested do you feel?</p></article>
-      <article><span class="mm-ai-mini-icon" aria-hidden="true">⚡</span><h3>Energy</h3><p>What is your energy like right now?</p></article>
-      <article><span class="mm-ai-mini-icon" aria-hidden="true">◎</span><h3>Focus</h3><p>How ready do you feel to concentrate?</p></article>
+      <article><span class="mm-ai-mini-icon" aria-hidden="true">{% include mm-icon.html name="heart" %}</span><h3>Mood</h3><p>How are you feeling today?</p></article>
+      <article><span class="mm-ai-mini-icon" aria-hidden="true">{% include mm-icon.html name="meditation" %}</span><h3>Stress</h3><p>How stretched or settled do you feel?</p></article>
+      <article><span class="mm-ai-mini-icon" aria-hidden="true">{% include mm-icon.html name="moon" %}</span><h3>Sleep</h3><p>How rested do you feel?</p></article>
+      <article><span class="mm-ai-mini-icon" aria-hidden="true">{% include mm-icon.html name="bolt" %}</span><h3>Energy</h3><p>What is your energy like right now?</p></article>
+      <article><span class="mm-ai-mini-icon" aria-hidden="true">{% include mm-icon.html name="target" %}</span><h3>Focus</h3><p>How ready do you feel to concentrate?</p></article>
     </div>
     <div class="mm-split mm-ai-benefit-split">
       <div><span class="mm-eyebrow">Why it matters</span><h2>Your experience is a core signal.</h2><p>Wearables and algorithms can add context, but they do not replace self-report. Regular check-ins help Mjuzi compare objective-looking signals with how you actually feel and can make changes over time easier to see.</p></div>
-      <div class="mm-ai-explainer"><span aria-hidden="true">✓</span><h3>Over time</h3><p>Check-ins can support personal insights by highlighting recurring patterns, changes in routine and moments when extra support may be useful.</p></div>
+      <div class="mm-ai-explainer"><span aria-hidden="true">{% include mm-icon.html name="check" %}</span><h3>Over time</h3><p>Check-ins can support personal insights by highlighting recurring patterns, changes in routine and moments when extra support may be useful.</p></div>
     </div>
-    <div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/' | relative_url }}">← Back to AI Wellness</a></div>
+    <p class="mm-capability-note">Check-in features and prompts may evolve with the product release. They are intended for wellness reflection, not diagnosis.</p>
   </div>
 </section>
+
+{% include mm-next-steps.html %}

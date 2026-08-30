@@ -22,7 +22,7 @@ permalink: /ai-wellness/wearables/sleep/
         <article><h3>Recovery</h3><p>Use sleep as one input when looking at broader recovery patterns.</p></article>
       </div>
     </div>
-    <aside class="mm-ai-explainer"><span aria-hidden="true">☾</span><h3>How Mjuzi uses it</h3><p>Available sleep information can be combined with self-report, daily check-ins and other signals to create a more complete wellness picture.</p></aside>
+    <aside class="mm-ai-explainer"><span aria-hidden="true">{% include mm-icon.html name="moon" %}</span><h3>How Mjuzi uses it</h3><p>Available sleep information can be combined with self-report, daily check-ins and other signals to create a more complete wellness picture.</p></aside>
   </div>
   <div class="mm-container"><div class="mm-ai-safety-note"><strong>Remember:</strong><p>Consumer wearable sleep estimates are not a clinical sleep study. If sleep problems are persistent or concerning, appropriate professional care may be needed.</p></div><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
 </section>

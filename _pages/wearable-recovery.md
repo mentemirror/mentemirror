@@ -17,7 +17,7 @@ permalink: /ai-wellness/wearables/recovery/
         <article><h3>Self-reported readiness</h3><p>Your own energy, mood and sense of recovery remain an essential part of the picture.</p></article>
       </div>
     </div>
-    <aside class="mm-ai-explainer"><span aria-hidden="true">↻</span><h3>Learning readiness and energy</h3><p>The source requirements specifically position wearable insights as useful context for learning readiness and energy.</p></aside>
+    <aside class="mm-ai-explainer"><span aria-hidden="true">{% include mm-icon.html name="sparkles" %}</span><h3>Learning readiness and energy</h3><p>Recovery patterns can add useful context when reflecting on learning readiness, energy and day-to-day wellbeing.</p></aside>
   </div>
   <div class="mm-container"><div class="mm-ai-safety-note"><strong>Wellness guidance only.</strong><p>A recovery indicator should not be used to clear someone for exercise, work, medical treatment or other safety-critical decisions.</p></div><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
 </section>

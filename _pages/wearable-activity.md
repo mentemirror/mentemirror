@@ -17,7 +17,7 @@ permalink: /ai-wellness/wearables/activity/
         <article><h3>Recovery balance</h3><p>Consider activity together with sleep and recovery rather than treating more movement as always better.</p></article>
       </div>
     </div>
-    <aside class="mm-ai-explainer"><span aria-hidden="true">↗</span><h3>Personal context matters</h3><p>Different people have different capabilities, health needs and routines. Mjuzi should support awareness rather than prescribe a universal activity target.</p></aside>
+    <aside class="mm-ai-explainer"><span aria-hidden="true">{% include mm-icon.html name="sparkles" %}</span><h3>Personal context matters</h3><p>Different people have different capabilities, health needs and routines. Mjuzi should support awareness rather than prescribe a universal activity target.</p></aside>
   </div>
   <div class="mm-container"><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
 </section>

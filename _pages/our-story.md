@@ -47,7 +47,7 @@ body_class: mm-our-story-page
       <h2>Reflection of your mind</h2>
       <p>Our mission is to provide counselling services to children, adolescents, adults and senior adults from diverse backgrounds and varying socio economic contacts .We are privileged to cater to our clients as they navigate the uncertainties and challenges of life. We equip them to be caring and compassionate through our powerful connection to evolve as strong and resilient personality. We follow the traditional stages of reflection through self-awareness, critical analysis and evaluation.</p>
 
-      <p>We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life. It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behavior. We enhance the communication and coping skills to strengthen their self-esteem and promote behavior change for a healthy lifestyle.</p>
+      <p>We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life. It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behaviour. We enhance the communication and coping skills to strengthen their self-esteem and promote behaviour change for a healthy lifestyle.</p>
     </div>
   </div>
 </section>

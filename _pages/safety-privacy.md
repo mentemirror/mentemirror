@@ -1,63 +1,33 @@
 ---
 layout: mm-default
-title: "Safety & Privacy"
-description: "Privacy Policy"
+title: Safety & Privacy
+description: A plain-English overview of how Mente Mirror approaches personal information, counselling confidentiality, optional wellness data and online-service safety.
 permalink: /about/safety-privacy/
-body_class: mm-legal-page
+body_class: mm-legal-page mm-privacy-page
 ---
 
-<section class="mm-page-hero mm-legal-hero">
+<section class="mm-page-hero mm-legal-hero"><div class="mm-container"><span class="mm-eyebrow">About</span><h1>Safety &amp; Privacy</h1><p>What you may share, why it may be used, and the boundaries you should know before using Mente Mirror.</p></div></section>
+
+<section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <h1>Privacy Policy</h1>
+    <div class="mm-section-heading mm-section-heading--center"><span class="mm-eyebrow">Privacy at a glance</span><h2>The essentials in plain language.</h2><p>You should not have to read a legal document to understand the basics.</p></div>
+    <div class="mm-privacy-glance">
+      <article><span>{% include mm-icon.html name="user" %}</span><div><strong>What you may share</strong><p>Contact details, information needed for appointments or services, and wellbeing information you choose to provide.</p></div></article>
+      <article><span>{% include mm-icon.html name="watch" %}</span><div><strong>Optional digital &amp; wearable context</strong><p>If you choose supported app or wearable features, the experience may use check-ins, conversations or connected sensor signals relevant to that feature.</p></div></article>
+      <article><span>{% include mm-icon.html name="target" %}</span><div><strong>Why information is used</strong><p>To provide the service you request, manage communication and bookings, personalise supported wellness features, and operate the service safely.</p></div></article>
+      <article><span>{% include mm-icon.html name="shield" %}</span><div><strong>Who should have access</strong><p>Mente Mirror aims to limit access to people and systems needed to deliver or support the service, subject to consent, care needs and applicable law.</p></div></article>
+      <article><span>{% include mm-icon.html name="settings" %}</span><div><strong>Your choices matter</strong><p>Optional digital or wearable features should be used only when you choose to use or connect them. A booked professional service may require information needed to deliver that care.</p></div></article>
+      <article><span>{% include mm-icon.html name="mail" %}</span><div><strong>Questions or requests</strong><p>Contact Mente Mirror if you want to understand how information is handled or ask about correction or deletion; some care or legal records may need to be retained.</p></div></article>
+    </div>
+    <div class="mm-safety-callout" role="note"><span>{% include mm-icon.html name="shield" %}</span><p><strong>No internet-based service can promise absolute security or confidentiality.</strong> Mente Mirror uses reasonable safeguards and aims to handle personal information and counselling records responsibly. Clinical, legal or safety circumstances can also create limited exceptions to confidentiality.</p></div>
   </div>
 </section>
 
-<section class="mm-section">
-  <div class="mm-container mm-legal-copy">
-
-<div class="right">
-<h5 class="--mr-04">
-<span>Our commitment</span>
-</h5>
-<p class="appointment" style="text-align: justify;">At Mente Mirror, we are strongly committed to protect your privacy.We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. We do not include or offer third party products or services on our website.</p><br/>
-<p class="appointment" style="text-align: justify;">You are entitled to privacy and be assured that all communication and records related to your service are kept confidential. You will receive counselling online through a process that is conducted in a confidential manner with no digital recording or witnesses around. Records related to your therapy may require to be shared only to our panel doctors / psychiatrists , if medication is seen to be needed by the counsellor, with your consent. No information of your personal details or case history is released to any other third party without your consent</p><br/>
-<p class="appointment" style="text-align: justify;">You can navigate our website without giving us any personal information about yourself. Sometimes, we need additional information from you to provide you the information or service that you are requesting.</p><br/>
-<h5 class="--mr-04">
-<span>Personal information that the website collects</span>
-</h5>
-<p class="appointment" style="text-align: justify;">When registering on our site, you are asked to enter name, phone number, email address, credit card information or other details to help you with the experience.</p><br/>
-<p class="appointment" style="text-align: justify;">At present, we collect personally identifiable information when you book online counselling session via registration form and contact us form where you enter your details with necessary requirements.</p><br/>
-<h5 class="--mr-04">
-<span>How do we use your information?</span>
-</h5>
-<p class="appointment" style="text-align: justify;">We collect information from you when you register, sign up for our newsletter, respond to the survey or any other marketing communication, surf the website or use the certain site features in the following way:</p><br/>
-<ul>
-<li>To personalize user&rsquo;s experience and to allow us to deliver the type of content and product offerings in which you are most interested.</li>
-<li>To administer a contest, promotion, survey or other site feature.</li>
-<li>To quickly process your transactions.</li>
-</ul>
-<h5 class="--mr-04">
-<span>Counselling We Provide</span>
-</h5>
-<p>It is as safe and secure and 100% confidential like your banking transactions. All consultations are secured by the same level of encryption that is used for online banking transactions. The entire communication process runs directly between your computer and the client's computer with no 3rd parties involved.<br/>Any social media video platform is good enough for our counselling sessions. You have the choice to select from the different social media video calling facilities like zoom, Google meet, whats App video call, Skype video call with a good internet speed. What is essential is to place your device (laptop or tablet with bigger screen size) in such a way so the counsellor can observe you completely as if you are sitting across the table. Also essential is a quiet private space without any noise or physical interference with anyone.<br/>While all precautions have been taken to make the platform secure and malware free, Internet platforms may not be 100% guaranteed by situations outside our control. However there will be no digital recording or release of any information of our clients to third parties from the side of Mente Mirror.<br/>All sessions should be treated like an in-office session. No outside distractions: turn off cell phones and close other computer programs. NO third parties will be in or near the session at any time without the counselor&rsquo;s knowledge.</p>
-<h5 class="--mr-04">
-<span>Payment for the therapy</span>
-</h5>
-<p class="appointment" style="text-align: justify;">The ICO defines the lawful basis for processing your data for payment of therapy sessions as &lsquo;contractual&rsquo;. To administer your payment we collect your personal data to:</p><br/>
-<ul>
-<li>Process your payment for therapy</li>
-<li>Get in touch should there ever be any issues processing your payment</li>
-</ul>
-<p class="appointment" style="text-align: justify;">All electronic forms that request financial data will use the Secure Sockets Layer (SSL) protocol to encrypt the data between your browser and our servers.</p><br/>
-<h5 class="--mr-04">
-<span>CHANGES TO OUR PRIVACY POLICY</span>
-</h5>
-<p class="appointment" style="text-align: justify;">It is our policy to post any changes we make to our privacy policy on this page. If we make material changes to how we treat our users&rsquo; personal information, we will notify you by e-mail to the e-mail address specified in your account and/or through a notice on the Website home page. The date the privacy policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable e-mail address for you, and for periodically visiting our Website and this privacy policy to check for any changes.</p><br/>
-<h5 class="--mr-04">
-<span>Contact us</span>
-</h5>
-<p class="appointment" style="text-align: justify;">If there&rsquo;s any question, regarding privacy policy, feel free to contact us on <a href="tel:+918240203755">+91- 8240203755</a></p>
-</div>
-
-  </div>
-</section>
+<section class="mm-section mm-section--soft"><div class="mm-container mm-disclosure-stack">
+  <div class="mm-section-heading"><span class="mm-eyebrow">More detail</span><h2>Read the sections that matter to you.</h2></div>
+  <details class="mm-disclosure" open><summary><span><strong>Counselling confidentiality</strong><small>How professional sessions are treated and when exceptions may apply</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Counselling is intended to take place in a private and professional setting. Information shared during counselling and records related to care are treated as confidential, subject to applicable law, professional obligations and situations in which safety may require action.</p><p>Where another Mente Mirror professional—such as a psychiatrist—needs to be involved in the care pathway, relevant information may be shared with appropriate consent and only to the extent needed for that care. Information may also need to be disclosed where required by law or where there is a serious safety concern.</p></div></details>
+  <details class="mm-disclosure"><summary><span><strong>Information we may collect</strong><small>Registration, enquiries, services, appointments and payments</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>You can browse general website information without providing detailed personal information. When you register, contact Mente Mirror, book a session or use particular services, information may be requested so the team can respond and deliver the requested service.</p><ul><li>Contact and registration information such as name, phone number and email address.</li><li>Information you choose to provide when making an enquiry, booking a service or using a wellness feature.</li><li>Appointment, service and transaction information needed to administer the requested service.</li><li>Payment-related information required to process a transaction, which may be handled through payment service providers.</li></ul></div></details>
+  <details class="mm-disclosure"><summary><span><strong>How information may be used</strong><small>Service delivery, communication, transactions and safe operation</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><ul><li>To respond to enquiries and provide the service you requested.</li><li>To manage registration, appointments and relevant communication.</li><li>To process transactions and address payment or booking issues.</li><li>To provide relevant wellness content, service information and user support.</li><li>To maintain and improve the operation and safety of the service.</li></ul></div></details>
+  <details class="mm-disclosure"><summary><span><strong>Online counselling, devices and security</strong><small>Practical steps for a more private online session</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Use a private, quiet space, minimise interruptions and use a suitable device and reliable internet connection. The specific communication platform or booking method should be confirmed with Mente Mirror at the time of the appointment.</p><p>Digital platforms carry inherent privacy and security risks. Mente Mirror aims to use reasonable safeguards, but cannot guarantee that any internet connection, device or third-party communication service is completely secure. Do not record or allow another person to join a counselling session without the knowledge and agreement of the counsellor and other participants.</p></div></details>
+  <details class="mm-disclosure"><summary><span><strong>Payments, updates and contact</strong><small>Payment handling and how to ask a privacy question</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Payment-related information is used to process the requested transaction and to resolve payment issues where necessary. Website connections and payment flows should use appropriate technical safeguards, but users should also protect their own devices, passwords and payment credentials.</p><p>Mente Mirror may update this page as its services, technology or privacy practices change.</p><p>If you have a question about privacy, confidentiality or the handling of your information, contact Mente Mirror at <a href="mailto:{{ site.email | default: 'welcome@mentemirror.com' }}">{{ site.email | default: 'welcome@mentemirror.com' }}</a> or <a href="tel:+918240203755">+91 8240203755</a>.</p></div></details>
+</div></section>

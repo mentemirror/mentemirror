@@ -44,26 +44,33 @@ permalink: /human-care/
 
     <div class="mm-card-grid mm-card-grid--3">
       <a class="mm-card" href="{{ '/human-care/psychologists/' | relative_url }}">
-        <span class="mm-card__icon" aria-hidden="true">🧠</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="brain" %}</span>
         <h2>Psychologists</h2>
         <p>Psychological assessment, counselling, behaviour change and emotional wellbeing support for individuals and families.</p>
-        <span class="mm-card__link">Explore Psychologists →</span>
+        <span class="mm-card__link">Explore Psychologists</span>
       </a>
 
       <a class="mm-card" href="{{ '/human-care/psychiatrists/' | relative_url }}">
-        <span class="mm-card__icon" aria-hidden="true">⚕️</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="medical" %}</span>
         <h2>Psychiatrists</h2>
         <p>Psychiatric evaluation and medical assessment when clinical consultation is appropriate.</p>
-        <span class="mm-card__link">Explore Psychiatrists →</span>
+        <span class="mm-card__link">Explore Psychiatrists</span>
       </a>
 
       <a class="mm-card" href="{{ '/human-care/corporate-counselling/' | relative_url }}">
-        <span class="mm-card__icon" aria-hidden="true">🏢</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="building" %}</span>
         <h2>Corporate Counselling</h2>
         <p>Workplace mental wellness and counselling support for organisations and their people.</p>
-        <span class="mm-card__link">Explore Corporate Counselling →</span>
+        <span class="mm-card__link">Explore Corporate Counselling</span>
       </a>
     </div>
+  </div>
+</section>
+
+<section class="mm-section mm-section--tight">
+  <div class="mm-container mm-fees-summary">
+    <div><span class="mm-eyebrow">Fees &amp; packages</span><h2>See counselling formats and published fees before you enquire.</h2><p>Compare individual, programme and group-counselling formats on one dedicated page.</p></div>
+    <div class="mm-actions"><a class="mm-btn mm-btn--secondary" data-cta="human-care-fees" href="{{ '/human-care/fees-packages/' | relative_url }}">View Fees &amp; Packages</a></div>
   </div>
 </section>
 
@@ -72,39 +79,39 @@ permalink: /human-care/
     <div class="mm-section-heading">
       <span class="mm-eyebrow">How we work</span>
       <h2>Care built around trust, empathy and reflection.</h2>
-      <p>The existing Mente Mirror service model highlights the following principles in the way support is delivered.</p>
+      <p>The Human Care model is guided by the following principles in the way support is delivered.</p>
     </div>
 
     <div class="mm-principle-grid">
       <div class="mm-principle-card">
         <img class="mm-source-icon" src="{{ '/assets/images/human-care/icon-01.png' | relative_url }}" alt="" loading="lazy">
         <strong>CONFIDENTIALITY</strong>
-        <span>Discussion are confidential and information is protected. Do not worry about your defense.</span>
+        <span>Conversations are handled with confidentiality and care, within the limits described in Mente Mirror’s privacy and safety information.</span>
       </div>
       <div class="mm-principle-card">
         <img class="mm-source-icon" src="{{ '/assets/images/human-care/icon-02.png' | relative_url }}" alt="" loading="lazy">
         <strong>CONNECT WITH EMPATHY</strong>
-        <span>Potent in building rapport for you to be comfortable on the 2 way street.</span>
+        <span>Empathy and rapport help create a setting where concerns can be explored openly and respectfully.</span>
       </div>
       <div class="mm-principle-card">
         <img class="mm-source-icon" src="{{ '/assets/images/human-care/icon-03.png' | relative_url }}" alt="" loading="lazy">
         <strong>ADEPT AT PSYCHOLOGICAL TESTING &amp; INTERPRETATION</strong>
-        <span>Discover youself and pursue your dreams.</span>
+        <span>Assessment and interpretation can support clearer self-understanding and more informed next steps.</span>
       </div>
       <div class="mm-principle-card">
         <img class="mm-source-icon" src="{{ '/assets/images/human-care/icon-04.png' | relative_url }}" alt="" loading="lazy">
         <strong>REFLECTION</strong>
-        <span>Inspriation towards self motivation and independence of thought.</span>
+        <span>Reflection can support self-awareness, self-motivation and more independent thinking.</span>
       </div>
       <div class="mm-principle-card">
         <img class="mm-source-icon" src="{{ '/assets/images/human-care/icon-05.png' | relative_url }}" alt="" loading="lazy">
         <strong>RELIABILITY</strong>
-        <span>A sustained paradigm shift towards a happy life is ensured.</span>
+        <span>Support is designed to be dependable and consistent; individual outcomes vary from person to person.</span>
       </div>
       <div class="mm-principle-card">
         <img class="mm-source-icon" src="{{ '/assets/images/human-care/icon-06.png' | relative_url }}" alt="" loading="lazy">
         <strong>WORK EXPERIENCE</strong>
-        <span>15 years experience in private practice, over wide spectrum of the society .</span>
+        <span>Experience across private practice and a wide range of client needs and life stages.</span>
       </div>
     </div>
   </div>

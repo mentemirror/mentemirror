@@ -1,45 +1,22 @@
 ---
 layout: mm-default
 title: Important Links
-description: Useful and important links curated by Mente Mirror.
 permalink: /resources/important-links/
-body_class: mm-important-links-page
+description: Useful Mente Mirror, mental-health and emergency support links.
 ---
-
 <section class="mm-page-hero">
-  <div class="mm-container">
-    <span class="mm-eyebrow">News &amp; Blogs · Important Links</span>
-    <h1>Important Links</h1>
-    <p>A curated collection of useful Mente Mirror and wellbeing resources.</p>
-  </div>
+  <div class="mm-container"><span class="mm-eyebrow">News &amp; Blogs</span><h1>Important links</h1><p>Useful Mente Mirror pages and official support resources in one place.</p></div>
 </section>
-
-<section class="mm-section">
+<section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <div class="mm-section-heading">
-      <span class="mm-eyebrow">Coming soon</span>
-      <h2>Useful resources in one place</h2>
-      <p>This section is being prepared. Relevant links will be reviewed and added here as the resource directory is finalised.</p>
+    <div class="mm-resource-link-grid">
+      <a class="mm-resource-link" href="{{ '/about/safety-privacy/' | relative_url }}"><span>{% include mm-icon.html name="shield" %}</span><div><h2>Privacy &amp; Safety</h2><p>Read how Mente Mirror describes privacy and website data practices.</p></div></a>
+      <a class="mm-resource-link" href="{{ '/faqs/' | relative_url }}"><span>{% include mm-icon.html name="chat" %}</span><div><h2>Frequently Asked Questions</h2><p>Answers about counselling, professionals, fees, privacy and online sessions.</p></div></a>
+      <a class="mm-resource-link" href="{{ '/contact/' | relative_url }}"><span>{% include mm-icon.html name="phone-call" %}</span><div><h2>Contact Mente Mirror</h2><p>WhatsApp, phone and email for routine appointments and enquiries.</p></div></a>
+      <a class="mm-resource-link mm-resource-link--external" href="https://www.dghs.mohfw.gov.in/national-mental-health-programme.php" target="_blank" rel="noopener"><span>{% include mm-icon.html name="support" %}</span><div><h2>Tele-MANAS</h2><p>Government of India tele-mental-health support: 14416 or 1800-89-14416.</p></div></a>
+      <a class="mm-resource-link mm-resource-link--external" href="https://www.mha.gov.in/en/commoncontent/emergency-response-support-system-erss" target="_blank" rel="noopener"><span>{% include mm-icon.html name="medical" %}</span><div><h2>Emergency Response Support System</h2><p>Official information about India's integrated emergency number, 112.</p></div></a>
+      <a class="mm-resource-link" href="{{ '/urgent-help/' | relative_url }}"><span>{% include mm-icon.html name="heart" %}</span><div><h2>Urgent Help</h2><p>A simple page explaining when to use emergency or tele-mental-health support instead of routine Mente Mirror channels.</p></div></a>
     </div>
-
-    <div class="mm-card-grid mm-card-grid--3">
-      <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">🔗</span>
-        <h2>Mente Mirror Resources</h2>
-        <p>Placeholder for important Mente Mirror resources and reference pages.</p>
-      </article>
-
-      <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">📚</span>
-        <h2>Wellbeing Resources</h2>
-        <p>Placeholder for reviewed mental-wellness information and educational resources.</p>
-      </article>
-
-      <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">🛟</span>
-        <h2>Support &amp; Safety Resources</h2>
-        <p>Placeholder for appropriate support, safety and help resources.</p>
-      </article>
-    </div>
+    <p class="mm-external-note">External links are provided for reference and open websites operated by the relevant public authorities.</p>
   </div>
 </section>

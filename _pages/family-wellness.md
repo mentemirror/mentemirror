@@ -23,11 +23,11 @@ body_class: mm-family-wellness-page
     </div>
 
     <div class="mm-family-flow" aria-label="Teen to Parent to Grandparent">
-      <div class="mm-family-flow__item"><span class="mm-family-flow__icon" aria-hidden="true">🧑‍🎓</span><strong>Teen</strong><small>Learning, emotions, focus and healthy routines</small></div>
+      <div class="mm-family-flow__item"><span class="mm-family-flow__icon" aria-hidden="true">{% include mm-icon.html name="student" %}</span><strong>Teen</strong><small>Learning, emotions, focus and healthy routines</small></div>
       <span class="mm-family-flow__arrow" aria-hidden="true">→</span>
-      <div class="mm-family-flow__item"><span class="mm-family-flow__icon" aria-hidden="true">🧑</span><strong>Parent</strong><small>Guidance, balance, communication and support</small></div>
+      <div class="mm-family-flow__item"><span class="mm-family-flow__icon" aria-hidden="true">{% include mm-icon.html name="user" %}</span><strong>Parent</strong><small>Guidance, balance, communication and support</small></div>
       <span class="mm-family-flow__arrow" aria-hidden="true">→</span>
-      <div class="mm-family-flow__item"><span class="mm-family-flow__icon" aria-hidden="true">👴</span><strong>Grandparent</strong><small>Connection, cognition, activity and independence</small></div>
+      <div class="mm-family-flow__item"><span class="mm-family-flow__icon" aria-hidden="true">{% include mm-icon.html name="senior" %}</span><strong>Grandparent</strong><small>Connection, cognition, activity and independence</small></div>
     </div>
   </div>
 </section>
@@ -42,7 +42,7 @@ body_class: mm-family-wellness-page
 
     <div class="mm-family-area-grid">
       <a class="mm-family-area-card" href="{{ '/family-wellness/family-dashboard/' | relative_url }}">
-        <span class="mm-family-area-card__icon" aria-hidden="true">📊</span>
+        <span class="mm-family-area-card__icon" aria-hidden="true">{% include mm-icon.html name="chart" %}</span>
         <span class="mm-family-area-card__kicker">Family Command Centre</span>
         <h2>Family Dashboard</h2>
         <p>A shared family overview that helps the adult keep track of routines, wellbeing signals, support needs and meaningful changes across the household.</p>
@@ -50,7 +50,7 @@ body_class: mm-family-wellness-page
       </a>
 
       <a class="mm-family-area-card" href="{{ '/family-wellness/parent-support/' | relative_url }}">
-        <span class="mm-family-area-card__icon" aria-hidden="true">🧑‍🧒</span>
+        <span class="mm-family-area-card__icon" aria-hidden="true">{% include mm-icon.html name="family" %}</span>
         <span class="mm-family-area-card__kicker">Guide without overwhelming</span>
         <h2>Parent Support</h2>
         <p>Practical support for understanding a child or adolescent’s emotional, academic, behavioural and lifestyle needs while strengthening communication at home.</p>
@@ -58,7 +58,7 @@ body_class: mm-family-wellness-page
       </a>
 
       <a class="mm-family-area-card" href="{{ '/family-wellness/senior-care/' | relative_url }}">
-        <span class="mm-family-area-card__icon" aria-hidden="true">👴</span>
+        <span class="mm-family-area-card__icon" aria-hidden="true">{% include mm-icon.html name="senior" %}</span>
         <span class="mm-family-area-card__kicker">Connected and independent</span>
         <h2>Senior Care</h2>
         <p>Support for cognitive activity, memory, mood, connection, sleep, movement and everyday wellbeing, with family awareness where appropriate.</p>
@@ -66,7 +66,7 @@ body_class: mm-family-wellness-page
       </a>
 
       <a class="mm-family-area-card" href="{{ '/family-wellness/caregiver-support/' | relative_url }}">
-        <span class="mm-family-area-card__icon" aria-hidden="true">💗</span>
+        <span class="mm-family-area-card__icon" aria-hidden="true">{% include mm-icon.html name="heart" %}</span>
         <span class="mm-family-area-card__kicker">Care for the caregiver</span>
         <h2>Caregiver Support</h2>
         <p>Tools and guidance to help caregivers stay informed, coordinate support, notice their own stress and maintain healthier boundaries while caring for someone else.</p>

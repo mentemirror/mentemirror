@@ -26,7 +26,7 @@ body_class: mm-team-page
         <img src="{{ '/assets/images/team/gopalkrishna.jpg' | relative_url }}" alt="Dr. G. Gopalakrishnan" loading="lazy">
         <div class="mm-team-photo-card__body">
           <h3>Dr. G. Gopalakrishnan</h3>
-          <p>Consultant Psychiatrist ( MBBS )</p>
+          <p>Consultant Psychiatrist · MBBS</p>
           <a class="mm-text-link" href="{{ '/human-care/psychiatrists/' | relative_url }}">View psychiatry care →</a>
         </div>
       </article>
@@ -35,7 +35,7 @@ body_class: mm-team-page
         <img src="{{ '/assets/images/team/a-nithyan.jpg' | relative_url }}" alt="Dr. A. Nithyan" loading="lazy">
         <div class="mm-team-photo-card__body">
           <h3>Dr. A. Nithyan</h3>
-          <p>Consultant Psychiatrist (DNB,)</p>
+          <p>Consultant Psychiatrist · DNB</p>
           <a class="mm-text-link" href="{{ '/human-care/psychiatrists/' | relative_url }}">View psychiatry care →</a>
         </div>
       </article>
@@ -44,7 +44,7 @@ body_class: mm-team-page
         <img src="{{ '/assets/images/team/arudhra-g.jpg' | relative_url }}" alt="Dr Arudhra G" loading="lazy">
         <div class="mm-team-photo-card__body">
           <h3>Dr Arudhra G</h3>
-          <p>Consultant Psychiatrist ( MBBS )</p>
+          <p>Consultant Psychiatrist · MBBS</p>
           <a class="mm-text-link" href="{{ '/human-care/psychiatrists/' | relative_url }}">View psychiatry care →</a>
         </div>
       </article>
@@ -62,7 +62,7 @@ body_class: mm-team-page
         <img src="{{ '/assets/images/team/somdatta-de.png' | relative_url }}" alt="Mrs Somdatta De" loading="lazy">
         <div class="mm-team-photo-card__body">
           <h3>Mrs Somdatta De</h3>
-          <p>Psychological Counselling, Spe</p>
+          <p>Psychological Counselling</p>
         </div>
       </article>
     </div>

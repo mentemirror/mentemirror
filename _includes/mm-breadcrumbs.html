@@ -1,0 +1,23 @@
+{% unless page.url == '/' or page.hide_breadcrumbs %}
+<nav class="mm-breadcrumbs" aria-label="Breadcrumb">
+  <div class="mm-container">
+    <ol class="mm-breadcrumbs__list">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      {% assign segments = page.url | split: '/' %}
+      {% assign crumb_url = '' %}
+      {% for segment in segments %}
+        {% if segment != '' %}
+          {% capture crumb_url %}{{ crumb_url }}/{{ segment }}{% endcapture %}
+          {% assign crumb_with_slash = crumb_url | append: '/' %}
+          {% assign crumb_label = site.data.mm_labels[segment] | default: segment | replace: '-', ' ' | capitalize %}
+          {% if crumb_with_slash == page.url %}
+            <li aria-current="page">{{ page.title | default: crumb_label }}</li>
+          {% else %}
+            <li><a href="{{ crumb_with_slash | relative_url }}">{{ crumb_label }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </div>
+</nav>
+{% endunless %}

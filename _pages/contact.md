@@ -1,7 +1,7 @@
 ---
 layout: mm-default
 title: Contact us
-description: Contact Mente Mirror.
+description: Contact Mente Mirror for counselling, psychiatry, programme and general enquiries.
 permalink: /contact/
 body_class: mm-contact-page
 ---
@@ -9,12 +9,32 @@ body_class: mm-contact-page
 <section class="mm-page-hero">
   <div class="mm-container">
     <span class="mm-eyebrow">Contact us</span>
-    <h1>Get in touch</h1>
+    <h1>Talk to Mente Mirror</h1>
+    <p>Choose the contact channel that works best for you. For urgent or emergency support, use the urgent-help resources rather than waiting for a routine reply.</p>
   </div>
 </section>
 
-<section class="mm-section">
-  <div class="mm-container mm-contact-grid">
+<section class="mm-section mm-section--tight">
+  <div class="mm-container">
+    <div class="mm-contact-channel-grid">
+      <a class="mm-contact-channel" href="https://wa.me/918240203755" target="_blank" rel="noopener">
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="chat" %}</span>
+        <div><span class="mm-eyebrow">WhatsApp</span><h2>Message us</h2><p>Start a conversation for appointments, programme information or general queries.</p><span class="mm-text-link">Open WhatsApp →</span></div>
+      </a>
+      <a class="mm-contact-channel" href="tel:+918240203755">
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="phone-call" %}</span>
+        <div><span class="mm-eyebrow">Phone</span><h2>Call us</h2><p>Speak with the Mente Mirror team on <strong>+91 82402 03755</strong>.</p><span class="mm-text-link">Call now →</span></div>
+      </a>
+      <a class="mm-contact-channel" href="mailto:welcome@mentemirror.com">
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="mail" %}</span>
+        <div><span class="mm-eyebrow">Email</span><h2>Write to us</h2><p>Send non-urgent enquiries to <strong>welcome@mentemirror.com</strong>.</p><span class="mm-text-link">Compose email →</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="mm-section mm-section--soft">
+  <div class="mm-container mm-contact-grid mm-contact-grid--production">
     <div class="mm-contact-map">
       <iframe
         title="Mente Mirror location map"
@@ -26,40 +46,25 @@ body_class: mm-contact-page
     </div>
 
     <div class="mm-contact-content">
-      <h2>Find Us on a <span>Map</span></h2>
-
-      <p>For any further queries or for an orientation on the modules by Mente Mirror kindly contact us in the below coordiantes.<br>
-      Alternately you may drop your message in the form below for us to revet.</p>
-
-      <div class="mm-contact-details">
+      <span class="mm-eyebrow">Locations</span>
+      <h2>Find us</h2>
+      <div class="mm-contact-address-card">
+        <h3>Kolkata</h3>
         <p>13B, Ozone Apartments, Block-5, Eastern Metropolitan Bypass, Kamalgazi, Narendrapur, Kolkata, West Bengal 700103</p>
-
-        <h3>Regd Office</h3>
-        <p>G-3, 602, Pramukh Green,<br>Chala Road, Vapi -396191, Gujarat, India</p>
-
-        <p><a href="https://wa.link/4vghzo">+91- 8240203755</a></p>
-        <p><a href="mailto:welcome@mentemirror.com">welcome@mentemirror.com</a></p>
       </div>
-
-      <form class="mm-contact-form" action="mailto:welcome@mentemirror.com" method="post" enctype="text/plain">
-        <div class="mm-contact-form__row">
-          <input type="text" name="first-name" placeholder="First Name">
-          <input type="text" name="last-name" placeholder="Last Name">
-        </div>
-        <div class="mm-contact-form__row">
-          <input type="tel" name="phone" placeholder="Phone">
-          <input type="email" name="email" placeholder="Enter Email">
-        </div>
-        <textarea name="message" placeholder="Message" rows="5"></textarea>
-        <button class="mm-btn mm-btn-primary" type="submit">Send Message</button>
-      </form>
+      <div class="mm-contact-address-card">
+        <h3>Registered office</h3>
+        <p>G-3, 602, Pramukh Green, Chala Road, Vapi - 396191, Gujarat, India</p>
+      </div>
+      <p class="mm-contact-guidance">For a counselling or psychiatry enquiry, it can help to mention whether the support is for you or a family member and a convenient time for the team to contact you.</p>
     </div>
   </div>
 </section>
 
-<section class="mm-contact-cta">
-  <div class="mm-container">
-    <h2>Get a Consultation Right Now!</h2>
-    <p>We are a group of professional and experienced psychologists and psychiatrists</p>
+<section class="mm-section mm-section--tight">
+  <div class="mm-container mm-contact-safety">
+    <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="shield" %}</span>
+    <div><h2>Need urgent help?</h2><p>Routine contact channels are not monitored as an emergency service.</p></div>
+    <a class="mm-btn mm-btn--secondary" href="{{ '/urgent-help/' | relative_url }}">View urgent-help resources</a>
   </div>
 </section>

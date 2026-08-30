@@ -24,7 +24,7 @@ body_class: mm-family-detail-page
         <p>It is not intended to turn private conversations into surveillance. The useful role of a family dashboard is to make agreed, relevant information easier to understand and coordinate.</p>
       </div>
       <aside class="mm-family-summary-card">
-        <span class="mm-family-summary-card__icon" aria-hidden="true">👨‍👩‍👧‍👦</span>
+        <span class="mm-family-summary-card__icon" aria-hidden="true">{% include mm-icon.html name="family" %}</span>
         <h3>One family view</h3>
         <p>Teen, parent and grandparent needs can be different while still belonging to the same support ecosystem.</p>
       </aside>
@@ -39,12 +39,12 @@ body_class: mm-family-detail-page
       <h2>Useful context without unnecessary complexity</h2>
     </div>
     <div class="mm-card-grid mm-card-grid--3">
-      <article class="mm-card"><span class="mm-card__icon">👤</span><h3>Family profiles</h3><p>Age-appropriate profiles for family members, reflecting different wellness priorities and support needs.</p></article>
-      <article class="mm-card"><span class="mm-card__icon">✅</span><h3>Check-in overview</h3><p>A simple view of agreed check-ins and changes that may deserve attention over time.</p></article>
-      <article class="mm-card"><span class="mm-card__icon">🌙</span><h3>Daily routines</h3><p>High-level context around sleep, activity and other routines where those signals are available and shared.</p></article>
-      <article class="mm-card"><span class="mm-card__icon">📈</span><h3>Wellbeing trends</h3><p>Patterns can be easier to understand when viewed over time rather than reacting to a single difficult day.</p></article>
-      <article class="mm-card"><span class="mm-card__icon">🔔</span><h3>Family alerts</h3><p>Meaningful notifications can help the responsible adult know when a family member may need a conversation or additional support.</p></article>
-      <article class="mm-card"><span class="mm-card__icon">🤝</span><h3>Support coordination</h3><p>Keep wellness actions, caregiver responsibilities and relevant human support easier to coordinate.</p></article>
+      <article class="mm-card"><span class="mm-card__icon">{% include mm-icon.html name="user" %}</span><h3>Family profiles</h3><p>Age-appropriate profiles for family members, reflecting different wellness priorities and support needs.</p></article>
+      <article class="mm-card"><span class="mm-card__icon">{% include mm-icon.html name="check" %}</span><h3>Check-in overview</h3><p>A simple view of agreed check-ins and changes that may deserve attention over time.</p></article>
+      <article class="mm-card"><span class="mm-card__icon">{% include mm-icon.html name="moon" %}</span><h3>Daily routines</h3><p>High-level context around sleep, activity and other routines where those signals are available and shared.</p></article>
+      <article class="mm-card"><span class="mm-card__icon">{% include mm-icon.html name="chart" %}</span><h3>Wellbeing trends</h3><p>Patterns can be easier to understand when viewed over time rather than reacting to a single difficult day.</p></article>
+      <article class="mm-card"><span class="mm-card__icon">{% include mm-icon.html name="bell" %}</span><h3>Family alerts</h3><p>Meaningful notifications can help the responsible adult know when a family member may need a conversation or additional support.</p></article>
+      <article class="mm-card"><span class="mm-card__icon">{% include mm-icon.html name="handshake" %}</span><h3>Support coordination</h3><p>Keep wellness actions, caregiver responsibilities and relevant human support easier to coordinate.</p></article>
     </div>
   </div>
 </section>

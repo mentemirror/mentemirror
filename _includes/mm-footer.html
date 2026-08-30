@@ -6,7 +6,7 @@
         {% include mm-logo.html class="mm-brand__logo mm-brand__logo--footer" width=250 height=84 %}
       </a>
       <p class="mm-footer__intro">Preventive, personalised mental wellness combining psychology, technology and human care.</p>
-      <p class="mm-footer__team">A team of Psychologists and Psychiatrists</p>
+      <p class="mm-footer__team">Psychologists and psychiatrists within one Human Care ecosystem</p>
     </div>
 
     {% for group in site.data.mm_navigation.footer %}
@@ -21,14 +21,33 @@
     {% endfor %}
 
     <div class="mm-footer__contact">
-      <h2>Locate us</h2>
+      <h2>Contact</h2>
       <p>{{ site.address | default: '13B, Ozone Apartments, Block-5, Eastern Metropolitan Bypass, Kamalgazi, Narendrapur, Kolkata, West Bengal 700103' }}</p>
-      <p><a href="{{ site.whatsapp_url | default: 'https://wa.me/918240203755' }}">{{ site.phone_display | default: '+91- 8240203755' }}</a></p>
+      <p><a href="tel:+918240203755">{{ site.phone_display | default: '+91- 8240203755' }}</a></p>
       <p><a href="mailto:{{ site.email | default: 'welcome@mentemirror.com' }}">{{ site.email | default: 'welcome@mentemirror.com' }}</a></p>
     </div>
   </div>
 
+  <div class="mm-footer__urgent">
+    <div class="mm-container mm-footer__urgent-inner">
+      <div>
+        <strong>Need urgent mental-health support?</strong>
+        <span>Mente Mirror is not an emergency service.</span>
+      </div>
+      <div class="mm-footer__urgent-links">
+        <a href="tel:14416">Tele-MANAS 14416</a>
+        <a href="tel:112">Emergency 112</a>
+        <a href="{{ '/urgent-help/' | relative_url }}">View urgent-help resources →</a>
+      </div>
+    </div>
+  </div>
+
   <div class="mm-footer__legal">
+    <div class="mm-container mm-footer__business">
+      <span>MSME: {{ site.msme_number | default: 'UDYAM-GJ-25-0006643' }}</span>
+      <span aria-hidden="true">•</span>
+      <span>GSTIN: {{ site.gstin | default: '24ALMPD5984B1Z6' }}</span>
+    </div>
     <div class="mm-container mm-footer__bottom">
       <p>© {{ 'now' | date: '%Y' }} Mente Mirror. All Rights Reserved.</p>
       <div class="mm-footer__legal-links">

@@ -1,0 +1,19 @@
+---
+layout: mm-default
+title: Get Started
+description: A simple first-time-user guide to choosing between a Wellness Check, Mjuzi AI Wellness and Human Care at Mente Mirror.
+permalink: /get-started/
+body_class: mm-get-started-page
+---
+
+<section class="mm-page-hero mm-get-started-hero"><div class="mm-container"><span class="mm-eyebrow">New to Mente Mirror?</span><h1>Start with what you need today.</h1><p>You do not need to understand every Mente Mirror feature before taking the first step. Choose a goal, take one action, then decide what comes next.</p></div></section>
+
+<section class="mm-section mm-section--tight"><div class="mm-container">
+  <ol class="mm-onboarding" aria-label="First-time user journey">
+    <li><span class="mm-onboarding__number">1</span><div><span class="mm-eyebrow">Choose your goal</span><h2>What brought you here?</h2><div class="mm-onboarding-options"><a href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">I want to understand how I’m doing</a><a href="{{ '/ai-wellness/' | relative_url }}">I want everyday wellness support</a><a href="{{ '/human-care/psychologists/' | relative_url }}">I want to talk to a professional</a><a href="{{ '/family-wellness/' | relative_url }}">I’m supporting someone else</a></div></div></li>
+    <li><span class="mm-onboarding__number">2</span><div><span class="mm-eyebrow">Choose a starting route</span><h2>Begin small or go directly to human care.</h2><div class="mm-onboarding-route-grid"><article><span>{% include mm-icon.html name="clipboard" %}</span><strong>Wellness Check</strong><p>A self-guided starting point when you want structured reflection.</p></article><article><span>{% include mm-icon.html name="sparkles" %}</span><strong>Mjuzi</strong><p>For recurring AI-supported reflection, tools and available wearable context.</p></article><article><span>{% include mm-icon.html name="users" %}</span><strong>Human Care</strong><p>For counselling, professional assessment or psychiatric support.</p></article></div></div></li>
+    <li><span class="mm-onboarding__number">3</span><div><span class="mm-eyebrow">Know what happens next</span><h2>Each route has a different next step.</h2><p>A Wellness Check continues to the Mente Mirror app for registration and self-assessment. Mjuzi explains the digital wellness experience and available capabilities. Human Care leads you toward the appropriate psychologist, psychiatrist or enquiry route.</p><p class="mm-inline-choice-note">If you are specifically considering assessment, <a href="{{ '/understand-yourself/' | relative_url }}">compare Wellness Check, Psychological Tests and Professional Assessment</a> before you choose.</p></div></li>
+    <li><span class="mm-onboarding__number">4</span><div><span class="mm-eyebrow">Choose your next step</span><h2>Use the lightest level of support that fits—and escalate when you need more.</h2><p>You can move from self-reflection to everyday tools or human care as your needs change. Mjuzi and self-assessment do not replace professional or emergency care.</p><div class="mm-actions"><a class="mm-btn mm-btn--primary" data-cta="onboarding-wellness" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Start My Wellness Check</a><a class="mm-btn mm-btn--secondary" data-cta="onboarding-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}">Talk to a Psychologist</a><a class="mm-btn mm-btn--ghost" data-cta="onboarding-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Explore Mjuzi</a></div></div></li>
+  </ol>
+  <div class="mm-safety-callout" role="note"><span>{% include mm-icon.html name="medical" %}</span><p><strong>Need urgent help?</strong> Mente Mirror is not an emergency service. If you are in immediate danger or experiencing a mental-health crisis, use the <a href="{{ '/urgent-help/' | relative_url }}">urgent-help resources</a>.</p></div>
+</div></section>

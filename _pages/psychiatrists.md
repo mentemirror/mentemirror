@@ -75,8 +75,8 @@ body_class: mm-psychiatrists-page
   <div class="mm-container">
     <div class="mm-section-heading">
       <span class="mm-eyebrow">Meet our specialists</span>
-      <h2>Psychiatrists listed by Mente Mirror.</h2>
-      <p>The current Mente Mirror psychiatric consultation service lists the following specialists.</p>
+      <h2>Meet the psychiatry specialists</h2>
+      <p>Mente Mirror publishes the following specialists as part of its psychiatry care offering.</p>
     </div>
 
     <div class="mm-specialists-grid">
@@ -84,8 +84,8 @@ body_class: mm-psychiatrists-page
         <img class="mm-specialist-card__photo" src="{{ '/assets/images/team/gopalkrishna.jpg' | relative_url }}" alt="Dr. G. Gopalakrishnan" loading="lazy">
         <div>
           <h3>Dr. G. Gopalakrishnan</h3>
-          <p class="mm-specialist-card__role">Consultant Psychiatrist ( MBBS )</p>
-          <p>An experienced consultant psychiatrist currently listed on Mente Mirror's specialist panel.</p>
+          <p class="mm-specialist-card__role">Consultant Psychiatrist · MBBS</p>
+          <p>Consultant psychiatrist on Mente Mirror's specialist panel.</p>
         </div>
       </article>
 
@@ -93,8 +93,8 @@ body_class: mm-psychiatrists-page
         <img class="mm-specialist-card__photo" src="{{ '/assets/images/team/a-nithyan.jpg' | relative_url }}" alt="Dr. A. Nithyan" loading="lazy">
         <div>
           <h3>Dr. A. Nithyan</h3>
-          <p class="mm-specialist-card__role">Consultant Psychiatrist (DNB,)</p>
-          <p>Consultant psychiatrist currently listed on Mente Mirror's specialist panel.</p>
+          <p class="mm-specialist-card__role">Consultant Psychiatrist · DNB</p>
+          <p>Consultant psychiatrist on Mente Mirror's specialist panel.</p>
         </div>
       </article>
 
@@ -102,8 +102,8 @@ body_class: mm-psychiatrists-page
         <img class="mm-specialist-card__photo" src="{{ '/assets/images/team/arudhra-g.jpg' | relative_url }}" alt="Dr Arudhra G" loading="lazy">
         <div>
           <h3>Dr Arudhra G</h3>
-          <p class="mm-specialist-card__role">Consultant Psychiatrist ( MBBS )</p>
-          <p>Consultant psychiatrist currently listed on Mente Mirror's specialist panel.</p>
+          <p class="mm-specialist-card__role">Consultant Psychiatrist · MBBS</p>
+          <p>Consultant psychiatrist on Mente Mirror's specialist panel.</p>
         </div>
       </article>
     </div>
@@ -113,7 +113,7 @@ body_class: mm-psychiatrists-page
 <section class="mm-section mm-section--tight">
   <div class="mm-container">
     <div class="mm-clinical-note">
-      <span class="mm-clinical-note__icon" aria-hidden="true">⚕️</span>
+      <span class="mm-clinical-note__icon" aria-hidden="true">{% include mm-icon.html name="medical" %}</span>
       <div>
         <h2>Psychiatry within the Mente Mirror ecosystem</h2>
         <p>Psychiatrists provide the medical and clinical perspective within Human Care. Psychological counselling and wellness support remain distinct parts of the ecosystem, with psychiatric evaluation added when the person's needs warrant medical assessment.</p>

@@ -39,6 +39,15 @@ body_class: mm-psychologists-page
   </div>
 </section>
 
+<section class="mm-section mm-section--care-standards">
+  <div class="mm-container mm-care-standards">
+    <div><span>{% include mm-icon.html name="users" %}</span><strong>Professional roles</strong><p>Meet the psychologists, counsellors and psychiatrists published by Mente Mirror.</p><a href="{{ '/about/team/' | relative_url }}">Meet the team →</a></div>
+    <div><span>{% include mm-icon.html name="clipboard" %}</span><strong>Assessment &amp; counselling</strong><p>Psychological assessment and counselling are matched to the person's concern and goals.</p></div>
+    <div><span>{% include mm-icon.html name="medical" %}</span><strong>Medical referral</strong><p>Psychiatric evaluation can be added when medical assessment is appropriate.</p></div>
+    <div><span>{% include mm-icon.html name="shield" %}</span><strong>Clear care boundaries</strong><p>Wellness technology supports the journey; it does not replace emergency or medical care.</p></div>
+  </div>
+</section>
+
 <section class="mm-section mm-section--soft">
   <div class="mm-container">
     <div class="mm-section-heading mm-section-heading--center">
@@ -49,32 +58,32 @@ body_class: mm-psychologists-page
 
     <div class="mm-support-grid">
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">👤</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="user" %}</span>
         <h3>Individual counselling</h3>
         <p>One-to-one support focused on personal concerns, reflection, coping and wellbeing.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🎓</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="student" %}</span>
         <h3>Adolescent counselling</h3>
         <p>Support for young people navigating emotional, behavioural, academic and developmental concerns.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🤝</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="handshake" %}</span>
         <h3>Relationship counselling</h3>
         <p>Support for relationship concerns, communication and interpersonal difficulties.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🧭</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="compass" %}</span>
         <h3>Career / academic counselling</h3>
         <p>Support around academic pressures, career-related concerns and personal development.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">👨‍👩‍👧</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="family" %}</span>
         <h3>Family counselling</h3>
         <p>Support around family relationships, communication and conflict.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🌿</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="leaf" %}</span>
         <h3>Stress / burnout support</h3>
         <p>Support for understanding stress, developing coping strategies and restoring balance.</p>
       </article>
@@ -83,123 +92,29 @@ body_class: mm-psychologists-page
 </section>
 
 <section class="mm-section">
-  <div class="mm-container">
-    <div class="mm-section-heading">
-      <span class="mm-eyebrow">Across life stages</span>
-      <h2>Existing Mente Mirror counselling programmes</h2>
-      <p>The current Mente Mirror counselling service describes age- and life-stage-oriented programmes for children, adolescents, adults and seniors.</p>
-    </div>
-
-    <div class="mm-program-grid">
-      <article class="mm-program-card mm-program-card--pupa">
-        <span class="mm-program-card__label">Children</span>
-        <h3>PUPA</h3>
-        <p>For children from primary to middle school, with a focus on positive parenting, discipline and appropriate behaviour. The programme centres on helping children accept, appreciate and align their thoughts as they develop responsibility and independence as learners.</p>
-      </article>
-
-      <article class="mm-program-card mm-program-card--young">
-        <span class="mm-program-card__label">Adolescents</span>
-        <h3>Young Achievers</h3>
-        <p>For secondary and higher-secondary students, focusing on thinking, social and emotional life skills. The programme aims to help young people discover, design and deliver their potential, supported by psychometric tools where appropriate.</p>
-      </article>
-
-      <article class="mm-program-card mm-program-card--warriors">
-        <span class="mm-program-card__label">Adults</span>
-        <h3>Warriors</h3>
-        <p>For adults, with a focus on developing appropriate coping mechanisms and working more constructively within different relationships.</p>
-      </article>
-
-      <article class="mm-program-card mm-program-card--sanity">
-        <span class="mm-program-card__label">Seniors</span>
-        <h3>Sanity</h3>
-        <p>For senior adults, with a focus on restoring inner harmony and peace and helping create a greater sense of direction in life.</p>
-      </article>
-    </div>
+  <div class="mm-container mm-disclosure-stack">
+    <div class="mm-section-heading"><span class="mm-eyebrow">Explore when relevant</span><h2>Programmes and counselling formats</h2><p>Open the details that match your age group or preferred format.</p></div>
+    <details class="mm-disclosure"><summary><span><strong>Counselling programmes by life stage</strong><small>PUPA, Young Achievers, Warriors and Sanity</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><div class="mm-program-grid">
+      <article class="mm-program-card mm-program-card--pupa"><span class="mm-program-card__label">Children</span><h3>PUPA</h3><span class="mm-program-card__descriptor">Child life-skills programme</span><p>For children from primary to middle school, with a focus on positive parenting, discipline and appropriate behaviour. The programme centres on helping children accept, appreciate and align their thoughts as they develop responsibility and independence as learners.</p></article>
+      <article class="mm-program-card mm-program-card--young"><span class="mm-program-card__label">Adolescents</span><h3>Young Achievers</h3><span class="mm-program-card__descriptor">Adolescent wellbeing programme</span><p>For secondary and higher-secondary students, focusing on thinking, social and emotional life skills. The programme aims to help young people discover, design and deliver their potential, supported by psychometric tools where appropriate.</p></article>
+      <article class="mm-program-card mm-program-card--warriors"><span class="mm-program-card__label">Adults</span><h3>Warriors</h3><span class="mm-program-card__descriptor">Adult coping &amp; relationships programme</span><p>For adults, with a focus on developing appropriate coping mechanisms and working more constructively within different relationships.</p></article>
+      <article class="mm-program-card mm-program-card--sanity"><span class="mm-program-card__label">Seniors</span><h3>Sanity</h3><span class="mm-program-card__descriptor">Senior wellbeing programme</span><p>For senior adults, with a focus on restoring inner harmony and peace and helping create a greater sense of direction in life.</p></article>
+    </div></div></details>
+    <details class="mm-disclosure"><summary><span><strong>Compare individual and group counselling</strong><small>Understand the difference before you choose.</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><div class="mm-split mm-counselling-formats">
+      <article class="mm-card"><span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="chat" %}</span><h2>Individual counselling</h2><p>A one-to-one process in which the client works with a counsellor in a confidential, professional, safe and sensitive environment. The focus is on personal concerns, insight, coping and practical change.</p></article>
+      <article class="mm-card"><span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="users" %}</span><h2>Group counselling</h2><p>Group counselling brings several clients together to explore interpersonal relationships. Group formats can support areas such as anger management, mindfulness, relaxation training, family conflict management and stress management.</p></article>
+    </div></div></details>
   </div>
 </section>
 
-<section class="mm-section mm-section--soft">
-  <div class="mm-container">
-    <div class="mm-section-heading">
-      <span class="mm-eyebrow">Counselling formats</span>
-      <h2>Individual and group counselling</h2>
+<section class="mm-section mm-section--fees-summary">
+  <div class="mm-container mm-fees-summary">
+    <div>
+      <span class="mm-eyebrow">Fees &amp; packages</span>
+      <h2>Compare programme structure and published fees separately.</h2>
+      <p>To keep this page focused on choosing the right kind of support, detailed session structures, payment schedules and group-counselling fees are available on one dedicated page.</p>
     </div>
-
-    <div class="mm-split mm-counselling-formats">
-      <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">💬</span>
-        <h2>Individual counselling</h2>
-        <p>A one-to-one process in which the client works with a counsellor in a confidential, professional, safe and sensitive environment. The focus is on personal concerns, insight, coping and practical change.</p>
-      </article>
-      <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">👥</span>
-        <h2>Group counselling</h2>
-        <p>Group counselling brings several clients together to explore interpersonal relationships. The current service describes its use for areas such as anger management, mindfulness, relaxation training, family conflict management and stress management.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="mm-section">
-  <div class="mm-container">
-    <div class="mm-section-heading">
-      <span class="mm-eyebrow">Current counselling programmes</span>
-      <h2>Programme structure and fees</h2>
-      <p>The following programme information is carried forward from the current Mente Mirror Counselling Services page.</p>
-    </div>
-
-    <div class="mm-testing-table-wrap" role="region" aria-label="Counselling programmes, sessions, tests, payment schedule and fees" tabindex="0">
-      <table class="mm-testing-table mm-counselling-table">
-        <thead>
-          <tr>
-            <th scope="col">Programme</th>
-            <th scope="col">Target group</th>
-            <th scope="col">Counselling sessions</th>
-            <th scope="col">Tests required</th>
-            <th scope="col">Payment schedule</th>
-            <th scope="col">Fees (Inclusive Taxes)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td data-label="Programme"><strong>Single Session</strong></td><td data-label="Target group">Any</td><td data-label="Sessions">1</td><td data-label="Tests">Additional as required</td><td data-label="Payment">Advance during appointment booking</td><td data-label="Fees">₹1,200</td></tr>
-          <tr><td data-label="Programme"><strong>Couple Counselling</strong></td><td data-label="Target group">Couple</td><td data-label="Sessions">1</td><td data-label="Tests">Additional as required</td><td data-label="Payment">During appointment booking</td><td data-label="Fees">₹2,000</td></tr>
-          <tr><td data-label="Programme"><strong>PUPA</strong></td><td data-label="Target group">Students 6–11 years</td><td data-label="Sessions">16 (4 sessions / month)</td><td data-label="Tests">2 mandatory psychometric tests</td><td data-label="Payment">1st instalment – ₹4,500 at start-up</td><td data-label="Fees">₹10,500</td></tr>
-          <tr><td data-label="Programme"><strong>Young Achievers</strong></td><td data-label="Target group">Students 12–16 years</td><td data-label="Sessions">24 sessions*</td><td data-label="Tests">5 mandatory psychometric tests</td><td data-label="Payment">1st instalment – ₹4,500 at start-up</td><td data-label="Fees">₹20,000</td></tr>
-          <tr><td data-label="Programme"><strong>Warriors</strong></td><td data-label="Target group">Adult professionals</td><td data-label="Sessions">16</td><td data-label="Tests">Additional as required</td><td data-label="Payment">1st instalment – ₹5,000 at start-up</td><td data-label="Fees">₹15,000</td></tr>
-          <tr><td data-label="Programme"><strong>Sanity</strong></td><td data-label="Target group">More than 55 years</td><td data-label="Sessions">10</td><td data-label="Tests">Nil</td><td data-label="Payment">1st instalment – ₹4,000 at start-up</td><td data-label="Fees">₹8,000</td></tr>
-          <tr><td data-label="Programme"><strong>Pre-Marital Counselling</strong></td><td data-label="Target group">Bride, groom and their families</td><td data-label="Sessions">3</td><td data-label="Tests">Nil</td><td data-label="Payment">₹3,000 at 1st appointment</td><td data-label="Fees">₹5,000</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="mm-source-note"><strong>*Source note:</strong> the current legacy table renders the Young Achievers session field ambiguously as “Charge 24 sessions 16”. This page shows 24 sessions as the clearest visible programme quantity; confirm this figure before production launch.</p>
-  </div>
-</section>
-
-<section class="mm-section mm-section--soft">
-  <div class="mm-container">
-    <div class="mm-section-heading">
-      <span class="mm-eyebrow">Group counselling</span>
-      <h2>Current group counselling formats</h2>
-      <p>The legacy Counselling Services page also lists group formats for students, professionals and families.</p>
-    </div>
-
-    <div class="mm-testing-table-wrap" role="region" aria-label="Group counselling formats and fees" tabindex="0">
-      <table class="mm-testing-table mm-counselling-table">
-        <thead>
-          <tr>
-            <th scope="col">Target group</th>
-            <th scope="col">Participants</th>
-            <th scope="col">Payment schedule</th>
-            <th scope="col">Fees (Inclusive Taxes)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td data-label="Target group"><strong>Students – Life skill activities</strong></td><td data-label="Participants">10–20</td><td data-label="Payment">Full advance</td><td data-label="Fees">₹6,000</td></tr>
-          <tr><td data-label="Target group"><strong>Professionals</strong></td><td data-label="Participants">10–20</td><td data-label="Payment">Full advance</td><td data-label="Fees">₹10,000</td></tr>
-          <tr><td data-label="Target group"><strong>Marital / Family (12 sessions)</strong></td><td data-label="Participants">Family members as needed</td><td data-label="Payment">₹3,000 at 1st appointment</td><td data-label="Fees">₹15,000</td></tr>
-        </tbody>
-      </table>
-    </div>
+    <div class="mm-actions"><a class="mm-btn mm-btn--primary" data-cta="psychologists-fees" href="{{ '/human-care/fees-packages/' | relative_url }}">View Fees &amp; Packages</a><a class="mm-btn mm-btn--ghost" data-cta="psychologists-contact" href="{{ '/contact/' | relative_url }}">Ask About a Programme</a></div>
   </div>
 </section>
 
@@ -215,11 +130,13 @@ body_class: mm-psychologists-page
         <div class="mm-counselling-step"><span>2</span><div><strong>Choose Therapy</strong><p>Identify the support that fits your need and relevant age group.</p></div></div>
         <div class="mm-counselling-step"><span>3</span><div><strong>Book Appointment</strong><p>Select a suitable time slot and complete the booking process.</p></div></div>
       </div>
-      <p class="mm-source-note">These steps are presented as information only; no additional off-sitemap destination pages have been introduced.</p>
+
     </div>
 
     <div class="mm-actions">
-      <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">← Back to Human Care</a>
+      <a class="mm-btn mm-btn--primary" data-cta="psychologists-book" href="{{ '/contact/' | relative_url }}">Book / Enquire</a>
+      <a class="mm-btn mm-btn--secondary" href="{{ '/human-care/fees-packages/' | relative_url }}">View Fees &amp; Packages</a>
+      <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">Back to Human Care</a>
     </div>
   </div>
 </section>

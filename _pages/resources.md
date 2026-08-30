@@ -1,12 +1,12 @@
 ---
 layout: mm-default
-title: News & Blogs
-description: Blogs, news, FAQs, testimonials and important links from Mente Mirror.
+title: Resources
+description: Wellness articles, Mente Mirror updates, FAQs, client experiences and useful reference links.
 permalink: /resources/
 ---
 <section class="mm-page-hero">
   <div class="mm-container">
-    <span class="mm-eyebrow">News & Blogs</span>
+    <span class="mm-eyebrow">Resources</span>
     <h1>Learn, reflect and stay informed.</h1>
     <p>Explore blogs, news, frequently asked questions, testimonials and important links from Mente Mirror.</p>
   </div>

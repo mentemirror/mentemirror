@@ -52,32 +52,32 @@ body_class: mm-corporate-page
 
     <div class="mm-support-grid">
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🌿</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="leaf" %}</span>
         <h3>Stress &amp; burnout</h3>
         <p>Help employees recognise pressure, understand their responses and develop practical coping strategies before strain becomes overwhelming.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">⚖️</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="balance" %}</span>
         <h3>Work-life balance</h3>
         <p>Support people in managing boundaries, competing responsibilities and the emotional load created by work and personal demands.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🧠</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="brain" %}</span>
         <h3>Emotional regulation</h3>
         <p>Build greater awareness of emotions and healthier ways of responding to difficult situations, pressure and uncertainty.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🤝</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="handshake" %}</span>
         <h3>Workplace relationships</h3>
         <p>Support communication, interpersonal understanding and constructive responses to conflict or difficult working relationships.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">🧭</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="compass" %}</span>
         <h3>Change &amp; uncertainty</h3>
         <p>Help employees navigate transitions, role changes, uncertainty and the personal impact of changing work environments.</p>
       </article>
       <article class="mm-support-card">
-        <span class="mm-support-card__icon" aria-hidden="true">⚡</span>
+        <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="bolt" %}</span>
         <h3>Resilience &amp; coping</h3>
         <p>Strengthen self-awareness and coping skills so people are better equipped to recover, adapt and move forward.</p>
       </article>
@@ -95,17 +95,17 @@ body_class: mm-corporate-page
 
     <div class="mm-card-grid mm-card-grid--3 mm-counselling-formats">
       <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">👤</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="user" %}</span>
         <h2>One-to-one counselling</h2>
         <p>Confidential individual sessions that give employees space to discuss personal or work-related concerns with a psychologist in a safe and sensitive setting.</p>
       </article>
       <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">👥</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="users" %}</span>
         <h2>Group sessions</h2>
         <p>Facilitated group support around themes such as stress management, mindfulness, relaxation, interpersonal relationships and emotional wellbeing.</p>
       </article>
       <article class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">💡</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="bulb" %}</span>
         <h2>Workshops &amp; wellbeing programmes</h2>
         <p>Structured learning sessions that can focus on practical skills such as emotional agility, self-awareness, resilience and healthier responses to workplace pressure.</p>
       </article>
@@ -155,7 +155,7 @@ body_class: mm-corporate-page
         <p>Where corporate support includes individual counselling, personal conversations should remain separate from routine organisational communication. The purpose of the programme is to support the person—not to turn a counselling session into a performance-management process.</p>
       </div>
       <aside class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">🛡️</span>
+        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="shield" %}</span>
         <h2>Human-centred by design</h2>
         <p>Confidentiality, rapport, reflection and professional interpretation are recurring principles across Mente Mirror's existing counselling services and remain important in the workplace context.</p>
       </aside>
@@ -171,7 +171,7 @@ body_class: mm-corporate-page
     </div>
     <div class="mm-outcome-card">
       <p>Mente Mirror's current testimonials include feedback from an HR Head following an <strong>emotional agility training programme</strong>, highlighting the usefulness of the tools and concepts shared for individual life and describing the programme as effective and powerful.</p>
-      <p class="mm-source-note">This section is based on an existing Mente Mirror corporate-client testimonial and is presented here as evidence of prior corporate-oriented wellbeing work.</p>
+      <p class="mm-service-caveat">Corporate programmes can be adapted to the organisation, group size and agreed wellbeing objectives.</p>
     </div>
   </div>
 </section>

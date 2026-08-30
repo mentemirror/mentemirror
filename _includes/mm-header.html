@@ -1,11 +1,3 @@
-<div class="mm-registration-bar">
-  <div class="mm-container">
-    <span>GOVERNMENT OF INDIA - MSME REGISTERED NUMBER :- {{ site.msme_number | default: 'UDYAM-GJ-25-0006643' }}</span>
-    <span class="mm-registration-divider">|</span>
-    <span>GSTIN {{ site.gstin | default: '24ALMPD5984B1Z6' }}</span>
-  </div>
-</div>
-
 <header class="mm-header" data-header>
   <div class="mm-utility">
     <div class="mm-container mm-utility__inner">
@@ -16,10 +8,10 @@
       <div class="mm-utility__right">
         <div class="mm-utility__message">A team of Psychologists and Psychiatrists</div>
         <a class="mm-phone" href="{{ site.whatsapp_url | default: 'https://wa.me/918240203755' }}">
-          <span aria-hidden="true">☎</span>
+          <span class="mm-phone__icon" aria-hidden="true">{% include mm-icon.html name="phone-call" %}</span>
           <span>{{ site.phone_display | default: '+91- 8240203755' }}</span>
         </a>
-        <a class="mm-appointment" href="{{ '/contact/' | relative_url }}">MAKE AN APPOINTMENT</a>
+        <a class="mm-appointment" href="{{ '/contact/' | relative_url }}">Book an appointment</a>
       </div>
     </div>
   </div>
@@ -35,18 +27,18 @@
         <ul class="mm-nav__list">
           {% for item in site.data.mm_navigation.main %}
             <li class="mm-nav__item{% if item.children %} has-children{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              <a href="{{ item.url | relative_url }}" data-nav-link>{{ item.title }}</a>
               {% if item.children %}
-                <button class="mm-submenu-toggle" type="button" aria-label="Open {{ item.title }} menu" aria-expanded="false" data-submenu-toggle>⌄</button>
+                <button class="mm-submenu-toggle" type="button" aria-label="Open {{ item.title }} menu" aria-expanded="false" data-submenu-toggle><span class="mm-submenu-toggle__icon" aria-hidden="true">{% include mm-icon.html name="chevron" %}</span></button>
                 <ul class="mm-submenu">
                   {% for child in item.children %}
                     <li class="mm-submenu__item{% if child.children %} has-children{% endif %}">
-                      <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+                      <a href="{{ child.url | relative_url }}" data-nav-link>{{ child.title }}</a>
                       {% if child.children %}
-                        <button class="mm-submenu-toggle mm-submenu-toggle--nested" type="button" aria-label="Open {{ child.title }} menu" aria-expanded="false" data-submenu-toggle>›</button>
+                        <button class="mm-submenu-toggle mm-submenu-toggle--nested" type="button" aria-label="Open {{ child.title }} menu" aria-expanded="false" data-submenu-toggle><span class="mm-submenu-toggle__icon" aria-hidden="true">{% include mm-icon.html name="chevron" %}</span></button>
                         <ul class="mm-submenu mm-submenu--nested">
                           {% for grandchild in child.children %}
-                            <li><a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a></li>
+                            <li><a href="{{ grandchild.url | relative_url }}" data-nav-link>{{ grandchild.title }}</a></li>
                           {% endfor %}
                         </ul>
                       {% endif %}
@@ -60,4 +52,5 @@
       </nav>
     </div>
   </div>
+  <div class="mm-nav-backdrop" data-menu-backdrop aria-hidden="true"></div>
 </header>

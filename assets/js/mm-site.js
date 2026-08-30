@@ -1,4 +1,54 @@
 (() => {
+
+  const header = document.querySelector('[data-header]');
+  const menuBackdrop = document.querySelector('[data-menu-backdrop]');
+
+  const normalizePath = (value) => {
+    try {
+      const url = new URL(value, window.location.origin);
+      let path = url.pathname.replace(/\/index\.html$/i, '/').replace(/\/{2,}/g, '/');
+      if (!path.endsWith('/')) path += '/';
+      return path;
+    } catch (_) {
+      return '/';
+    }
+  };
+
+  const currentPath = normalizePath(window.location.href);
+  const navLinks = Array.from(document.querySelectorAll('[data-nav-link]'));
+  let bestMatch = null;
+  let bestLength = -1;
+
+  navLinks.forEach((link) => {
+    const linkPath = normalizePath(link.href);
+    if (currentPath === linkPath || (linkPath !== '/' && currentPath.startsWith(linkPath))) {
+      if (linkPath.length > bestLength) {
+        bestMatch = link;
+        bestLength = linkPath.length;
+      }
+    }
+  });
+
+  if (bestMatch) {
+    bestMatch.setAttribute('aria-current', 'page');
+    bestMatch.closest('.mm-nav__item')?.classList.add('is-active');
+    bestMatch.closest('.mm-submenu__item')?.classList.add('is-active');
+  }
+
+  const closeSubmenus = () => {
+    document.querySelectorAll('[data-submenu-toggle][aria-expanded="true"]').forEach((button) => {
+      button.setAttribute('aria-expanded', 'false');
+      button.closest('.has-children')?.classList.remove('submenu-open');
+    });
+  };
+
+  const closeMenu = () => {
+    if (!menuToggle || !menu) return;
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menu.classList.remove('is-open');
+    header?.classList.remove('menu-open');
+    closeSubmenus();
+  };
   const menuToggle = document.querySelector('[data-menu-toggle]');
   const menu = document.querySelector('[data-menu]');
 
@@ -7,6 +57,7 @@
       const open = menuToggle.getAttribute('aria-expanded') === 'true';
       menuToggle.setAttribute('aria-expanded', String(!open));
       menu.classList.toggle('is-open', !open);
+      header?.classList.toggle('menu-open', !open);
     });
   }
 
@@ -15,6 +66,25 @@
       const open = button.getAttribute('aria-expanded') === 'true';
       button.setAttribute('aria-expanded', String(!open));
       button.closest('.has-children')?.classList.toggle('submenu-open', !open);
+    });
+  });
+
+
+  menuBackdrop?.addEventListener('click', closeMenu);
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeMenu();
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 920) closeMenu();
+  });
+
+  document.querySelectorAll('.mm-nav a').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 920 && !link.closest('.has-children')?.querySelector(':scope > .mm-submenu')) {
+        closeMenu();
+      }
     });
   });
 
@@ -133,5 +203,30 @@
 
     recalc();
     startAutoplay();
+  });
+})();
+
+
+/* Phase 1.54/1.55: analytics-ready CTA events without coupling the site to a vendor. */
+(() => {
+  const pushEvent = (payload) => {
+    window.dispatchEvent(new CustomEvent('menteMirror:interaction', { detail: payload }));
+    if (Array.isArray(window.dataLayer)) window.dataLayer.push(payload);
+  };
+
+  document.addEventListener('click', (event) => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    const cta = link.dataset.cta;
+    const href = link.getAttribute('href') || '';
+    const external = /^https?:\/\//i.test(href) && !href.includes(window.location.hostname);
+    if (!cta && !external) return;
+    pushEvent({
+      event: 'mm_interaction',
+      interaction_type: cta ? 'cta' : 'outbound_link',
+      interaction_name: cta || link.textContent.trim().slice(0, 80),
+      link_url: link.href,
+      page_title: document.body.dataset.pageTitle || document.title
+    });
   });
 })();

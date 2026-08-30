@@ -1,7 +1,7 @@
 ---
 layout: mm-default
 title: Wellness Assessment
-description: Take a quick self-assessment to understand your current emotional, cognitive, sleep, stress, social and senior cognitive wellbeing.
+description: Use a focused self-assessment to reflect on emotional, cognitive, sleep, stress, social or senior cognitive wellbeing and choose an appropriate next step.
 permalink: /understand-yourself/wellness-assessment/
 body_class: mm-assessment-page
 ---
@@ -10,82 +10,45 @@ body_class: mm-assessment-page
   <div class="mm-container">
     <span class="mm-eyebrow">Understand Yourself</span>
     <h1>Wellness Assessment</h1>
-    <p><strong>Take a quick self-assessment to understand your current state.</strong></p>
+    <p><strong>Start with a focused check-in on the area of wellbeing you want to understand better.</strong></p>
   </div>
 </section>
 
-<section class="mm-section">
+<section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--assessment">
-      <span class="mm-eyebrow">Assessment &amp; Output</span>
-      <h2>Choose what you would like to understand</h2>
-      <p>Each assessment gives you a focused view of one aspect of your wellbeing.</p>
+    <div class="mm-assessment-expectations">
+      <article><span>{% include mm-icon.html name="target" %}</span><strong>1. Choose an area</strong><p>Select the aspect of wellbeing most relevant to you.</p></article>
+      <article><span>{% include mm-icon.html name="edit" %}</span><strong>2. Complete the self-assessment</strong><p>Basic registration is completed before the selected assessment.</p></article>
+      <article><span>{% include mm-icon.html name="chart" %}</span><strong>3. Review the focused output</strong><p>Use the result as a structured reflection on your current wellbeing.</p></article>
+      <article><span>{% include mm-icon.html name="compass" %}</span><strong>4. Choose a next step</strong><p>Continue with wellness tools or seek professional support when appropriate.</p></article>
     </div>
-
-    <div class="mm-assessment-table-wrap" role="region" aria-label="Wellness assessments and outputs" tabindex="0">
-      <table class="mm-assessment-table">
-        <thead>
-          <tr>
-            <th scope="col">Assessment</th>
-            <th scope="col">Output</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td data-label="Assessment"><strong>Emotional Wellbeing</strong></td>
-            <td data-label="Output">Emotional Awareness / Regulation / Resilience</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Stress &amp; Burnout</strong></td>
-            <td data-label="Output">Stress / Recovery / Burnout indicators</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Anxiety</strong></td>
-            <td data-label="Output">Anxiety screening</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Sleep</strong></td>
-            <td data-label="Output">Sleep wellbeing</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Attention &amp; Focus</strong></td>
-            <td data-label="Output">Attention profile</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Memory</strong></td>
-            <td data-label="Output">Memory performance</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Cognitive Processing</strong></td>
-            <td data-label="Output">Processing speed</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Academic Wellbeing</strong></td>
-            <td data-label="Output">Study stress / focus / distraction</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Social Wellbeing</strong></td>
-            <td data-label="Output">Loneliness / connection</td>
-          </tr>
-          <tr>
-            <td data-label="Assessment"><strong>Senior Cognitive Wellness</strong></td>
-            <td data-label="Output">Memory / cognitive performance</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="mm-safety-callout" role="note">
+      <span aria-hidden="true">{% include mm-icon.html name="shield" %}</span>
+      <p><strong>A wellness check is not a diagnosis.</strong> Self-assessment can help you reflect on current patterns, but it does not replace psychological or medical evaluation. If you are in immediate danger or need urgent mental-health support, use the <a href="{{ '/urgent-help/' | relative_url }}">urgent-help resources</a>.</p>
     </div>
-
-    <div class="mm-assessment-note">
-      <div class="mm-assessment-note__icon" aria-hidden="true">✓</div>
-      <div>
-        <strong>Ready to begin?</strong>
-        <p>Basic registration is completed before you take the selected self-assessment.</p>
-      </div>
-      <a class="mm-btn mm-btn--primary" href="{{ site.app_url | default: 'https://app.mentemirror.com' }}">Start My Self-Assessment</a>
-    </div>
-
-    <div class="mm-actions">
-      <a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a>
-    </div>
+    <p class="mm-inline-choice-note">Not sure whether you need a Wellness Check, Psychological Test or Professional Assessment? <a href="{{ '/understand-yourself/' | relative_url }}">Compare the three routes →</a></p>
   </div>
 </section>
+
+<section class="mm-section mm-section--soft">
+  <div class="mm-container">
+    <div class="mm-section-heading mm-section-heading--assessment"><span class="mm-eyebrow">Choose an assessment</span><h2>What would you like to understand?</h2><p>Each assessment focuses on one aspect of wellbeing.</p></div>
+    <div class="mm-assessment-table-wrap" role="region" aria-label="Wellness assessments and outputs" tabindex="0">
+      <table class="mm-assessment-table"><thead><tr><th scope="col">Assessment</th><th scope="col">Focused output</th></tr></thead><tbody>
+        <tr><td data-label="Assessment"><strong>Emotional Wellbeing</strong></td><td data-label="Output">Emotional awareness / regulation / resilience</td></tr>
+        <tr><td data-label="Assessment"><strong>Stress &amp; Burnout</strong></td><td data-label="Output">Stress / recovery / burnout indicators</td></tr>
+        <tr><td data-label="Assessment"><strong>Anxiety</strong></td><td data-label="Output">Anxiety screening</td></tr>
+        <tr><td data-label="Assessment"><strong>Sleep</strong></td><td data-label="Output">Sleep wellbeing</td></tr>
+        <tr><td data-label="Assessment"><strong>Attention &amp; Focus</strong></td><td data-label="Output">Attention profile</td></tr>
+        <tr><td data-label="Assessment"><strong>Memory</strong></td><td data-label="Output">Memory performance</td></tr>
+        <tr><td data-label="Assessment"><strong>Cognitive Processing</strong></td><td data-label="Output">Processing speed</td></tr>
+        <tr><td data-label="Assessment"><strong>Academic Wellbeing</strong></td><td data-label="Output">Study stress / focus / distraction</td></tr>
+        <tr><td data-label="Assessment"><strong>Social Wellbeing</strong></td><td data-label="Output">Loneliness / connection</td></tr>
+        <tr><td data-label="Assessment"><strong>Senior Cognitive Wellness</strong></td><td data-label="Output">Memory / cognitive performance</td></tr>
+      </tbody></table>
+    </div>
+    <div class="mm-assessment-note"><div class="mm-assessment-note__icon" aria-hidden="true">{% include mm-icon.html name="check" %}</div><div><strong>Ready to begin?</strong><p>You will continue to the Mente Mirror app for registration and the selected self-assessment.</p></div><a class="mm-btn mm-btn--primary" data-cta="assessment-start" href="{{ site.app_url | default: 'https://app.mentemirror.com' }}">Start My Self-Assessment</a></div>
+  </div>
+</section>
+
+{% include mm-next-steps.html %}
