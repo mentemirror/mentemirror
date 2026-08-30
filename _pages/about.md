@@ -44,11 +44,12 @@ body_class: mm-about-page
         <span class="mm-card__link">Meet the team →</span>
       </a>
 
-      <div class="mm-card">
+      <a class="mm-card" href="{{ '/about/technology/' | relative_url }}">
         <span class="mm-card__icon" aria-hidden="true">⚙️</span>
         <h2>Technology</h2>
         <p>Understand how AI, behavioural insights, assessments and wearable signals fit into the Mente Mirror wellness journey.</p>
-      </div>
+        <span class="mm-card__link">View technology →</span>
+      </a>
 
       <a class="mm-card" href="{{ '/about/safety-privacy/' | relative_url }}">
         <span class="mm-card__icon" aria-hidden="true">🛡️</span>

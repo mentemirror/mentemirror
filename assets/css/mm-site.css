@@ -2861,3 +2861,49 @@ a.mm-card:hover::before { background: var(--mm-primary); }
     justify-content: center;
   }
 }
+
+
+/* Phase 1.49 — High-resolution Technology architecture */
+.mm-technology-container {
+  max-width: none;
+  width: 100%;
+  padding-left: clamp(12px, 2.2vw, 36px);
+  padding-right: clamp(12px, 2.2vw, 36px);
+}
+.mm-architecture-actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.mm-architecture-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding-bottom: 8px;
+}
+.mm-architecture-figure {
+  width: max(100%, 1800px);
+  max-width: 2300px;
+  margin: 0 auto;
+}
+.mm-architecture-figure a {
+  display: block;
+  cursor: zoom-in;
+}
+.mm-architecture-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--mm-border);
+  background: #fff;
+  box-shadow: var(--mm-shadow-soft);
+}
+.mm-architecture-figure figcaption {
+  margin-top: 12px;
+  text-align: center;
+  color: var(--mm-muted);
+  font-size: .92rem;
+}
+@media (max-width: 760px) {
+  .mm-architecture-figure { width: 1550px; }
+}
