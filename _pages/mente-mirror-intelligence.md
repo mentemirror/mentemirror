@@ -147,11 +147,6 @@ body_class: mm-intelligence-page
       </article>
     </div>
 
-    <div class="mm-framework-note">
-      <strong>Explanation:</strong>
-      <span>Content to be finalised.</span>
-    </div>
-
     <div class="mm-actions">
       <a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a>
     </div>

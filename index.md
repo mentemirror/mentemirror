@@ -12,7 +12,7 @@ body_class: mm-home
       <span class="mm-eyebrow">Preventive • Personalised • Human-centred</span>
       <h1>Your mind deserves more than a crisis response.</h1>
       <p class="mm-hero__lead">Understand your mind. Strengthen your wellbeing. Stay ahead of mental health challenges.</p>
-      <p class="mm-hero__support">AI-powered, preventive and personalised mental wellness for adolescents, adults and seniors—bringing together psychological science, behavioural insights, wearables and human care.</p>
+      <p class="mm-hero__support">AI-powered, preventive and personalized mental wellness for adolescents, adults and seniors combining AI, psychological science, behavioural insights, wearables and human care help you understand your wellbeing, build healthier habits and seek the right support at the right time.</p>
       <div class="mm-actions">
         <a class="mm-btn mm-btn--primary" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Start My Wellness Check</a>
         <a class="mm-btn mm-btn--secondary" href="{{ '/ai-wellness/' | relative_url }}">Explore AI Wellness</a>
@@ -43,8 +43,8 @@ body_class: mm-home
         <div class="mm-carousel__track" data-carousel-track>
           <article class="mm-carousel__slide" data-carousel-slide>
             <span class="mm-carousel__number" aria-hidden="true">01</span>
-            <h3>Understand</h3>
-            <p>Understand your emotional, cognitive and behavioural patterns</p>
+            <h3>Guide</h3>
+            <p>Get personalized guidance and daily support</p>
           </article>
           <article class="mm-carousel__slide" data-carousel-slide>
             <span class="mm-carousel__number" aria-hidden="true">02</span>
@@ -53,18 +53,18 @@ body_class: mm-home
           </article>
           <article class="mm-carousel__slide" data-carousel-slide>
             <span class="mm-carousel__number" aria-hidden="true">03</span>
-            <h3>Guide</h3>
-            <p>Get personalized guidance and daily support</p>
+            <h3>Understand</h3>
+            <p>Understand your emotional, cognitive and behavioural patterns</p>
           </article>
           <article class="mm-carousel__slide" data-carousel-slide>
             <span class="mm-carousel__number" aria-hidden="true">04</span>
-            <h3>Practice</h3>
-            <p>Practice breathing, meditation, journaling, focus and cognitive exercises</p>
+            <h3>Escalate when needed</h3>
+            <p>Connect with psychologists and psychiatrists when needed</p>
           </article>
           <article class="mm-carousel__slide" data-carousel-slide>
             <span class="mm-carousel__number" aria-hidden="true">05</span>
-            <h3>Escalate when needed</h3>
-            <p>Connect with psychologists and psychiatrists when needed</p>
+            <h3>Practice</h3>
+            <p>Breathing, meditation, journaling, focus and cognitive exercises</p>
           </article>
         </div>
       </div>
@@ -106,7 +106,7 @@ body_class: mm-home
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">How it works</span>
       <h2>Understand → Connect → Learn → Practise → Improve</h2>
-      <p>This five-step journey is the backbone of the Mente Mirror ecosystem.</p>
+      <p>This becomes the conceptual backbone of the whole website.</p>
     </div>
     <ol class="mm-journey">
       <li><span class="mm-journey__number">01</span><h3>Understand</h3><p>Assessment + conversation</p></li>
@@ -123,12 +123,12 @@ body_class: mm-home
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">The Mente Mirror model</span>
       <h2>AI + Psychology + Human Care</h2>
-      <p>Technology handles scale and pattern recognition. Psychological science brings interpretation and evidence-based tools. Human professionals bring context, empathy and clinical judgement.</p>
+      <p>AI handles scale and pattern recognition. Humans handle context, complexity and clinical decisions.</p>
     </div>
     <div class="mm-card-grid mm-card-grid--3">
       <article class="mm-card mm-card--dark"><span class="mm-card__icon">✦</span><h3>AI</h3><ul><li>Pattern recognition</li><li>Continuous monitoring</li><li>Personalisation</li><li>Daily support</li><li>Voice interaction</li></ul></article>
       <article class="mm-card mm-card--dark"><span class="mm-card__icon">◉</span><h3>Psychology</h3><ul><li>Assessment</li><li>Psychological interpretation</li><li>Evidence-based tools</li><li>Behaviour change</li><li>Progress tracking</li></ul></article>
-      <article class="mm-card mm-card--dark"><span class="mm-card__icon">♡</span><h3>Human</h3><ul><li>Therapist support</li><li>Psychiatrist support</li><li>Human empathy</li><li>Complex decision-making</li><li>Escalation when appropriate</li></ul></article>
+      <article class="mm-card mm-card--dark"><span class="mm-card__icon">♡</span><h3>Human</h3><ul><li>Therapist</li><li>Psychiatrist</li><li>Clinical decision</li><li>Crisis escalation</li><li>Human empathy</li></ul></article>
     </div>
 
     <div class="mm-outcome" aria-label="Outcome">

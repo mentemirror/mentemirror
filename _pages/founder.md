@@ -26,6 +26,14 @@ body_class: mm-founder-page
 
       <div class="mm-founder-media">
         <img class="mm-founder-photo" src="{{ '/assets/images/about/ipsita-das.jpg' | relative_url }}" alt="Ipsita Das, founder of Mente Mirror" loading="lazy">
+        <div class="mm-founder-video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/1G67XlqzpdY?enablejsapi=1&amp;rel=0"
+            title="Ipsita Das — Mente Mirror"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
         <div class="mm-card mm-founder-highlight">
           <h2>Professional focus</h2>
           <p>Experience includes adolescent counselling, relationship concerns, aptitude assessment, personality development, stress management, psychological testing and therapeutic intervention.</p>
