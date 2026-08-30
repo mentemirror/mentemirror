@@ -1,7 +1,7 @@
 ---
 layout: mm-default
 title: Contact us
-description: Contact Mente Mirror for counselling, psychiatry, programme and general enquiries.
+description: Contact Mente Mirror for counselling, psychiatry, programme and general enquiries. Appointment booking is handled in the mobile app.
 permalink: /contact/
 body_class: mm-contact-page
 ---
@@ -10,7 +10,7 @@ body_class: mm-contact-page
   <div class="mm-container">
     <span class="mm-eyebrow">Contact us</span>
     <h1>Talk to Mente Mirror</h1>
-    <p>Choose the contact channel that works best for you. For urgent or emergency support, use the urgent-help resources rather than waiting for a routine reply.</p>
+    <p>Use these channels for questions, programme information and non-urgent support. Appointment booking is handled in the Mente Mirror mobile app. For urgent or emergency support, use the urgent-help resources rather than waiting for a routine reply.</p>
   </div>
 </section>
 
@@ -19,7 +19,7 @@ body_class: mm-contact-page
     <div class="mm-contact-channel-grid">
       <a class="mm-contact-channel" href="https://wa.me/918240203755" target="_blank" rel="noopener">
         <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="chat" %}</span>
-        <div><span class="mm-eyebrow">WhatsApp</span><h2>Message us</h2><p>Start a conversation for appointments, programme information or general queries.</p><span class="mm-text-link">Open WhatsApp →</span></div>
+        <div><span class="mm-eyebrow">WhatsApp</span><h2>Message us</h2><p>Start a conversation for programme information, service questions or general enquiries.</p><span class="mm-text-link">Open WhatsApp →</span></div>
       </a>
       <a class="mm-contact-channel" href="tel:+918240203755">
         <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="phone-call" %}</span>
@@ -56,7 +56,7 @@ body_class: mm-contact-page
         <h3>Registered office</h3>
         <p>G-3, 602, Pramukh Green, Chala Road, Vapi - 396191, Gujarat, India</p>
       </div>
-      <p class="mm-contact-guidance">For a counselling or psychiatry enquiry, it can help to mention whether the support is for you or a family member and a convenient time for the team to contact you.</p>
+      <p class="mm-contact-guidance">For a counselling or psychiatry enquiry, it can help to mention whether the support is for you or a family member and a convenient time for the team to contact you. Appointment time-slot selection and booking are handled in the mobile app.</p>
     </div>
   </div>
 </section>

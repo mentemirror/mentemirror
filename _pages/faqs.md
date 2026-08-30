@@ -1,7 +1,7 @@
 ---
 layout: mm-default
 title: Frequently Asked Questions
-description: Answers to common questions about Mente Mirror counselling, professionals, privacy, appointments and online sessions.
+description: Answers to common questions about Mente Mirror counselling, professionals, privacy, mobile-app appointment booking and online sessions.
 permalink: /faqs/
 ---
 
@@ -10,7 +10,7 @@ permalink: /faqs/
     <div>
       <span class="mm-eyebrow">News &amp; Blogs · FAQs</span>
       <h1>Frequently Asked Questions</h1>
-      <p>Clear answers about counselling, professional care, privacy, fees and online appointments.</p>
+      <p>Clear answers about counselling, professional care, privacy, fees and appointment booking through the mobile app.</p>
     </div>
     <div class="mm-faq-hero__mark" aria-hidden="true">?</div>
   </div>
@@ -57,7 +57,7 @@ permalink: /faqs/
       <div class="mm-faq-category__head"><span class="mm-eyebrow">04</span><h2>Fees &amp; appointments</h2></div>
       <div class="mm-faq-list">
         <details class="mm-faq-item"><summary>What are the charges and fees?</summary><div class="mm-faq-item__answer"><p>Programme and session information is shown on the relevant Human Care and Psychological Testing pages where available. Because services, session structures and fees can change, confirm the current amount and programme details with Mente Mirror before making a payment.</p><p>For changes to a scheduled appointment, see the <a href="{{ '/cancellation-refund-policy/' | relative_url }}">Cancellation/Refund Policy</a>.</p></div></details>
-        <details class="mm-faq-item"><summary>How can I book or ask a question before booking?</summary><div class="mm-faq-item__answer"><p>Use the <a href="{{ '/contact/' | relative_url }}">Contact page</a> to reach Mente Mirror by WhatsApp, phone or email. For a counselling or psychiatry enquiry, it can help to mention who the support is for and a convenient time to contact you.</p></div></details>
+        <details class="mm-faq-item"><summary>How are appointments booked?</summary><div class="mm-faq-item__answer"><p>Appointment booking is handled in the Mente Mirror mobile app; the mobile MVP is currently being prepared for public release. The website does not provide an appointment-booking form.</p><p>If you have a question before booking, use the <a href="{{ '/contact/' | relative_url }}">Contact page</a> to reach Mente Mirror by WhatsApp, phone or email.</p></div></details>
       </div>
     </section>
   </div>

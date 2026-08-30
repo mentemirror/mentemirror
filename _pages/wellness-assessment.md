@@ -18,7 +18,7 @@ body_class: mm-assessment-page
   <div class="mm-container">
     <div class="mm-assessment-expectations">
       <article><span>{% include mm-icon.html name="target" %}</span><strong>1. Choose an area</strong><p>Select the aspect of wellbeing most relevant to you.</p></article>
-      <article><span>{% include mm-icon.html name="edit" %}</span><strong>2. Complete the self-assessment</strong><p>Basic registration is completed before the selected assessment.</p></article>
+      <article><span>{% include mm-icon.html name="edit" %}</span><strong>2. Complete the self-assessment</strong><p>Basic registration is completed in the Mente Mirror mobile app before the selected assessment.</p></article>
       <article><span>{% include mm-icon.html name="chart" %}</span><strong>3. Review the focused output</strong><p>Use the result as a structured reflection on your current wellbeing.</p></article>
       <article><span>{% include mm-icon.html name="compass" %}</span><strong>4. Choose a next step</strong><p>Continue with wellness tools or seek professional support when appropriate.</p></article>
     </div>
@@ -47,7 +47,7 @@ body_class: mm-assessment-page
         <tr><td data-label="Assessment"><strong>Senior Cognitive Wellness</strong></td><td data-label="Output">Memory / cognitive performance</td></tr>
       </tbody></table>
     </div>
-    <div class="mm-assessment-note"><div class="mm-assessment-note__icon" aria-hidden="true">{% include mm-icon.html name="check" %}</div><div><strong>Ready to begin?</strong><p>You will continue to the Mente Mirror app for registration and the selected self-assessment.</p></div><a class="mm-btn mm-btn--primary" data-cta="assessment-start" href="{{ site.app_url | default: 'https://app.mentemirror.com' }}">Start My Self-Assessment</a></div>
+    <div class="mm-assessment-note"><div class="mm-assessment-note__icon" aria-hidden="true">{% include mm-icon.html name="check" %}</div><div><strong>Self-assessment is a mobile-app experience</strong><p>Registration and the selected Wellness Assessment are completed in the Mente Mirror mobile app. The MVP is currently being prepared for public release.</p></div><span class="mm-app-status" role="status"><strong>Mobile app MVP</strong><small>Release pending</small></span></div>
   </div>
 </section>
 

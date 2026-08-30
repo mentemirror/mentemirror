@@ -21,7 +21,7 @@ body_class: mm-legal-page
 <h5 class="--mr-04">
 <span>Payment and refund  terms</span>
 </h5><br/>
-<p class="appointment" style="text-align: justify;">FEES are to be paid online for all services as per the fees charts provided under the services pages for counselling / testing / medication. Fees must be paid in advance during the online scheduling of your appointment. </p><br/>
+<p class="appointment" style="text-align: justify;">Fees for booked services are payable according to the applicable fee schedule and payment terms shown or communicated for that service. Where appointment booking is enabled, booking and time-slot selection are handled through the Mente Mirror mobile app rather than this website. </p><br/>
 <p class="appointment" style="text-align: justify;">If you need to cancel or reschedule, you can email or phone us at the contact number or email provided in the Contact us page. </p><br/>
 <p class="appointment" style="text-align: justify;">Refund will be processed within 5-7 working days.</p><br/>
 <p class="appointment" style="text-align: justify;">If you are late by 15 mins, the session will be treated as cancelled from your side.</p><br/>

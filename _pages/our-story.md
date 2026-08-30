@@ -16,13 +16,13 @@ body_class: mm-our-story-page
 
 <section class="mm-section mm-story-copy-section">
   <div class="mm-container mm-story-copy">
-    <p>Mente - depicts mind in Spanish. We facilitate to reflect your own mind to be self aware. Reflection of one's own emotion helps in heightening his awareness and ability to label their own emotions.</p>
+    <p><strong>Mente</strong> means “mind” in Spanish. Mente Mirror began with a simple idea: meaningful wellbeing starts when we are able to pause, reflect and understand what is happening within us. Becoming more aware of our emotions, thoughts, habits and relationships can help us name our experiences more clearly and make more intentional choices.</p>
 
-    <p><strong>Mission statement :</strong> to help others live the lives they would if they only knew how ........</p>
+    <p><strong>Our mission is to help people live more aware, balanced and fulfilling lives by combining reflection, psychological science, technology-supported wellness and human care.</strong></p>
 
-    <p>Our core values being confidential, non-judgmental and empathetic approach in a very safe and sensitive environment. We facilitate our clients for a holistic grooming keeping the main 4 wells of happiness - cognitive, physical, spiritual and emotional. Our ultimate Mantra being Bonheur-happiness within, is the secret mission of this platform.</p>
+    <p>Confidentiality, empathy, non-judgment and respect for individual choice shape the way we work. We look at wellbeing holistically through Mente Mirror's <strong>Five Wells of Happiness</strong> — Emotional, Cognitive, Physical, Social and Spiritual / Purpose — because lasting wellbeing rarely depends on one area of life alone.</p>
 
-    <p>We are a team of psychologists and psychiatrists with immense expertise who will cater to the clients with their needs. Mente Mirror is the brainchild of Ipsita Das, a Counsellor &amp; Psychologist by profession with 15 years of varied experience in different sectors of the society.</p>
+    <p>Mente Mirror brings together psychologists and psychiatrists with preventive wellness tools that can support self-understanding between moments of professional care. It was founded by <strong>Ipsita Das</strong>, a Counsellor &amp; Psychologist with 15 years of varied experience across different sections of society, with the belief that reflection can become a practical part of everyday wellbeing.</p>
   </div>
 </section>
 
@@ -45,15 +45,12 @@ body_class: mm-our-story-page
         {% include mm-logo.html class="mm-story-logo" alt="Mente Mirror" width=190 height=72 %}
       </div>
       <h2>Reflection of your mind</h2>
-      <p>Our mission is to provide counselling services to children, adolescents, adults and senior adults from diverse backgrounds and varying socio economic contacts .We are privileged to cater to our clients as they navigate the uncertainties and challenges of life. We equip them to be caring and compassionate through our powerful connection to evolve as strong and resilient personality. We follow the traditional stages of reflection through self-awareness, critical analysis and evaluation.</p>
+      <p>We support children, adolescents, adults and seniors from diverse backgrounds as they navigate the uncertainties, transitions and challenges of life. Reflection sits at the centre of our approach: building self-awareness, looking at patterns with curiosity, evaluating what is helping or getting in the way, and choosing a constructive next step.</p>
 
-      <p>We facilitate individual with skills to manage symptoms, reduce stress and improve quality of life. It is a collaborative effort between the counsellor and the client identifying goals and potential solutions to mitigate troublesome behaviour. We enhance the communication and coping skills to strengthen their self-esteem and promote behaviour change for a healthy lifestyle.</p>
+      <p>Human Care remains central when professional understanding, assessment or clinical judgement is needed. Alongside it, Mente Mirror's wellness tools, Mjuzi and optional wearable context are designed to make reflection and preventive wellbeing easier to practise in everyday life. These tools support the journey; they do not replace professional diagnosis, treatment or emergency care.</p>
+
+      <p>Across both technology and human care, the aim is the same: help people understand themselves better, strengthen coping and communication, and build healthier patterns that support quality of life over time.</p>
     </div>
-  </div>
-</section>
-<section class="mm-section mm-story-source-visual-section">
-  <div class="mm-container mm-story-source-visual">
-    <img src="{{ '/assets/images/home/consulings.png' | relative_url }}" alt="Why we need counselling — Mente Mirror" loading="lazy">
   </div>
 </section>
 

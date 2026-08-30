@@ -39,7 +39,7 @@ body_class: mm-psychological-tests-page
 <section class="mm-section">
   <div class="mm-container mm-disclosure-stack">
     <details class="mm-disclosure mm-disclosure--table"><summary><span><strong>View tests, duration and published fees</strong><small>Expand the full fee and payment table only if you need it.</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body">
-      <p class="mm-capability-note">Fees and schedules below reflect the currently published Mente Mirror list and should be confirmed before booking.</p>
+      <p class="mm-capability-note">Fees and schedules below reflect the currently published Mente Mirror list and should be confirmed before completing an appointment booking in the mobile app.</p>
       <div class="mm-testing-table-wrap" role="region" aria-label="Psychological tests, duration, fees and payment schedule" tabindex="0"><table class="mm-testing-table"><thead><tr><th scope="col">Test</th><th scope="col">Duration</th><th scope="col">Fees (Inclusive Taxes)</th><th scope="col">Payment Schedule</th></tr></thead><tbody>
         <tr><td data-label="Test"><strong>Psychometric - IQ test</strong></td><td data-label="Duration">1 Hour</td><td data-label="Fees">1500</td><td data-label="Payment">Full Advance</td></tr>
         <tr><td data-label="Test"><strong>Psychometric - EQ test</strong></td><td data-label="Duration">1 Hour</td><td data-label="Fees">1500</td><td data-label="Payment">Full Advance</td></tr>
@@ -59,4 +59,4 @@ body_class: mm-psychological-tests-page
   </div>
 </section>
 
-<section class="mm-section mm-section--tight mm-testing-subscription"><div class="mm-container"><div class="mm-subscription-callout"><div><span class="mm-eyebrow">Your next step</span><h2>Start a 7-day personalised plan</h2><p>Move from assessment to a more personalised wellness journey.</p></div><a class="mm-btn mm-btn--primary" href="{{ site.app_url | default: 'https://app.mentemirror.com' }}">Start a 7-day personalised plan</a></div><div class="mm-actions"><a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a></div></div></section>
+<section class="mm-section mm-section--tight mm-testing-subscription"><div class="mm-container"><div class="mm-subscription-callout"><div><span class="mm-eyebrow">Your next step</span><h2>Continue your personalised journey in the mobile app</h2><p>The 7-day personalised wellness plan is part of the Mente Mirror mobile experience. The MVP is currently being prepared for public release.</p></div><span class="mm-app-status" role="status"><strong>Mobile app MVP</strong><small>Release pending</small></span></div><div class="mm-actions"><a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a></div></div></section>

@@ -1,88 +1,92 @@
 ---
 layout: mm-default
 title: "Terms & Conditions"
-description: "Terms & Conditions"
+description: "Terms and conditions for using the Mente Mirror website and services."
 permalink: /terms-condition/
 body_class: mm-legal-page
 ---
 
 <section class="mm-page-hero mm-legal-hero">
   <div class="mm-container">
-    <h1>Terms & Condition</h1>
+    <span class="mm-eyebrow">About</span>
+    <h1>Terms &amp; Conditions</h1>
+    <p>Important information about using the Mente Mirror website, mobile experience and professional services.</p>
   </div>
 </section>
 
 <section class="mm-section">
   <div class="mm-container mm-legal-copy">
+    <p><strong>Last updated: 30 August 2026</strong></p>
 
-<div class="right">
-<h5 class="--mr-04">
-<span>Terms &amp; Conditions</span>
-</h5><br/>
-<p class="appointment" style="text-align: justify;">Please read this terms and conditions before using our website.</p>
-<p class="appointment" style="text-align: justify;">By using this website, you agree to fully comply with and be bound by the following Agreement each time you use this website.  If you do not agree to these Terms and Conditions, please do not use the website.</p><br/>
-<h5 class="--mr-04">
-<span>Overview</span>
-</h5><br/>
-<p class="appointment" style="text-align: justify;">This web page represents a legal document and is the Terms and Conditions (&ldquo;Terms&rdquo;) for our website www.mentemirror.com (&ldquo;Website&rdquo;). By using our Website you agree to fully comply with and be bound by the following Agreement each time you use our Website. Please review the following terms carefully.</p><br/>
-<h5 class="--mr-04">
-<span>Website usage and ownership</span>
-</h5><br/>
-<p class="appointment" style="text-align: justify;">WELCOME to Mente Mirror an online Counselling Platform. We want to inform you about our service, your rights as a client and how the fees for online counselling are charged and handled.</p>
-<p class="appointment" style="text-align: justify;">Mente Mirror offers services to individuals or groups or parts thereof that experience emotional and relational challenges. Your counsellor will work with you to identify and approach your difficulties and strengths in an effective and scientific way. An important aspect of this process will work toward improving relationships with key people in your life.</p>
-<p class="appointment" style="text-align: justify;">We honor the client's perspective, dignity and personal choice. Each session will be approx. 45 minutes long however may be curtailed or extended as per needs felt during the counselling process. Time preceding and post the session is used by the counsellor for required documentation, analysis of data obtained, background research and treatment planning for their process with you.</p>
-<p class="appointment" style="text-align: justify;">Your counsellor will discuss with you during the first session- the probable number of sessions your treatment plan will require. As the sessions progresses, you will be informed, if required, the tests to be administered pertaining to your case history. You will discuss together from time to time your evaluation of progress.</p>
-<p class="appointment" style="text-align: justify;">The psychometric assessment, analysis and interpretation provided are based on scientific tools. This hypothesis needs to be confirmed using other clinical information. These test results are to be used to understand the client&rsquo;s psychological functioning and not to be used for medico-legal purposes.</p>
-<p class="appointment" style="text-align: justify;">You understand that the role of the counsellor includes coaching and educating us regarding positive social relationships. You do not hold the counsellor legally responsible for any dissatisfaction on the end results at the end of the sessions due to situations beyond control.</p>
-<p class="appointment" style="text-align: justify;">You are welcome at any time to discuss discontinuation of therapy with your counsellor. You are always welcome to consider asking for an alternative counsellor if you believe this would be more helpful to you.</p>
-<p class="appointment" style="text-align: justify;"><b>FEES</b> are to be paid online for all services as per the fees charts provided under the services pages for counselling / testing / medication. Fees must be paid during the online scheduling of your appointment.</p>
-<p class="appointment" style="text-align: justify;">If you need to cancel or reschedule, you can email or phone us at the contact numbers or emails provided in the Contact us page. For the terms and conditions regarding rescheduling / cancellations, pl refer to our website page on Cancellation / Refund Policy</p>
-<p class="appointment" style="text-align: justify;">We value your time and hence take utmost care not to reschedule your appointments from our side. In any emergency / unforeseen circumstances / technological failures, we will intimate you, should there be a need. In such circumstances, the counsellor will workout a mutually workable time to both of your conveniences.</p>
-<h5 class="--mr-04">
-<span>Privacy Policy</span>
-</h5>
-<p>Our Privacy Policy is considered part of this Agreement and available on this website.  If you do not accept and agree to being bound by these Terms, including the www.mentemirror.com Privacy Policy, do not use this website or our Services.</p>
-</div><br/>
-<h5 class="--mr-04">
-<span>CONSENT &ndash; The Client confirms his /her understanding as follows </span>
-</h5>
-<p>I must be at least 18 years old to consent to online counselling</p>
-<ul>
-<li>Internet platformsmay not be 100% guaranteed to be secure and confidential. However there will be no digital recording or release of information to third parties from the side of Mente Mirror.</li>
-<li>All sessions should be treated like an in-office session. No outside distractions: turn off cell phones and close other computer programs. NO third parties will be in or near the session at any time without the counselor&rsquo;s knowledge.</li>
-<li>Technical problems may occur. If the call is disrupted, the counsellor will call you back shortly. If reconnection cannot reoccur, the session will be rescheduled through our office at no additional fee. You will receive a phone call during our office hours to reschedule.</li>
-<li>If I am in crisis or an emergency situation that needs immediate attention, where I may be considering harming myself or someone else, respective legal authorities may need to be notified.</li>
-</ul>
-<h5 class="--mr-04">
-<span>Contacting us</span>
-</h5>
-<p class="appointment" style="text-align: justify;">If you have questions about our Online Services, our Website, these terms of service or our Privacy Policy, please contact us at: <a href="mailto:welcome@mentemirror.com">welcome@mentemirror.com</a></p>
-<p class="appointment" style="text-align: justify;">Personal information is information or an opinion, in any form and whether true or not, about an individual whose identity is apparent or can reasonably be ascertained from the information or opinion. It includes your name, age and gender, as well as your sensitive information (which includes health information and ethnic origin).</p><br/>
-<p class="appointment" style="text-align: justify;">All other rights are reserved to Mente Mirror. Any infringement established on this website will result in appropriate legal action. If you require any further information, use the form from our contact page. </p>
-<hr/>
-<h5 class="--mr-04">
-<span>Certificate Issuance Policy</span>
-</h5>
-<ul>
-<li><b>For Army Personnel :</b><br/>
+    <h2>1. Overview</h2>
+    <p>These Terms &amp; Conditions ("Terms") apply to your use of the Mente Mirror website and, where available, Mente Mirror services including the mobile app, AI-supported wellness features, optional wearable integrations, self-assessment tools, psychological testing and Human Care services provided by psychologists, counsellors and psychiatrists.</p>
+    <p>By using this website, you agree to these Terms. Particular services may also require separate registration, consent, payment terms or professional-service documentation before they can be used. If a service-specific consent or policy applies, it should be read together with these Terms.</p>
 
-									Please note that <b>no certificate will be issued</b> for Army personnel unless it is from their <b>own medical officers or doctors.</b> We are unable to provide treatment or under-treatment certificates for military clients.
+    <h2>2. What Mente Mirror is — and is not</h2>
+    <p>Mente Mirror combines preventive and personalised mental-wellness support with psychological science, technology-enabled tools and access to human professionals. Website content, self-assessments, AI-supported wellness features and wearable insights are intended to support reflection and wellbeing; they are not a diagnosis and do not replace professional psychological or medical evaluation.</p>
+    <p>Clinical decisions, diagnosis, treatment and medication decisions are made only by appropriately qualified professionals within the scope of their role. Individual outcomes cannot be guaranteed.</p>
+    <div class="mm-safety-callout" role="note">
+      <span aria-hidden="true">{% include mm-icon.html name="medical" %}</span>
+      <p><strong>Mente Mirror is not an emergency service.</strong> If you are in immediate danger, at risk of harming yourself or someone else, or need urgent mental-health support, use the <a href="{{ '/urgent-help/' | relative_url }}">urgent-help resources</a> rather than waiting for a routine Mente Mirror response.</p>
+    </div>
 
-								</li>
-<br/>
-<li><b>For All Other Clients :</b> <br/>
+    <h2>3. Adults, children and adolescents</h2>
+    <p>Adults aged 18 years or older may consent to services for themselves, subject to the requirements of the particular service.</p>
+    <p>Children and adolescents under 18 may use age-appropriate Mente Mirror services only with the involvement and consent of a parent or legal guardian where required. The professional or Mente Mirror team should explain the expected role of the parent or guardian, the young person's participation, and any service-specific consent requirements before care begins.</p>
+    <p>Parent or guardian consent does not automatically mean that every detail shared by a young person in a professional session will be disclosed to the parent or guardian. Confidentiality, information sharing and parental involvement will depend on the young person's age and circumstances, professional judgement, safety considerations and applicable law. Where there is a serious safety concern or a legal obligation to disclose information, confidentiality may be limited.</p>
 
-									A certificate or letter of treatment will only be issued under the following conditions:
+    <h2>4. Human Care and professional services</h2>
+    <p>Mente Mirror Human Care may include counselling, psychological assessment and psychiatric consultation. The professional will use their judgement to understand the concern, discuss goals and determine an appropriate care pathway. A counselling session is generally planned for approximately 45 minutes unless a different duration is communicated for the particular service.</p>
+    <p>Psychological or psychometric tests are interpreted in the context of the person's history and other relevant information. A test score or report should not be treated in isolation as a medical or psychiatric diagnosis. Unless explicitly agreed otherwise for an appropriate purpose, Mente Mirror psychological test reports are not intended for medico-legal use.</p>
+    <p>You may discuss discontinuing counselling or changing professionals with the Mente Mirror team or your professional at any time. The availability of a particular professional or time slot can vary.</p>
 
-									<ul>
-<li>The client must have visited in person or attended a minimum of three sessions.</li>
-<li>These sessions must be spaced out over at least <b>20 days</b> between each session.</li>
-<li>No certificates will be provided for clients who have not met these conditions.</li>
-</ul>
-</li>
-</ul>
-<br/>
-<br/>
+    <h2>5. Website, mobile app and appointment booking</h2>
+    <p>The Mente Mirror website is primarily an information and guidance experience. <strong>The website itself does not provide appointment booking.</strong> Appointment booking is designed to be completed through the Mente Mirror mobile app when that functionality is released and available to you.</p>
+    <p>The mobile app is being introduced separately from the website, so availability may differ during the MVP and release stages. Website contact channels may be used for questions, programme information and support, but should not be interpreted as an in-browser appointment-booking system.</p>
 
+    <h2>6. Fees, payments, cancellations and rescheduling</h2>
+    <p>Published fees and programme structures are provided for information and may be updated. Where appointment booking or payment is enabled, the applicable amount and payment requirements should be reviewed before completing the transaction.</p>
+    <p>Cancellation, rescheduling and refund rules are described in the <a href="{{ '/cancellation-refund-policy/' | relative_url }}">Cancellation/Refund Policy</a>. If a scheduled session is affected by an unforeseen circumstance or technical failure, the Mente Mirror team will communicate the available next step.</p>
+
+    <h2>7. Privacy, confidentiality and recording</h2>
+    <p>Mente Mirror's <a href="{{ '/about/safety-privacy/' | relative_url }}">Safety &amp; Privacy</a> page forms part of the information you should read when using Mente Mirror services. It explains, in plain language, the types of information that may be requested, why information may be used, and the choices that apply to optional digital or wearable features.</p>
+    <p>Professional counselling and care information is treated as confidential, subject to professional obligations, applicable law and limited situations in which safety may require action.</p>
+    <p><strong>Counselling sessions are not recorded by default.</strong> If a Mente Mirror feature involves voice or video recording, a separate and explicit permission should be requested before that recording begins. Users should not record a professional session, invite another person into a session, or permit a third party to listen without the knowledge and agreement of the professional and other participants.</p>
+    <p>Information may be shared only to the extent needed to provide or support the requested service, where the user or guardian has provided the relevant permission, where appropriate professionals need information for the agreed care pathway, where service providers are required to operate the service under appropriate safeguards, or where disclosure is required by law or necessary because of a serious safety concern.</p>
+
+    <h2>8. AI-supported wellness and wearable features</h2>
+    <p>Mjuzi and other AI-supported wellness features are designed to support reflection, check-ins and everyday wellbeing. AI-generated content can be incomplete or incorrect and should not be treated as professional diagnosis, medical advice or emergency guidance.</p>
+    <p>Wearable or sensor information is optional and is used only when a supported feature is connected or enabled. Wearable signals can provide contextual wellness information but do not independently establish a diagnosis or clinical condition.</p>
+
+    <h2>9. Online sessions, devices and technical limitations</h2>
+    <p>Internet-based communication cannot be guaranteed to be completely secure or uninterrupted. For online professional sessions, use a private space, a device you trust and a reliable connection where possible. Third-party communication or payment services may also have their own terms and privacy practices.</p>
+    <p>Technical problems can occur. If a professional session is disrupted and cannot reasonably continue, the Mente Mirror team or professional will communicate an appropriate rescheduling or follow-up process.</p>
+
+    <h2>10. Responsible use</h2>
+    <p>You agree not to misuse the website, mobile app or services; attempt unauthorised access; interfere with service operation; impersonate another person; submit unlawful or harmful material; or use Mente Mirror content in a way that infringes the rights of Mente Mirror, its professionals or other users.</p>
+    <p>You are responsible for protecting access to your own device, account credentials and payment credentials and for providing information that is accurate to the best of your knowledge when that information is needed to deliver a service safely.</p>
+
+    <h2>11. Intellectual property</h2>
+    <p>Unless otherwise stated, the website design, Mente Mirror branding, original written material, frameworks and other proprietary content are owned by or licensed to Mente Mirror. They may not be copied, republished or commercially exploited without appropriate permission, except where permitted by law.</p>
+
+    <h2>12. Changes to these Terms</h2>
+    <p>Mente Mirror may update these Terms as its services, technology, app availability or policies change. The current version published on the website will apply from the date shown on this page.</p>
+
+    <h2>13. Contacting us</h2>
+    <p>If you have questions about these Terms, Mente Mirror services or privacy, contact us at <a href="mailto:welcome@mentemirror.com">welcome@mentemirror.com</a>, call <a href="tel:+918240203755">+91 8240203755</a>, or use the <a href="{{ '/contact/' | relative_url }}">Contact page</a>.</p>
+
+    <hr>
+
+    <h2>Certificate Issuance Policy</h2>
+    <h3>For Army Personnel</h3>
+    <p>No certificate will be issued for Army personnel unless it is from their own medical officers or doctors. Mente Mirror is unable to provide treatment or under-treatment certificates for military clients.</p>
+
+    <h3>For All Other Clients</h3>
+    <p>A certificate or letter of treatment will only be issued under the following conditions:</p>
+    <ul>
+      <li>The client must have visited in person or attended a minimum of three sessions.</li>
+      <li>These sessions must be spaced out over at least <strong>20 days</strong> between each session.</li>
+      <li>No certificates will be provided for clients who have not met these conditions.</li>
+    </ul>
   </div>
 </section>

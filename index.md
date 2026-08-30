@@ -11,16 +11,18 @@ og_image: /assets/images/home/consulings.png
   <div class="mm-container mm-hero__grid">
     <div class="mm-hero__copy">
       <span class="mm-eyebrow">Preventive • Personalised • Human-centred</span>
-      <h1>Your mind deserves more than a crisis response.</h1>
-      <p class="mm-hero__lead">Understand your mind. Strengthen your wellbeing. Stay ahead of mental health challenges.</p>
-      <p class="mm-hero__support">Mente Mirror brings together psychological science, AI-supported wellness, wearable context and human care to help you understand patterns, build healthier habits and choose the right support.</p>
+      <h1><span class="mm-hero__headline-line">Your mind deserves</span> <span class="mm-hero__headline-line">more than a</span> <span class="mm-hero__headline-line">crisis response.</span></h1>
+      <div class="mm-hero__intro">
+        <p class="mm-hero__lead">Understand your mind. Strengthen your wellbeing. Stay ahead of mental health challenges.</p>
+        <p class="mm-hero__support">Mente Mirror brings together psychological science, AI-supported wellness, wearable context and human care to help you understand patterns, build healthier habits and choose the right support.</p>
+      </div>
       <div class="mm-actions mm-actions--hero">
-        <a class="mm-btn mm-btn--primary" data-cta="hero-wellness-check" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Start My Wellness Check</a>
-        <a class="mm-btn mm-btn--secondary" data-cta="hero-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}">Talk to a Psychologist</a>
+        <a class="mm-btn mm-btn--primary" data-cta="hero-wellness-check" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Explore Wellness Check</a>
+        <a class="mm-btn mm-btn--secondary" data-cta="hero-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}">Explore Human Care</a>
       </div>
       <div class="mm-hero__tertiary-row">
         <a class="mm-hero__tertiary" data-cta="hero-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Explore Mjuzi AI Wellness <span aria-hidden="true">→</span></a>
-        <a class="mm-hero__start-link" data-cta="hero-get-started" href="{{ '/get-started/' | relative_url }}">New to Mente Mirror? Start here</a>
+        <a class="mm-hero__start-link" data-cta="hero-get-started" href="{{ '/get-started/' | relative_url }}">New to Mente Mirror? Start here <span aria-hidden="true">→</span></a>
       </div>
     </div>
 

@@ -3873,3 +3873,43 @@ a.mm-card:hover .mm-card__link::after { transform: translateX(3px); }
     align-items: center;
   }
 }
+
+/* =========================================================
+   Phase 1.60 — Homepage hero bounded by visible primary menu
+   The desktop hero must stay inside the visual span from the start of
+   "For You" to the end of "About", rather than using the full viewport.
+   The asymmetric insets mirror the nav item anatomy: the first link begins
+   after its link padding, while the last item also reserves its dropdown
+   control on the right.
+   ========================================================= */
+@media (min-width: 921px) {
+  .mm-home .mm-hero__grid {
+    width: 100%;
+    max-width: none;
+    margin-inline: 0;
+    padding-left: max(28px, calc((100vw - var(--mm-container)) / 2 + 8px));
+    padding-right: max(48px, calc((100vw - var(--mm-container)) / 2 + 28px));
+  }
+}
+
+/* Release status for mobile-only MVP features */
+.mm-app-status {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  min-width: 148px;
+  padding: 10px 14px;
+  border: 1px solid var(--mm-border);
+  border-left: 3px solid var(--mm-purple);
+  background: #fff;
+  color: var(--mm-heading);
+  box-shadow: var(--mm-shadow-soft);
+}
+.mm-app-status strong { margin: 0; font-family: "Poppins", sans-serif; font-size: .78rem; }
+.mm-app-status small { color: var(--mm-muted); font-size: .72rem; }
+@media (max-width: 720px) {
+  .mm-assessment-note .mm-app-status,
+  .mm-subscription-callout .mm-app-status { width: 100%; }
+}

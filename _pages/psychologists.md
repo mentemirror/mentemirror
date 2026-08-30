@@ -128,13 +128,13 @@ body_class: mm-psychologists-page
       <div class="mm-counselling-step-grid" aria-label="Counselling process">
         <div class="mm-counselling-step"><span>1</span><div><strong>Registration</strong><p>Share your basic details so the team can get in touch.</p></div></div>
         <div class="mm-counselling-step"><span>2</span><div><strong>Choose Therapy</strong><p>Identify the support that fits your need and relevant age group.</p></div></div>
-        <div class="mm-counselling-step"><span>3</span><div><strong>Book Appointment</strong><p>Select a suitable time slot and complete the booking process.</p></div></div>
+        <div class="mm-counselling-step"><span>3</span><div><strong>Book in the Mobile App</strong><p>Appointment booking and time-slot selection are handled in the Mente Mirror mobile app. Public release of the mobile MVP is pending.</p></div></div>
       </div>
 
     </div>
 
     <div class="mm-actions">
-      <a class="mm-btn mm-btn--primary" data-cta="psychologists-book" href="{{ '/contact/' | relative_url }}">Book / Enquire</a>
+      <a class="mm-btn mm-btn--primary" data-cta="psychologists-enquire" href="{{ '/contact/' | relative_url }}">Ask a Question</a>
       <a class="mm-btn mm-btn--secondary" href="{{ '/human-care/fees-packages/' | relative_url }}">View Fees &amp; Packages</a>
       <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">Back to Human Care</a>
     </div>
