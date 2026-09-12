@@ -154,17 +154,20 @@ body_class: mm-corporate-page
 
 <section class="mm-section">
   <div class="mm-container">
-    <div class="mm-split">
+    <div class="mm-split mm-corporate-trust">
       <div>
         <span class="mm-eyebrow">Trust at work</span>
         <h2>Confidentiality and empathy matter.</h2>
         <p>Mente Mirror's service model places confidentiality and empathetic connection at the centre of counselling. Employees need to feel that they can speak openly in a professional setting without judgement. Individual counselling, personal conversations should remain separate from routine organisational communication.</p>
         
       </div>
-      <aside class="mm-card">
-        <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="shield" %}</span>
-        <h2>Support the person, don't turn a counselling session into a performance management process.</h2>
-       
+      <aside class="mm-card mm-corporate-trust-card">
+        <div class="mm-corporate-trust-card__inner">
+          <span class="mm-card__icon" aria-hidden="true">
+            {% include mm-icon.html name="shield" %}
+          </span>
+          <h3>Support the person, don't turn a counselling session into a performance management process.</h3>
+        </div>
       </aside>
     </div>
   </div>
