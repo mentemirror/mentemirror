@@ -98,7 +98,7 @@ body_class: mm-psychologists-page
 
 <section class="mm-section mm-section--soft">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--center">
+    <div class="mm-section-heading mm-section-heading">
       <span class="mm-eyebrow">Counselling support</span>
       <h2>Areas of counselling</h2>
       <p>Support can be shaped around the individual, their relationships, stage of life and current concerns.</p>
@@ -139,7 +139,7 @@ body_class: mm-psychologists-page
   </div>
 </section>
 
-<section class="mm-section">
+<section class="mm-section  mm-programmes-section">
   <div class="mm-container mm-disclosure-stack">
     <div class="mm-section-heading"><span class="mm-eyebrow">Explore when relevant</span><h2>Programmes and counselling formats</h2></div>
     <details class="mm-disclosure"><summary><span><strong>Counselling programmes by life stage</strong><small>PUPA, Young Achievers, Warriors and Sanity</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><div class="mm-program-grid">
@@ -177,7 +177,7 @@ body_class: mm-psychologists-page
         <div><strong>Book in the Mobile App</strong><p>Download Mjuzi mobile app for booking the Mente Mirror mobile app.  </p>  	
         <span class="mm-app-store-links" style="display:inline-flex;gap:8px;align-items:center;vertical-align:middle;margin-left:8px;">
 	<a href="#" class="mm-app-store-link" aria-label="Get it on Google Play" title="Google Play">
-	<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:40px;width:auto;display:block;">
+	<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:58px;width:auto;display:block;">
 	</a>
 	<a href="#" class="mm-app-store-link" aria-label="Download on the App Store" title="App Store">
 	<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height:40px;width:auto;display:block;">

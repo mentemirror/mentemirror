@@ -3956,4 +3956,64 @@ a.mm-card:hover .mm-card__link::after { transform: translateX(3px); }
     height: auto;
   }
 
+  @media (min-width: 1200px) {
+  .mm-no-wrap-desktop {
+    white-space: nowrap;
+  }
+}
+
+
+/* Human Care hero only */
+@media (min-width: 1100px) {
+
+  /* Preserve normal site alignment */
+  .mm-human-care-hero .mm-container {
+    width: min(calc(100% - 40px), var(--mm-container));
+    max-width: var(--mm-container);
+    margin-inline: auto;
+  }
+
+  /* Remove the built-in 890px heading restriction */
+  .mm-human-care-hero h1 {
+    max-width: none;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  /* Remove the built-in 800px paragraph restriction */
+  .mm-human-care-hero p {
+    max-width: none;
+    width: calc(
+      100vw - max(20px, calc((100vw - var(--mm-container)) / 2)) - 20px
+    );
+    white-space: nowrap;
+    font-size: .96rem;
+  }
+}
+
+@media (max-width: 1099px) {
+  .mm-human-care-hero h1,
+  .mm-human-care-hero p {
+    width: auto;
+    max-width: none;
+    white-space: normal;
+  }
+}
+
+/* Psychologists programmes section:
+   keep normal site alignment while retaining 1000px disclosure width */
+.mm-programmes-section .mm-disclosure-stack {
+  max-width: var(--mm-container);
+}
+
+.mm-programmes-section .mm-section-heading {
+  max-width: 1000px;
+}
+
+.mm-programmes-section .mm-disclosure {
+  max-width: none;
+  width: 100%;
+}
+  
+
 }

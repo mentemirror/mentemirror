@@ -51,7 +51,7 @@ body_class: mm-corporate-page
 
 <section class="mm-section mm-section--soft">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--center">
+    <div class="mm-section-heading mm-section-heading">
       <span class="mm-eyebrow">Areas of support</span>
       <h2>Support for the pressures people carry into the workplace.</h2>
       

@@ -49,7 +49,7 @@ body_class: mm-psychiatrists-page
 
 <section class="mm-section mm-section--soft">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--center">
+    <div class="mm-section-heading mm-section-heading">
       <span class="mm-eyebrow">How psychiatric consultation fits</span>
       <h2>A considered step within Human Care.</h2>
       
@@ -84,7 +84,7 @@ body_class: mm-psychiatrists-page
   <div class="mm-container">
     <div class="mm-section-heading">
       <span class="mm-eyebrow">Meet our specialists</span>
-      <h2>Meet the psychiatry specialists THIS SHOULD BE DYNAMICALLY COMING FROM THE TEAM - ONLY PSYCHIATRSTS</h2>
+      <h2>Meet the psychiatry specialists </h2>
       <p>Mente Mirror publishes the following specialists as part of its psychiatry care offering.</p>
     </div>
 
@@ -121,14 +121,6 @@ body_class: mm-psychiatrists-page
 
 <section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <div class="mm-clinical-note">
-      <span class="mm-clinical-note__icon" aria-hidden="true">{% include mm-icon.html name="medical" %}</span>
-      <div>
-        <h2>Psychiatry within the Mente Mirror ecosystem DELETE THIS ENTIRE SECTION</h2>
-        <p>Psychiatrists provide the medical and clinical perspective within Human Care. Psychological counselling and wellness support remain distinct parts of the ecosystem, with psychiatric evaluation added when the person's needs warrant medical assessment.</p>
-      </div>
-    </div>
-
     <div class="mm-actions">
       <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">← Back to Human Care</a>
     </div>

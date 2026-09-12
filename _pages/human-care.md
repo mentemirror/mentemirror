@@ -4,7 +4,7 @@ title: Human Care
 description: Human care at Mente Mirror brings together counselling and psychiatric support with confidentiality, empathy and reflection.
 permalink: /human-care/
 ---
-<section class="mm-page-hero">
+<section class="mm-page-hero mm-human-care-hero">
   <div class="mm-container">
     <span class="mm-eyebrow">Human Care</span>
     <h1>When technology isn't enough, a human is here.</h1>
@@ -12,7 +12,7 @@ permalink: /human-care/
     <p class="mm-inline-choice-note"><strong>Appointments:</strong> Download Mjuzi mobile app for booking the Mente Mirror mobile app. 
     	<span class="mm-app-store-links" style="display:inline-flex;gap:8px;align-items:center;vertical-align:middle;margin-left:8px;">
 	<a href="#" class="mm-app-store-link" aria-label="Get it on Google Play" title="Google Play">
-	<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:40px;width:auto;display:block;">
+	<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:58px;width:auto;display:block;">
 	</a>
 	<a href="#" class="mm-app-store-link" aria-label="Download on the App Store" title="App Store">
 	<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height:40px;width:auto;display:block;">
@@ -41,7 +41,7 @@ permalink: /human-care/
 
 <section class="mm-section mm-section--soft">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--center">
+    <div class="mm-section-heading mm-section-heading">
       <span class="mm-eyebrow">Human Care Services</span>
       <h2>Choose the support that fits your need.</h2>
     </div>
