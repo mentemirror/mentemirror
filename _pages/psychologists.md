@@ -173,18 +173,28 @@ body_class: mm-psychologists-page
         <span class="mm-eyebrow">How it works</span>
         <h2>Take an easy step</h2>
       </div>
-      <div class="mm-counselling-step-grid" aria-label="Counselling process">
-        <div class="mm-counselling-step"><span>1</span><div><strong>Registration</strong><p>Share your basic details so the team can get in touch. DELETE</p></div></div>
-        <div class="mm-counselling-step"><span>2</span><div><strong>Choose Therapy</strong><p>Identify the support that fits your need and relevant age group. DELETE</p></div></div>
-        <div class="mm-counselling-step"><span>3</span><div><strong>Book in the Mobile App</strong><p>Download Mjuzi mobile app for booking the Mente Mirror mobile app. PROVIDE CTA BUTTON FOR APP DOWNLOAD</p></div></div>
-      </div>
+
+        <div><strong>Book in the Mobile App</strong><p>Download Mjuzi mobile app for booking the Mente Mirror mobile app.  </p>  	
+        <span class="mm-app-store-links" style="display:inline-flex;gap:8px;align-items:center;vertical-align:middle;margin-left:8px;">
+	<a href="#" class="mm-app-store-link" aria-label="Get it on Google Play" title="Google Play">
+	<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:40px;width:auto;display:block;">
+	</a>
+	<a href="#" class="mm-app-store-link" aria-label="Download on the App Store" title="App Store">
+	<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height:40px;width:auto;display:block;">
+	</a>
+	</span>
 
     </div>
+  </div>
 
     <div class="mm-actions">
       <a class="mm-btn mm-btn--primary" data-cta="psychologists-enquire" href="{{ '/contact/' | relative_url }}">Ask a Question</a>
       <a class="mm-btn mm-btn--secondary" href="{{ '/human-care/fees-packages/' | relative_url }}">View Fees &amp; Packages</a>
-      <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">Back to Human Care</a>
     </div>
+
+    <div class="mm-actions">
+      <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">← Back to Human Care</a>
+    </div>
+
   </div>
 </section>

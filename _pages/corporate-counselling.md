@@ -183,14 +183,10 @@ body_class: mm-corporate-page
   </div>
 </section>
 
-<section class="mm-section mm-section--cta">
+<section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <div class="mm-cta-panel">
-      <div>
-        <span class="mm-eyebrow">Corporate wellbeing DELETE THIS SECTION </span>
-        <h2>Build support around the needs of your people. DELETE THIS SECTION</h2>
-        <p>DELETE THIS SECTION Corporate counselling can combine confidential individual support with group learning and workplace wellbeing programmes, while remaining part of the approved Human Care architecture.</p>
-      </div>
+    <div class="mm-actions">
+      <a class="mm-text-link" href="{{ '/human-care/' | relative_url }}">← Back to Human Care</a>
     </div>
   </div>
 </section>
