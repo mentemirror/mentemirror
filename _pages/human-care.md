@@ -8,29 +8,32 @@ permalink: /human-care/
   <div class="mm-container">
     <span class="mm-eyebrow">Human Care</span>
     <h1>When technology isn't enough, a human is here.</h1>
-    <p>Mente Mirror combines technology-enabled wellness support with experienced psychologists and psychiatrists for needs that benefit from human understanding, professional assessment and clinical judgement.</p>
-    <div class="mm-actions">
-      <a class="mm-btn mm-btn--primary" href="{{ '/human-care/psychologists/' | relative_url }}">Explore Psychologist Support</a>
-    </div>
-    <p class="mm-inline-choice-note"><strong>Appointments:</strong> booking is handled in the Mente Mirror mobile app. The mobile MVP is currently being prepared for public release.</p>
+    <p>Mente Mirror combines technology-enabled wellness support with experienced psychologists and psychiatrists for needs that benefit from human understanding, professional assessment and clinical analysis.</p>
+    <p class="mm-inline-choice-note"><strong>Appointments:</strong> Download Mjuzi mobile app for booking the Mente Mirror mobile app. 
+    	<span class="mm-app-store-links" style="display:inline-flex;gap:8px;align-items:center;vertical-align:middle;margin-left:8px;">
+	<a href="#" class="mm-app-store-link" aria-label="Get it on Google Play" title="Google Play">
+	<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:40px;width:auto;display:block;">
+	</a>
+	<a href="#" class="mm-app-store-link" aria-label="Download on the App Store" title="App Store">
+	<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height:40px;width:auto;display:block;">
+	</a>
+	</span>
+    </p>
   </div>
 </section>
 
 <section class="mm-section">
   <div class="mm-container">
-    <div class="mm-split">
+    <div class="mm-split mm-human-care-intro">
       <div>
         <span class="mm-eyebrow">Our approach</span>
         <h2>Support begins with understanding the person.</h2>
-        <p>Mente Mirror's existing counselling model starts with one-to-one conversation to understand the concerns and context of the individual. The aim is to support reflection and self-understanding using appropriate psychological methods rather than treating every person in the same way.</p>
-        <p>Depending on the need, the care pathway can bring together counselling, psychological assessment and consultation with a psychiatrist. The role of the professional is to understand the concern, choose an appropriate form of support and help the person work toward healthier coping, behaviour and wellbeing.</p>
+        <p>The aim is to trigger reflection and introspect with appropriate client centric psychological interventions.</p>
+        <p>Depending on the need, the care pathway can bring together counselling, psychological assessment and consultation with a psychiatrist. </p>
       </div>
       <div class="mm-human-care-source-media">
-        <img src="{{ '/assets/images/human-care/services-img-01.png' | relative_url }}" alt="Mente Mirror human care services" loading="lazy">
-        <div class="mm-card">
-          <h2>Human care, connected to the wider Mente Mirror journey</h2>
-          <p>Wellness insights and technology can help with awareness and day-to-day support. Human professionals add empathy, interpretation, context and clinical decision-making when those are needed.</p>
-        </div>
+        <img src="{{ '/assets/images/human-care/human care front page.png' | relative_url }}" alt="Mente Mirror human care services" loading="lazy">
+
       </div>
     </div>
   </div>

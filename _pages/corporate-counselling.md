@@ -11,7 +11,14 @@ body_class: mm-corporate-page
     <span class="mm-eyebrow">Human Care</span>
     <h1>Corporate Counselling</h1>
     <p><strong>Support healthier people, stronger teams and more resilient workplaces.</strong></p>
-    <p>Work can bring pressure, change, interpersonal challenges and competing demands. Mente Mirror's corporate counselling approach brings professional psychological support into the workplace through confidential one-to-one counselling, group support and wellbeing-oriented learning.</p>
+    <br>
+    <div class="mm-psychologists-intro-image">
+    <img
+      src="{{ './assets/images/human-care/corporate setup.png' | relative_url }}"
+      alt="Corporate counselling and workplace wellbeing"
+      class="mm-corporate-hero__image"
+    >
+    </div>
   </div>
 </section>
 
@@ -21,9 +28,9 @@ body_class: mm-corporate-page
       <div>
         <div class="mm-section-heading">
           <span class="mm-eyebrow">Workplace wellbeing</span>
-          <h2>Help people understand what they are experiencing and respond more effectively.</h2>
+          <h2>Strengthen Emotional Agility towards Healthier Organisation</h2>
         </div>
-        <p>Mente Mirror's counselling model is built around reflection, insight and the development of healthier coping mechanisms. In a workplace setting, the same principles can support employees who are dealing with stress, burnout, difficult relationships, emotional strain or periods of change.</p>
+        <p>In a workplace setting, the same principles can support employees who are dealing with stress, burnout, difficult relationships, emotional strain or periods of change.</p>
         <p>The aim is not simply to respond when a problem becomes severe. Corporate counselling can also create space for early support, self-awareness, emotional regulation and practical skills that help people remain engaged, resilient and able to function well at work and outside it.</p>
       </div>
 
@@ -47,7 +54,7 @@ body_class: mm-corporate-page
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">Areas of support</span>
       <h2>Support for the pressures people carry into the workplace.</h2>
-      <p>Corporate counselling can be shaped around the needs of an organisation and the concerns most relevant to its people.</p>
+      
     </div>
 
     <div class="mm-support-grid">
@@ -89,8 +96,8 @@ body_class: mm-corporate-page
   <div class="mm-container">
     <div class="mm-section-heading">
       <span class="mm-eyebrow">Ways to engage</span>
-      <h2>Flexible support for individuals and groups.</h2>
-      <p>Mente Mirror's existing counselling services include both individual and group formats. For corporate wellbeing, these can be organised around the needs of employees, teams and the wider organisation.</p>
+      <h2>Build support around the needs of your people.</h2>
+      
     </div>
 
     <div class="mm-card-grid mm-card-grid--3 mm-counselling-formats">
@@ -106,7 +113,7 @@ body_class: mm-corporate-page
       </article>
       <article class="mm-card">
         <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="bulb" %}</span>
-        <h2>Workshops &amp; wellbeing programmes</h2>
+        <h2>Workshops, Webinars &amp; wellbeing programmes</h2>
         <p>Structured learning sessions that can focus on practical skills such as emotional agility, self-awareness, resilience and healthier responses to workplace pressure.</p>
       </article>
     </div>
@@ -151,13 +158,13 @@ body_class: mm-corporate-page
       <div>
         <span class="mm-eyebrow">Trust at work</span>
         <h2>Confidentiality and empathy matter.</h2>
-        <p>Mente Mirror's service model places confidentiality and empathetic connection at the centre of counselling. Employees need to feel that they can speak openly in a professional setting without judgement.</p>
-        <p>Where corporate support includes individual counselling, personal conversations should remain separate from routine organisational communication. The purpose of the programme is to support the person—not to turn a counselling session into a performance-management process.</p>
+        <p>Mente Mirror's service model places confidentiality and empathetic connection at the centre of counselling. Employees need to feel that they can speak openly in a professional setting without judgement. Individual counselling, personal conversations should remain separate from routine organisational communication.</p>
+        
       </div>
       <aside class="mm-card">
         <span class="mm-card__icon" aria-hidden="true">{% include mm-icon.html name="shield" %}</span>
-        <h2>Human-centred by design</h2>
-        <p>Confidentiality, rapport, reflection and professional interpretation are recurring principles across Mente Mirror's existing counselling services and remain important in the workplace context.</p>
+        <h2>Support the person, don't turn a counselling session into a performance management process.</h2>
+       
       </aside>
     </div>
   </div>
@@ -180,9 +187,9 @@ body_class: mm-corporate-page
   <div class="mm-container">
     <div class="mm-cta-panel">
       <div>
-        <span class="mm-eyebrow">Corporate wellbeing</span>
-        <h2>Build support around the needs of your people.</h2>
-        <p>Corporate counselling can combine confidential individual support with group learning and workplace wellbeing programmes, while remaining part of the approved Human Care architecture.</p>
+        <span class="mm-eyebrow">Corporate wellbeing DELETE THIS SECTION </span>
+        <h2>Build support around the needs of your people. DELETE THIS SECTION</h2>
+        <p>DELETE THIS SECTION Corporate counselling can combine confidential individual support with group learning and workplace wellbeing programmes, while remaining part of the approved Human Care architecture.</p>
       </div>
     </div>
   </div>

@@ -20,10 +20,10 @@ body_class: mm-psychologists-page
       <div>
         <div class="mm-section-heading">
           <span class="mm-eyebrow">How psychologists can support you</span>
-          <h2>Understand, reflect and develop healthier ways of coping.</h2>
+          <h2>Understand your dynamics through precipitating and predisposed factors.</h2>
         </div>
-        <p>Counselling can support people dealing with concerns such as stress, relationship difficulties, or academic and career-related problems. The process is designed to help a person understand themselves more clearly and develop skills to adapt to the challenges of life.</p>
-        <p>The counselling relationship is collaborative and confidential. It focuses on the individual’s concerns in a safe and sensitive setting, helping clarify conflicting issues through greater insight into feelings, thoughts and behaviours and supporting the development or refinement of coping mechanisms.</p>
+        <p>Counselling can support people dealing with concerns to think clearly and develop skills to adapt to the challenges of life.</p>
+        <p>The counselling relationship is collaborative and confidential. It focuses on the individual’s concerns in a safe and sensitive setting.</p>
       </div>
 
       <aside class="mm-psychologists-summary" aria-label="Psychologist support areas">
@@ -36,15 +36,63 @@ body_class: mm-psychologists-page
         </ul>
       </aside>
     </div>
+
+    <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/human-care/counselling setup.png' | relative_url }}"
+        alt="Psychologist counselling session"
+        loading="lazy"
+      >
+    </div>
   </div>
 </section>
 
 <section class="mm-section mm-section--care-standards">
   <div class="mm-container mm-care-standards">
-    <div><span>{% include mm-icon.html name="users" %}</span><strong>Professional roles</strong><p>Meet the psychologists, counsellors and psychiatrists published by Mente Mirror.</p><a href="{{ '/about/team/' | relative_url }}">Meet the team →</a></div>
+    <div><span>{% include mm-icon.html name="users" %}</span><strong>Professional roles</strong><p>Meet the empanelled psychologists, counsellors and psychiatrists at Mente Mirror.</p></div>
     <div><span>{% include mm-icon.html name="clipboard" %}</span><strong>Assessment &amp; counselling</strong><p>Psychological assessment and counselling are matched to the person's concern and goals.</p></div>
     <div><span>{% include mm-icon.html name="medical" %}</span><strong>Medical referral</strong><p>Psychiatric evaluation can be added when medical assessment is appropriate.</p></div>
     <div><span>{% include mm-icon.html name="shield" %}</span><strong>Clear care boundaries</strong><p>Wellness technology supports the journey; it does not replace emergency or medical care.</p></div>
+  </div>
+</section>
+
+<section class="mm-section mm-section--tight">
+  <div class="mm-container">
+    <div class="mm-section-heading">
+      <span class="mm-eyebrow">Meet our specialists</span>
+      <h2>Meet the psychology specialists</h2>
+      <p>Mente Mirror publishes the following specialists as part of its psychological counselling offering.</p>
+    </div>
+
+    <div class="mm-specialists-grid">
+      <article class="mm-specialist-card">
+        <img
+          class="mm-specialist-card__photo"
+          src="{{ '/assets/images/team/ipsita-das.jpg' | relative_url }}"
+          alt="Mrs Ipsita Das"
+          loading="lazy"
+        >
+        <div>
+          <h3>Mrs Ipsita Das</h3>
+          <p class="mm-specialist-card__role">Counsellor &amp; Psychologist</p>
+          <p>Psychological counselling specialist on Mente Mirror's Human Care team.</p>
+        </div>
+      </article>
+
+      <article class="mm-specialist-card">
+        <img
+          class="mm-specialist-card__photo"
+          src="{{ '/assets/images/team/somdatta-de.png' | relative_url }}"
+          alt="Mrs Somdatta De"
+          loading="lazy"
+        >
+        <div>
+          <h3>Mrs Somdatta De</h3>
+          <p class="mm-specialist-card__role">Psychological Counselling</p>
+          <p>Psychological counselling specialist on Mente Mirror's Human Care team.</p>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -65,7 +113,7 @@ body_class: mm-psychologists-page
       <article class="mm-support-card">
         <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="student" %}</span>
         <h3>Adolescent counselling</h3>
-        <p>Support for young people navigating emotional, behavioural, academic and developmental concerns.</p>
+        <p>Support for young people navigating emotional, behavioural, academic exam stress and developmental concerns.</p>
       </article>
       <article class="mm-support-card">
         <span class="mm-support-card__icon" aria-hidden="true">{% include mm-icon.html name="handshake" %}</span>
@@ -93,7 +141,7 @@ body_class: mm-psychologists-page
 
 <section class="mm-section">
   <div class="mm-container mm-disclosure-stack">
-    <div class="mm-section-heading"><span class="mm-eyebrow">Explore when relevant</span><h2>Programmes and counselling formats</h2><p>Open the details that match your age group or preferred format.</p></div>
+    <div class="mm-section-heading"><span class="mm-eyebrow">Explore when relevant</span><h2>Programmes and counselling formats</h2></div>
     <details class="mm-disclosure"><summary><span><strong>Counselling programmes by life stage</strong><small>PUPA, Young Achievers, Warriors and Sanity</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><div class="mm-program-grid">
       <article class="mm-program-card mm-program-card--pupa"><span class="mm-program-card__label">Children</span><h3>PUPA</h3><span class="mm-program-card__descriptor">Child life-skills programme</span><p>For children from primary to middle school, with a focus on positive parenting, discipline and appropriate behaviour. The programme centres on helping children accept, appreciate and align their thoughts as they develop responsibility and independence as learners.</p></article>
       <article class="mm-program-card mm-program-card--young"><span class="mm-program-card__label">Adolescents</span><h3>Young Achievers</h3><span class="mm-program-card__descriptor">Adolescent wellbeing programme</span><p>For secondary and higher-secondary students, focusing on thinking, social and emotional life skills. The programme aims to help young people discover, design and deliver their potential, supported by psychometric tools where appropriate.</p></article>
@@ -111,8 +159,8 @@ body_class: mm-psychologists-page
   <div class="mm-container mm-fees-summary">
     <div>
       <span class="mm-eyebrow">Fees &amp; packages</span>
-      <h2>Compare programme structure and published fees separately.</h2>
-      <p>To keep this page focused on choosing the right kind of support, detailed session structures, payment schedules and group-counselling fees are available on one dedicated page.</p>
+      <h2>Compare programme structure and published fees.</h2>
+      
     </div>
     <div class="mm-actions"><a class="mm-btn mm-btn--primary" data-cta="psychologists-fees" href="{{ '/human-care/fees-packages/' | relative_url }}">View Fees &amp; Packages</a><a class="mm-btn mm-btn--ghost" data-cta="psychologists-contact" href="{{ '/contact/' | relative_url }}">Ask About a Programme</a></div>
   </div>
@@ -123,12 +171,12 @@ body_class: mm-psychologists-page
     <div class="mm-counselling-steps">
       <div class="mm-section-heading">
         <span class="mm-eyebrow">How it works</span>
-        <h2>Take a few easy steps</h2>
+        <h2>Take an easy step</h2>
       </div>
       <div class="mm-counselling-step-grid" aria-label="Counselling process">
-        <div class="mm-counselling-step"><span>1</span><div><strong>Registration</strong><p>Share your basic details so the team can get in touch.</p></div></div>
-        <div class="mm-counselling-step"><span>2</span><div><strong>Choose Therapy</strong><p>Identify the support that fits your need and relevant age group.</p></div></div>
-        <div class="mm-counselling-step"><span>3</span><div><strong>Book in the Mobile App</strong><p>Appointment booking and time-slot selection are handled in the Mente Mirror mobile app. Public release of the mobile MVP is pending.</p></div></div>
+        <div class="mm-counselling-step"><span>1</span><div><strong>Registration</strong><p>Share your basic details so the team can get in touch. DELETE</p></div></div>
+        <div class="mm-counselling-step"><span>2</span><div><strong>Choose Therapy</strong><p>Identify the support that fits your need and relevant age group. DELETE</p></div></div>
+        <div class="mm-counselling-step"><span>3</span><div><strong>Book in the Mobile App</strong><p>Download Mjuzi mobile app for booking the Mente Mirror mobile app. PROVIDE CTA BUTTON FOR APP DOWNLOAD</p></div></div>
       </div>
 
     </div>

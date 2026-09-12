@@ -22,8 +22,8 @@ body_class: mm-psychiatrists-page
           <span class="mm-eyebrow">Psychiatric care</span>
           <h2>Medical expertise when the care pathway needs it.</h2>
         </div>
-        <p>Mente Mirror's existing psychiatric consultation service is designed to complement counselling when a medical opinion is required. Where the care process indicates that psychiatric consultation may be appropriate, a person can be referred to a psychiatrist for further evaluation.</p>
-        <p>The psychiatrist considers the person's biological and psychological needs and can provide medical assessment and, where clinically appropriate, prescribe medication. This keeps psychiatric care connected to the wider Human Care journey rather than treating it as a separate wellness experience.</p>
+        <p>Mente Mirror's existing psychiatric consultation service is designed to complement counselling when a medical opinion is required.</p>
+        <p>The psychiatrist provide medical assessment and, where clinically appropriate, prescribe medication. This keeps psychiatric care connected to the wider Human Care journey rather than treating it as a separate wellness experience.</p>
       </div>
 
       <aside class="mm-psychiatrists-summary" aria-label="Psychiatrist support areas">
@@ -35,6 +35,15 @@ body_class: mm-psychiatrists-page
         </ul>
       </aside>
     </div>
+
+    <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/human-care/psychiatric setup.png' | relative_url }}"
+        alt="Psychologist counselling session"
+        loading="lazy"
+      >
+    </div>
+
   </div>
 </section>
 
@@ -43,7 +52,7 @@ body_class: mm-psychiatrists-page
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">How psychiatric consultation fits</span>
       <h2>A considered step within Human Care.</h2>
-      <p>Psychiatric consultation is used when a person's needs call for medical evaluation in addition to psychological support.</p>
+      
     </div>
 
     <div class="mm-psychiatric-path" aria-label="Psychiatric consultation pathway">
@@ -75,7 +84,7 @@ body_class: mm-psychiatrists-page
   <div class="mm-container">
     <div class="mm-section-heading">
       <span class="mm-eyebrow">Meet our specialists</span>
-      <h2>Meet the psychiatry specialists</h2>
+      <h2>Meet the psychiatry specialists THIS SHOULD BE DYNAMICALLY COMING FROM THE TEAM - ONLY PSYCHIATRSTS</h2>
       <p>Mente Mirror publishes the following specialists as part of its psychiatry care offering.</p>
     </div>
 
@@ -115,7 +124,7 @@ body_class: mm-psychiatrists-page
     <div class="mm-clinical-note">
       <span class="mm-clinical-note__icon" aria-hidden="true">{% include mm-icon.html name="medical" %}</span>
       <div>
-        <h2>Psychiatry within the Mente Mirror ecosystem</h2>
+        <h2>Psychiatry within the Mente Mirror ecosystem DELETE THIS ENTIRE SECTION</h2>
         <p>Psychiatrists provide the medical and clinical perspective within Human Care. Psychological counselling and wellness support remain distinct parts of the ecosystem, with psychiatric evaluation added when the person's needs warrant medical assessment.</p>
       </div>
     </div>

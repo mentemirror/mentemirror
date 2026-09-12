@@ -3913,3 +3913,47 @@ a.mm-card:hover .mm-card__link::after { transform: translateX(3px); }
   .mm-assessment-note .mm-app-status,
   .mm-subscription-callout .mm-app-status { width: 100%; }
 }
+/* Human Care intro alignment fix */
+.mm-human-care-intro {
+  align-items: start;
+}
+
+.mm-human-care-intro > div:first-child {
+  padding-top: 0;
+}
+
+.mm-human-care-source-media {
+  width: 100%;
+}
+
+.mm-human-care-source-media > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (min-width: 921px) {
+  .mm-human-care-source-media .mm-card {
+    padding: 20px 22px;
+  }
+
+  .mm-human-care-source-media .mm-card h2 {
+    margin: 0;
+    font-size: clamp(1.45rem, 2.1vw, 2rem);
+    line-height: 1.18;
+  }
+
+  .mm-psychologists-intro-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+
+  .mm-psychologists-intro-image img {
+    display: block;
+    width: min(100%, 780px);
+    height: auto;
+  }
+
+}
