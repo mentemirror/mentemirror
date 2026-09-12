@@ -7,11 +7,11 @@
 }
 .mm-ai-companion-section .mm-section-head { max-width: 760px; }
 .mm-ai-capabilities { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; margin-top:34px; }
-.mm-ai-capability { position:relative; min-height:150px; padding:28px 24px 24px; overflow:hidden; background:#fff; border:1px solid var(--mm-border); border-top:4px solid var(--mm-primary); box-shadow:var(--mm-shadow-soft); transition:transform .18s ease,box-shadow .18s ease; }
+.mm-ai-capability { position:relative; min-height:150px; padding:28px 24px 24px; overflow:hidden; background:var(--mm-surface, #fff); border:1px solid var(--mm-border); border-top:4px solid var(--mm-primary); border-radius:var(--mm-radius-md, 14px); box-shadow:var(--mm-shadow-soft); transition:transform .18s ease,box-shadow .18s ease; }
 .mm-ai-capability:hover { transform:translateY(-3px); box-shadow:0 16px 36px rgba(37,36,45,.10); }
 .mm-ai-capability::after { content:""; position:absolute; width:88px; height:88px; right:-31px; bottom:-36px; border-radius:50%; background:rgba(235,63,122,.055); }
 .mm-ai-capability__icon { display:grid; place-items:center; width:42px; height:42px; margin-bottom:18px; border-radius:50%; background:#fff3f7; color:var(--mm-primary-deep); font-size:1.18rem; line-height:1; }
-.mm-ai-capability h3 { position:relative; z-index:1; margin:0; font-size:1rem; line-height:1.45; }
+.mm-ai-capability h3 { position:relative; z-index:1; margin:0; font-size:1.0625rem; line-height:1.4; }
 .mm-ai-capability--purple { border-top-color:var(--mm-purple); }
 .mm-ai-capability--purple .mm-ai-capability__icon { background:#f6f0f8; color:var(--mm-purple); }
 .mm-ai-capability--purple::after { background:rgba(139,79,166,.055); }
@@ -27,3 +27,8 @@
 .mm-ai-companion-back { margin-top:34px; }
 @media (max-width:920px) { .mm-ai-capabilities { grid-template-columns:repeat(2,minmax(0,1fr)); } .mm-ai-capability--human { grid-column:span 2; } }
 @media (max-width:640px) { .mm-ai-capabilities { grid-template-columns:1fr; gap:14px; } .mm-ai-capability { min-height:0; padding:23px 21px; } .mm-ai-capability--human { grid-column:auto; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .mm-ai-capability { transition:none; }
+  .mm-ai-capability:hover { transform:none; }
+}

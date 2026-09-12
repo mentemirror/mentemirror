@@ -546,7 +546,7 @@ a.mm-card:hover .mm-card__arrow,
   .mm-header.is-scrolled .mm-appointment {
     min-height: 36px;
     padding-inline: 14px;
-    font-size: .7rem;
+    font-size: .75rem;
   }
 
   .mm-header.is-scrolled .mm-header__inner {
@@ -758,7 +758,7 @@ a.mm-card:hover .mm-card__arrow,
   color: #5b535e;
   font-family: "Source Sans 3", "Open Sans", Arial, sans-serif;
   font-size: .78rem;
-  font-weight: 650;
+  font-weight: 600;
   line-height: 1;
   cursor: pointer;
   transition:
@@ -934,7 +934,7 @@ a.mm-card:hover .mm-card__arrow,
     max-width: 35rem;
     font-size: clamp(1.03rem, 1.28vw, 1.16rem);
     line-height: 1.42;
-    font-weight: 650;
+    font-weight: 600;
     color: var(--mm-heading);
   }
 
