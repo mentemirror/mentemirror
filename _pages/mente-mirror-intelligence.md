@@ -23,11 +23,16 @@ body_class: mm-intelligence-page
 
     <p>Many people try to create happiness by improving only one area—for example, earning more money or exercising or achieving career goals or spending time with family. Yet they may still feel empty, stressed or disconnected. <strong>“Happiness is not a destination to reach; it is a set of wells we need to keep replenishing.”</strong> When one well runs dry, life feels harder.</p>
 
-    <p><strong>When we consciously replenish all five, we create a stronger foundation for happiness and wellbeing.</strong></p>
+   
 
     <div class="mm-intelligence-callout">
       <strong>Mente Mirror Wellbeing:</strong> the “Five Wells of Happiness” is a holistic framework that helps a person understand that lasting happiness does not come from one single source. Just as a person needs different sources of nourishment for the body, the mind also needs its different wells to be replenished.
     </div>
+
+ <p>A person's mental wellbeing cannot be understood by looking at one symptom, one questionnaire or one physiological measurement. A human being is an interconnected system. Stress influences sleep. Sleep influences mood. Mood influences behaviour. Behaviour influences relationships. Relationships influence emotional resilience. Physical activity influences energy and cognition. Cognition influences productivity and emotional wellbeing. Therefore, mental wellness should be understood as a dynamic ecosystem of the whole person, not merely the problem.</p>
+
+    <p><strong>When we consciously replenish all five, we create a stronger foundation for happiness and wellbeing.</strong></p>
+
   </div>
 </section>
 
@@ -81,72 +86,19 @@ body_class: mm-intelligence-page
       <p>The ultimate objective is <strong>sustainable wellbeing</strong> rather than temporary happiness.</p>
     </div>
 
-    <div class="mm-wellbeing-map" aria-label="Five dimensions of wellbeing">
-      <article class="mm-wellbeing-petal mm-wellbeing-petal--emotional">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">{% include mm-icon.html name="heart" %}</div>
-        <h3>Emotional</h3>
-        <ul>
-          <li>Feelings about self &amp; others</li>
-          <li>Emotional acceptance</li>
-          <li>Coping strategies</li>
-          <li>Self-discipline</li>
-          <li>Workdrive</li>
-        </ul>
-      </article>
-
-      <article class="mm-wellbeing-petal mm-wellbeing-petal--physical">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">↗</div>
-        <h3>Physical</h3>
-        <ul>
-          <li>Nutrition</li>
-          <li>Movement</li>
-          <li>Sleep</li>
-          <li>Body systems</li>
-          <li>Physical response to events</li>
-        </ul>
-      </article>
-
-      <article class="mm-wellbeing-petal mm-wellbeing-petal--social">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">●</div>
-        <h3>Social</h3>
-        <ul>
-          <li>Sense of community</li>
-          <li>Shared responsibility for others</li>
-          <li>Interaction within networks</li>
-          <li>Quality of relationships</li>
-        </ul>
-      </article>
-
-      <div class="mm-wellbeing-core">
-        <span class="mm-wellbeing-core__mark" aria-hidden="true">{% include mm-icon.html name="sparkles" %}</span>
-        <strong>Wellbeing</strong>
-        <small>Five wells in balance</small>
-      </div>
-
-      <article class="mm-wellbeing-petal mm-wellbeing-petal--intellectual">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">{% include mm-icon.html name="brain" %}</div>
-        <h3>Intellectual</h3>
-        <ul>
-          <li>Information processing</li>
-          <li>Critical thinking</li>
-          <li>Creativity</li>
-          <li>Personal / professional development</li>
-        </ul>
-      </article>
-
-      <article class="mm-wellbeing-petal mm-wellbeing-petal--spiritual">
-        <div class="mm-wellbeing-petal__icon" aria-hidden="true">{% include mm-icon.html name="sparkles" %}</div>
-        <h3>Spiritual</h3>
-        <ul>
-          <li>Faith</li>
-          <li>Belief in Higher Power</li>
-          <li>Inner strength &amp; vitality</li>
-          <li>Purposeful living</li>
-          <li>Hopefulness</li>
-        </ul>
-      </article>
+      <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/understand-yourself/5 Wells of happiness.png' | relative_url }}"
+        alt="Wellness Assessment"
+        loading="lazy"
+      >
     </div>
 
+  </div>
+</section>
+
+<section class="mm-section mm-section--tight">
+  <div class="mm-container">
     <div class="mm-actions">
       <a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a>
     </div>

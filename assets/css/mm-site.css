@@ -4210,3 +4210,30 @@ a.mm-card:hover .mm-card__link::after { transform: translateX(3px); }
   }
 
 }
+
+/* Psychological Testing hero: allow copy to use the full container width on all screen sizes */
+.mm-psychological-tests-page .mm-page-hero p {
+  max-width: 100%;
+}
+
+/* Psychological Testing: align disclosure sections with page container */
+.mm-psychological-tests-page .mm-disclosure-stack {
+  max-width: var(--mm-container);
+}
+
+/* Mente Mirror Intelligence: align intro with normal page container */
+.mm-intelligence-page .mm-intelligence-copy {
+  max-width: var(--mm-container);
+}
+
+.mm-intelligence-page .mm-section-heading--intelligence {
+  max-width: 100%;
+}
+
+.mm-intelligence-page .mm-intelligence-copy > p {
+  max-width: 100%;
+}
+
+.mm-intelligence-page .mm-intelligence-callout {
+  max-width: 100%;
+}
