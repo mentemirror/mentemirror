@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Psychiatrists
+title: Online Psychiatrist Consultation in India | Mente Mirror
 description: Psychiatric evaluation, medical assessment and medication when clinically appropriate through Mente Mirror Human Care.
 permalink: /human-care/psychiatrists/
 body_class: mm-psychiatrists-page

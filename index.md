@@ -1,7 +1,7 @@
 ---
 layout: mm-default
-title: Mente Mirror
-description: Preventive and personalised mental wellness combining psychological science, behavioural insights, wearables, AI support and human care.
+title: Online Mental Wellness, Psychologists & Counselling India | Mente Mirror
+description: Mente Mirror combines online counselling, psychologists, psychological assessments and AI-supported preventive mental wellness for students, adults, seniors and families.
 permalink: /
 body_class: mm-home
 og_image: /assets/images/home/consulings.png

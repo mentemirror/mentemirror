@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Psychologists
+title: Online Psychologist & Counselling in India | Mente Mirror
 description: Explore psychological assessment, counselling, behaviour change and emotional wellbeing support with Mente Mirror psychologists.
 permalink: /human-care/psychologists/
 body_class: mm-psychologists-page

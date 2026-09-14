@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Students & Teens
+title: Student Counselling & Mental Wellness Support
 description: Wellness support for students and teens covering focus, academic stress, exam anxiety, sleep, emotional wellbeing and parent-supported wellness.
 permalink: /for-you/students-teens/
 body_class: mm-audience-page

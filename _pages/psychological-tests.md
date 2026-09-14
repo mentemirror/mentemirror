@@ -10,15 +10,21 @@ body_class: mm-psychological-tests-page
   <div class="mm-container">
     <span class="mm-eyebrow">Understand Yourself</span>
     <h1>Psychological Testing</h1>
-    <p><strong>Structured tools can help explore specific psychological characteristics and support a clearer professional understanding of your needs.</strong></p>
+    <p><strong>Standardised tests can help explore specific psychological characteristics and support a clearer professional understanding of your needs. </strong></p><p>Tests are selected for a specific purpose and may require psychologist administration or interpretation. A test score by itself should not be treated as a diagnosis.</p>
   </div>
+      <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/understand-yourself/psychological testing.png' | relative_url }}"
+        alt="Psychological Testing"
+        loading="lazy"
+      >
+    </div>
 </section>
 
 <section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <div class="mm-safety-callout" role="note"><span>{% include mm-icon.html name="clipboard" %}</span><p><strong>Psychological testing is different from a self-guided Wellness Check.</strong> Tests are selected for a specific purpose and may require psychologist administration or interpretation. A test score by itself should not be treated as a diagnosis. <a href="{{ '/understand-yourself/' | relative_url }}">Compare assessment routes →</a></p></div>
     <div class="mm-section-heading mm-section-heading--testing"><span class="mm-eyebrow">What would you like to explore?</span><h2>Start with the area that matters to you</h2></div>
-    <ul class="mm-improvement-list" aria-label="Areas you may want to explore"><li>Sleep</li><li>Stress</li><li>Focus</li><li>Emotions</li><li>Memory</li></ul>
+    <ul class="mm-improvement-list" aria-label="Areas you may want to explore DELETE SECTION"><li>Sleep</li><li>Stress</li><li>Focus</li><li>Emotions</li><li>Memory</li></ul>
     <div class="mm-testing-flow" aria-label="Psychological testing journey">
       <div class="mm-testing-flow__item"><strong>Select the right test</strong></div><span class="mm-testing-flow__arrow" aria-hidden="true">→</span>
       <div class="mm-testing-flow__item"><strong>Complete testing</strong></div><span class="mm-testing-flow__arrow" aria-hidden="true">→</span>
@@ -31,8 +37,8 @@ body_class: mm-psychological-tests-page
 <section class="mm-section mm-section--soft">
   <div class="mm-container mm-disclosure-stack">
     <div class="mm-section-heading"><span class="mm-eyebrow">Learn only what you need</span><h2>About the main types of testing</h2><p>Open a section for more detail.</p></div>
-    <details class="mm-disclosure" open><summary><span><strong>Psychometric testing</strong><small>IQ, EQ, personality, interest and aptitude-related tools</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Psychometric tests use structured scoring to measure particular psychological or cognitive characteristics. Depending on the test and purpose, they may be used to explore areas such as cognitive ability, emotional characteristics, personality, interests or aptitude. Interpretation should consider the selected instrument, the person's context and the reason for testing.</p></div></details>
-    <details class="mm-disclosure"><summary><span><strong>Projective and psycho-diagnostic testing</strong><small>TAT, Rorschach, sentence-completion and related tools</small></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Projective methods use responses to less-structured material as part of a psychologist-led exploration of themes, perceptions and emotional experience. These tools require professional administration and interpretation and should be understood within the broader assessment context.</p></div></details>
+    <details class="mm-disclosure" open><summary><span><strong>Psychometric testing</strong></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Psychometric testing (IQ, EQ, personality, compatibility, aptitude etc.. tests) are essential to measure an individual’s behaviour style and mental health with measurable objective data. The tests are standard, scientific and reliable to measure an individual’s mental capabilities. It is used to diagnose the extent to which candidate’s personal and cognitive abilities match with those required to cope in a given situation.</p></div></details>
+    <details class="mm-disclosure"><summary><span><strong>Projective and psycho-diagnostic testing</strong></span><i aria-hidden="true"></i></summary><div class="mm-disclosure__body"><p>Projective tests like TAT, Rorschach, sentence completion are intended to uncover feelings, desires and conflicts that are hidden from conscious awareness. By interpreting this response to ambiguous cues, the unconscious mind gets revealed to the psychologist thereby leading to an insight into the psychodynamic state of mind of the client.</p></div></details>
   </div>
 </section>
 
@@ -59,4 +65,4 @@ body_class: mm-psychological-tests-page
   </div>
 </section>
 
-<section class="mm-section mm-section--tight mm-testing-subscription"><div class="mm-container"><div class="mm-subscription-callout"><div><span class="mm-eyebrow">Your next step</span><h2>Continue your personalised journey in the mobile app</h2><p>The 7-day personalised wellness plan is part of the Mente Mirror mobile experience. The MVP is currently being prepared for public release.</p></div><span class="mm-app-status" role="status"><strong>Mobile app MVP</strong><small>Release pending</small></span></div><div class="mm-actions"><a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a></div></div></section>
+<section class="mm-section mm-section--tight mm-testing-subscription"><div class="mm-container"><div class="mm-subscription-callout"><div><span class="mm-eyebrow">Your next step</span><h2>TAKE THIS SECTION TO TOP Continue your personalised journey in the mobile app</h2><p>The 7-day personalised wellness plan is part of the Mente Mirror mobile experience. The MVP is currently being prepared for public release.</p></div><span class="mm-app-status" role="status"><strong>Mobile app MVP</strong><small>Release pending</small></span></div><div class="mm-actions"><a class="mm-text-link" href="{{ '/understand-yourself/' | relative_url }}">← Back to Understand Yourself</a></div></div></section>

@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Adults
+title: Online Counselling for Adults, Stress & Burnout
 description: Adult wellness support for stress, burnout, sleep, work-life balance, emotional regulation, resilience and human counselling.
 permalink: /for-you/adults/
 body_class: mm-audience-page

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MenteMirror
+title: Online counselling, psychologists, psychological assessments and AI-supported preventive mental wellness for students, adults, seniors and families.
 email:
 description: >-
   Mental health, counselling, therapy, psychological testing and wellness services.
@@ -21,8 +21,7 @@ description: >-
 url: "https://mentemirror.github.io"
 baseurl: "/mentemirror"
 
-twitter_username: username
-github_username: username
+
 minimal_mistakes_skin: default
 atom_feed:
   hide: true

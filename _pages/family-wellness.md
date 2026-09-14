@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Family Wellness
+title: Parent & Family Mental Wellness Support
 description: Connected family wellness for teens, parents, seniors and caregivers through a shared family dashboard, parent support, senior care and caregiver support.
 permalink: /family-wellness/
 body_class: mm-family-wellness-page

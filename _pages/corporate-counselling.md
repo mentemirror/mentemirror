@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Corporate Counselling
+title: Employee & Corporate Mental Health Counselling | Mente Mirror
 description: Corporate counselling and workplace wellbeing support from Mente Mirror for employees, teams and organisations.
 permalink: /human-care/corporate-counselling/
 body_class: mm-corporate-page
