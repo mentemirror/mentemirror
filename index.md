@@ -21,7 +21,7 @@ og_image: /assets/images/home/consulings.png
         <a class="mm-btn mm-btn--secondary" data-cta="hero-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}">Explore Human Care</a>
       </div>
       <div class="mm-hero__tertiary-row">
-        <a class="mm-hero__tertiary" data-cta="hero-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Explore Mjuzi AI Wellness <span aria-hidden="true">→</span></a>
+        <a class="mm-hero__tertiary" data-cta="hero-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Meet  Mjuzi AI Wellness <span aria-hidden="true">→</span></a>
         <a class="mm-hero__start-link" data-cta="hero-get-started" href="{{ '/get-started/' | relative_url }}">New to Mente Mirror? Start here <span aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -65,7 +65,7 @@ og_image: /assets/images/home/consulings.png
       <a class="mm-choice-card" data-cta="choice-testing" href="{{ '/understand-yourself/psychological-tests/' | relative_url }}"><span>{% include mm-icon.html name="brain" %}</span><div><strong>I want structured psychological testing</strong><small>Explore psychologist-supported tests and interpretation.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}"><span>{% include mm-icon.html name="chat" %}</span><div><strong>I want someone to talk to</strong><small>Explore counselling with a psychologist.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-psychiatrist" href="{{ '/human-care/psychiatrists/' | relative_url }}"><span>{% include mm-icon.html name="medical" %}</span><div><strong>I may need medical or psychiatric care</strong><small>Explore psychiatric evaluation and medical support.</small></div><b aria-hidden="true">→</b></a>
-      <a class="mm-choice-card" data-cta="choice-mjuzi" href="{{ '/ai-wellness/' | relative_url }}"><span>{% include mm-icon.html name="sparkles" %}</span><div><strong>I want everyday AI-supported wellness</strong><small>Explore Mjuzi, check-ins, tools and wearable context.</small></div><b aria-hidden="true">→</b></a>
+      <a class="mm-choice-card" data-cta="choice-mjuzi" href="{{ '/ai-wellness/' | relative_url }}"><span>{% include mm-icon.html name="sparkles" %}</span><div><strong>I want everyday AI-supported wellness</strong><small>Meet Mjuzi, check-ins, tools and wearable context.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-family" href="{{ '/family-wellness/' | relative_url }}"><span>{% include mm-icon.html name="family" %}</span><div><strong>I’m supporting someone else</strong><small>Explore family, parent, senior and caregiver pathways.</small></div><b aria-hidden="true">→</b></a>
     </div>
     <div class="mm-actions mm-actions--center mm-choice-guide__start"><a class="mm-text-link" data-cta="choice-get-started" href="{{ '/get-started/' | relative_url }}">See the first-time-user guide →</a></div>
@@ -101,7 +101,7 @@ og_image: /assets/images/home/consulings.png
         <span class="mm-card__icon">{% include mm-icon.html name="sparkles" %}</span>
         <h3>Mjuzi AI Wellness</h3>
         <p>Daily check-ins, conversational reflection, wearable context and wellness tools designed to support—not diagnose—your mental wellness journey.</p>
-        <a class="mm-btn mm-btn--secondary" data-cta="home-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Explore Mjuzi</a>
+        <a class="mm-btn mm-btn--secondary" data-cta="home-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Meet Mjuzi</a>
       </article>
       <article class="mm-home-duo__card">
         <span class="mm-card__icon">{% include mm-icon.html name="heart" %}</span>

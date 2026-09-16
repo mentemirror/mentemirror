@@ -4237,3 +4237,363 @@ a.mm-card:hover .mm-card__link::after { transform: translateX(3px); }
 .mm-intelligence-page .mm-intelligence-callout {
   max-width: 100%;
 }
+
+/* ============================================================
+   Wellness self-assessments — extracted from Markdown pages
+   Depression (PHQ-9), Anxiety (GAD-7), Stress (PSS-10),
+   Sleep Wellbeing, Personality (OCEAN), and assessment launcher
+   ============================================================ */
+
+/* --- depression.md --- */
+body.mm-phq9-assessment-page .mm-sa{width:100%;max-width:none;margin:0 0 3rem;--accent:#d31363;--ink:#272229;--muted:#665e65}body.mm-phq9-assessment-page .mm-sa-shell{width:100%}body.mm-phq9-assessment-page .mm-sa-eyebrow{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}body.mm-phq9-assessment-page .mm-sa-intro-grid,body.mm-phq9-assessment-page .mm-sa-result-hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:28px;align-items:start}body.mm-phq9-assessment-page .mm-sa h2{font-size:clamp(28px,4vw,42px);line-height:1.08;margin:.45rem 0 .75rem;color:var(--ink)}body.mm-phq9-assessment-page .mm-sa-lead,body.mm-phq9-assessment-page .mm-sa-result-hero p{font-size:16px;line-height:1.6;color:var(--muted)}body.mm-phq9-assessment-page .mm-sa-facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}body.mm-phq9-assessment-page .mm-sa-facts span{background:#faf6f8;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}body.mm-phq9-assessment-page .mm-sa-mini-card,body.mm-phq9-assessment-page .mm-sa-clinical-action{border:1px solid #ead7df;border-radius:16px;padding:20px;background:#fff8fb}body.mm-phq9-assessment-page .mm-sa-mini-card p,body.mm-phq9-assessment-page .mm-sa-clinical-action p{margin:.55rem 0 0;line-height:1.55}body.mm-phq9-assessment-page .mm-sa-note{border-left:3px solid #e71872;padding:11px 14px;margin:22px 0;line-height:1.55}body.mm-phq9-assessment-page .mm-sa-btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 18px;font-weight:800;border:1px solid transparent;cursor:pointer;text-decoration:none}body.mm-phq9-assessment-page .mm-sa-btn-primary{background:var(--accent);color:#fff!important}body.mm-phq9-assessment-page .mm-sa-btn-secondary{background:#fff;border-color:#ead7df;color:#4d464c!important}body.mm-phq9-assessment-page .mm-sa-btn:disabled{opacity:.45;cursor:not-allowed}body.mm-phq9-assessment-page .mm-sa-quiz-head{display:flex;justify-content:space-between;align-items:end;gap:16px}body.mm-phq9-assessment-page .mm-sa-progress-label{font-weight:800;margin-top:8px}body.mm-phq9-assessment-page .mm-sa-reset-link{background:none;border:0;text-decoration:underline;color:#6b6268;cursor:pointer}body.mm-phq9-assessment-page .mm-sa-progress{height:7px;background:#eee6ea;border-radius:999px;overflow:hidden;margin:12px 0 18px}body.mm-phq9-assessment-page .mm-sa-progress>div{height:100%;background:var(--accent);border-radius:999px}body.mm-phq9-assessment-page .mm-sa-question-card{border:1px solid #ead7df;border-radius:18px;background:#fff;padding:28px 32px}body.mm-phq9-assessment-page .mm-sa-question-card h2{font-size:28px;width:100%;max-width:none}body.mm-phq9-assessment-page .mm-sa-dimension{display:inline-block;background:#fff0f6;color:#c6115a;border-radius:999px;padding:6px 10px;font-weight:800;font-size:12px}body.mm-phq9-assessment-page .mm-sa-options{display:grid;gap:10px;margin-top:20px}body.mm-phq9-assessment-page .mm-sa-option{display:flex;align-items:center;gap:12px;border:1px solid #decbd4;border-radius:12px;padding:13px 14px;cursor:pointer}body.mm-phq9-assessment-page .mm-sa-option input{position:absolute;opacity:0}body.mm-phq9-assessment-page .mm-sa-radio{width:16px;height:16px;border:1.5px solid #c8bbc1;border-radius:50%}body.mm-phq9-assessment-page .mm-sa-option.is-selected{border-color:#e26b9d;background:#fff7fa}body.mm-phq9-assessment-page .mm-sa-option.is-selected body.mm-phq9-assessment-page .mm-sa-radio{border:5px solid var(--accent)}body.mm-phq9-assessment-page .mm-sa-nav{display:flex;justify-content:space-between;margin-top:13px}body.mm-phq9-assessment-page .mm-sa-score-line{display:flex;align-items:baseline;gap:8px}body.mm-phq9-assessment-page .mm-sa-score-line strong{font-size:58px;line-height:1}body.mm-phq9-assessment-page .mm-sa-score-line span{font-size:18px;color:#746b71}body.mm-phq9-assessment-page .mm-sa-status-large{font-size:22px;font-weight:800;margin-top:10px}body.mm-phq9-assessment-page .mm-sa-clinical-action{margin-top:20px}body.mm-phq9-assessment-page .mm-sa-clinical-action h3{margin:0}body.mm-phq9-assessment-page .mm-sa-alert{margin-top:20px;border:1px solid #d31363;border-radius:16px;padding:18px;background:#fff4f8}body.mm-phq9-assessment-page .mm-sa-alert p{margin:.5rem 0 0}body.mm-phq9-assessment-page .mm-sa-next-steps{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;margin-top:25px;border-radius:20px;background:#29242a;color:#fff;padding:27px}body.mm-phq9-assessment-page .mm-sa-next-steps h3{color:#fff;margin:.2rem 0 .5rem}body.mm-phq9-assessment-page .mm-sa-next-steps p{color:#dfd9dd;margin:0}body.mm-phq9-assessment-page .mm-sa-actions{display:flex;flex-direction:column;gap:9px;justify-content:center}@media(max-width:760px){body.mm-phq9-assessment-page .mm-sa-intro-grid,body.mm-phq9-assessment-page .mm-sa-result-hero,body.mm-phq9-assessment-page .mm-sa-next-steps{grid-template-columns:1fr}body.mm-phq9-assessment-page .mm-sa-question-card{padding:22px}body.mm-phq9-assessment-page .mm-sa-question-card h2{font-size:24px}}
+
+/* Ensure the quiz and question heading use the complete available content width.
+   !important is intentional here because the site theme also applies heading width rules. */
+body.mm-phq9-assessment-page .mm-sa #sa-quiz,
+body.mm-phq9-assessment-page .mm-sa #sa-quiz body.mm-phq9-assessment-page .mm-sa-quiz-head,
+body.mm-phq9-assessment-page .mm-sa #sa-quiz body.mm-phq9-assessment-page .mm-sa-progress,
+body.mm-phq9-assessment-page .mm-sa #sa-quiz body.mm-phq9-assessment-page .mm-sa-question-card,
+body.mm-phq9-assessment-page .mm-sa #sa-quiz body.mm-phq9-assessment-page .mm-sa-nav {
+  width: 100% !important;
+  max-width: none !important;
+}
+body.mm-phq9-assessment-page .mm-sa #sa-question {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  inline-size: 100% !important;
+  box-sizing: border-box !important;
+  /* The site theme balances heading lines. That makes a full-width heading
+     look artificially narrow on some questions. Use normal wrapping here so
+     text only moves to the next line when it actually reaches the card edge. */
+  text-wrap: wrap !important;
+  text-wrap-style: auto !important;
+}
+
+/* Compact assessment mode: minimise page-height/scrolling while answering. */
+@media (min-width: 761px) {
+  body.mm-phq9-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:10px !important; padding-bottom:10px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa { margin-bottom:0 !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-quiz-head { min-height:38px; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-progress-label { margin-top:3px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-progress { margin:7px 0 10px !important; height:6px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-question-card { padding:18px 22px !important; border-radius:16px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-question-card h2,
+  body.mm-phq9-assessment-page.mm-sa-quiz-active #sa-question { font-size:clamp(22px,2.2vw,28px) !important; line-height:1.08 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-dimension { padding:5px 9px !important; font-size:11px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-option { padding:9px 12px !important; min-height:42px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-nav { margin-top:8px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-btn { padding:10px 16px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-eyebrow { font-size:11px !important; }
+}
+@media (max-width: 760px) {
+  body.mm-phq9-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:8px !important; padding-bottom:8px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-question-card { padding:16px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-question-card h2,
+  body.mm-phq9-assessment-page.mm-sa-quiz-active #sa-question { font-size:22px !important; line-height:1.1 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-progress { margin:7px 0 10px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-option { padding:10px 11px !important; }
+  body.mm-phq9-assessment-page.mm-sa-quiz-active body.mm-phq9-assessment-page .mm-sa-nav { margin-top:8px !important; }
+}
+
+/* --- anxiety.md --- */
+body.mm-gad7-assessment-page .mm-sa{width:100%;max-width:none;margin:0 0 3rem;--accent:#d31363;--ink:#272229;--muted:#665e65}body.mm-gad7-assessment-page .mm-sa-shell{width:100%}body.mm-gad7-assessment-page .mm-sa-eyebrow{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}body.mm-gad7-assessment-page .mm-sa-intro-grid,body.mm-gad7-assessment-page .mm-sa-result-hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:28px;align-items:start}body.mm-gad7-assessment-page .mm-sa h2{font-size:clamp(28px,4vw,42px);line-height:1.08;margin:.45rem 0 .75rem;color:var(--ink)}body.mm-gad7-assessment-page .mm-sa-lead,body.mm-gad7-assessment-page .mm-sa-result-hero p{font-size:16px;line-height:1.6;color:var(--muted)}body.mm-gad7-assessment-page .mm-sa-facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}body.mm-gad7-assessment-page .mm-sa-facts span{background:#faf6f8;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}body.mm-gad7-assessment-page .mm-sa-mini-card,body.mm-gad7-assessment-page .mm-sa-clinical-action{border:1px solid #ead7df;border-radius:16px;padding:20px;background:#fff8fb}body.mm-gad7-assessment-page .mm-sa-mini-card p,body.mm-gad7-assessment-page .mm-sa-clinical-action p{margin:.55rem 0 0;line-height:1.55}body.mm-gad7-assessment-page .mm-sa-note{border-left:3px solid #e71872;padding:11px 14px;margin:22px 0;line-height:1.55}body.mm-gad7-assessment-page .mm-sa-btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 18px;font-weight:800;border:1px solid transparent;cursor:pointer;text-decoration:none}body.mm-gad7-assessment-page .mm-sa-btn-primary{background:var(--accent);color:#fff!important}body.mm-gad7-assessment-page .mm-sa-btn-secondary{background:#fff;border-color:#ead7df;color:#4d464c!important}body.mm-gad7-assessment-page .mm-sa-btn:disabled{opacity:.45;cursor:not-allowed}body.mm-gad7-assessment-page .mm-sa-quiz-head{display:flex;justify-content:space-between;align-items:end;gap:16px}body.mm-gad7-assessment-page .mm-sa-progress-label{font-weight:800;margin-top:8px}body.mm-gad7-assessment-page .mm-sa-reset-link{background:none;border:0;text-decoration:underline;color:#6b6268;cursor:pointer}body.mm-gad7-assessment-page .mm-sa-progress{height:7px;background:#eee6ea;border-radius:999px;overflow:hidden;margin:12px 0 18px}body.mm-gad7-assessment-page .mm-sa-progress>div{height:100%;background:var(--accent);border-radius:999px}body.mm-gad7-assessment-page .mm-sa-question-card{border:1px solid #ead7df;border-radius:18px;background:#fff;padding:28px 32px}body.mm-gad7-assessment-page .mm-sa-question-card h2{font-size:28px;width:100%;max-width:none}body.mm-gad7-assessment-page .mm-sa-dimension{display:inline-block;background:#fff0f6;color:#c6115a;border-radius:999px;padding:6px 10px;font-weight:800;font-size:12px}body.mm-gad7-assessment-page .mm-sa-options{display:grid;gap:10px;margin-top:20px}body.mm-gad7-assessment-page .mm-sa-option{display:flex;align-items:center;gap:12px;border:1px solid #decbd4;border-radius:12px;padding:13px 14px;cursor:pointer}body.mm-gad7-assessment-page .mm-sa-option input{position:absolute;opacity:0}body.mm-gad7-assessment-page .mm-sa-radio{width:16px;height:16px;border:1.5px solid #c8bbc1;border-radius:50%}body.mm-gad7-assessment-page .mm-sa-option.is-selected{border-color:#e26b9d;background:#fff7fa}body.mm-gad7-assessment-page .mm-sa-option.is-selected body.mm-gad7-assessment-page .mm-sa-radio{border:5px solid var(--accent)}body.mm-gad7-assessment-page .mm-sa-nav{display:flex;justify-content:space-between;margin-top:13px}body.mm-gad7-assessment-page .mm-sa-score-line{display:flex;align-items:baseline;gap:8px}body.mm-gad7-assessment-page .mm-sa-score-line strong{font-size:58px;line-height:1}body.mm-gad7-assessment-page .mm-sa-score-line span{font-size:18px;color:#746b71}body.mm-gad7-assessment-page .mm-sa-status-large{font-size:22px;font-weight:800;margin-top:10px}body.mm-gad7-assessment-page .mm-sa-clinical-action{margin-top:20px}body.mm-gad7-assessment-page .mm-sa-clinical-action h3{margin:0}body.mm-gad7-assessment-page .mm-sa-next-steps{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;margin-top:25px;border-radius:20px;background:#29242a;color:#fff;padding:27px}body.mm-gad7-assessment-page .mm-sa-next-steps h3{color:#fff;margin:.2rem 0 .5rem}body.mm-gad7-assessment-page .mm-sa-next-steps p{color:#dfd9dd;margin:0}body.mm-gad7-assessment-page .mm-sa-actions{display:flex;flex-direction:column;gap:9px;justify-content:center}@media(max-width:760px){body.mm-gad7-assessment-page .mm-sa-intro-grid,body.mm-gad7-assessment-page .mm-sa-result-hero,body.mm-gad7-assessment-page .mm-sa-next-steps{grid-template-columns:1fr}body.mm-gad7-assessment-page .mm-sa-question-card{padding:22px}body.mm-gad7-assessment-page .mm-sa-question-card h2{font-size:24px}}
+
+/* Ensure the quiz and question heading use the complete available content width.
+   !important is intentional here because the site theme also applies heading width rules. */
+body.mm-gad7-assessment-page .mm-sa #sa-quiz,
+body.mm-gad7-assessment-page .mm-sa #sa-quiz body.mm-gad7-assessment-page .mm-sa-quiz-head,
+body.mm-gad7-assessment-page .mm-sa #sa-quiz body.mm-gad7-assessment-page .mm-sa-progress,
+body.mm-gad7-assessment-page .mm-sa #sa-quiz body.mm-gad7-assessment-page .mm-sa-question-card,
+body.mm-gad7-assessment-page .mm-sa #sa-quiz body.mm-gad7-assessment-page .mm-sa-nav {
+  width: 100% !important;
+  max-width: none !important;
+}
+body.mm-gad7-assessment-page .mm-sa #sa-question {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  inline-size: 100% !important;
+  box-sizing: border-box !important;
+  /* The site theme balances heading lines. That makes a full-width heading
+     look artificially narrow on some questions. Use normal wrapping here so
+     text only moves to the next line when it actually reaches the card edge. */
+  text-wrap: wrap !important;
+  text-wrap-style: auto !important;
+}
+
+/* Compact assessment mode: minimise page-height/scrolling while answering. */
+@media (min-width: 761px) {
+  body.mm-gad7-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:10px !important; padding-bottom:10px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa { margin-bottom:0 !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-quiz-head { min-height:38px; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-progress-label { margin-top:3px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-progress { margin:7px 0 10px !important; height:6px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-question-card { padding:18px 22px !important; border-radius:16px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-question-card h2,
+  body.mm-gad7-assessment-page.mm-sa-quiz-active #sa-question { font-size:clamp(22px,2.2vw,28px) !important; line-height:1.08 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-dimension { padding:5px 9px !important; font-size:11px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-option { padding:9px 12px !important; min-height:42px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-nav { margin-top:8px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-btn { padding:10px 16px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-eyebrow { font-size:11px !important; }
+}
+@media (max-width: 760px) {
+  body.mm-gad7-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:8px !important; padding-bottom:8px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-question-card { padding:16px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-question-card h2,
+  body.mm-gad7-assessment-page.mm-sa-quiz-active #sa-question { font-size:22px !important; line-height:1.1 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-progress { margin:7px 0 10px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-option { padding:10px 11px !important; }
+  body.mm-gad7-assessment-page.mm-sa-quiz-active body.mm-gad7-assessment-page .mm-sa-nav { margin-top:8px !important; }
+}
+
+/* --- stress.md --- */
+body.mm-pss10-assessment-page .mm-sa{width:100%;max-width:none;margin:0 0 3rem;--accent:#d31363;--ink:#272229;--muted:#665e65}body.mm-pss10-assessment-page .mm-sa-shell{width:100%}body.mm-pss10-assessment-page .mm-sa-eyebrow{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}body.mm-pss10-assessment-page .mm-sa-intro-grid,body.mm-pss10-assessment-page .mm-sa-result-hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:28px;align-items:start}body.mm-pss10-assessment-page .mm-sa h2{font-size:clamp(28px,4vw,42px);line-height:1.08;margin:.45rem 0 .75rem;color:var(--ink)}body.mm-pss10-assessment-page .mm-sa-lead,body.mm-pss10-assessment-page .mm-sa-result-hero p{font-size:16px;line-height:1.6;color:var(--muted)}body.mm-pss10-assessment-page .mm-sa-facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}body.mm-pss10-assessment-page .mm-sa-facts span{background:#faf6f8;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}body.mm-pss10-assessment-page .mm-sa-mini-card,body.mm-pss10-assessment-page .mm-sa-clinical-action{border:1px solid #ead7df;border-radius:16px;padding:20px;background:#fff8fb}body.mm-pss10-assessment-page .mm-sa-mini-card p,body.mm-pss10-assessment-page .mm-sa-clinical-action p{margin:.55rem 0 0;line-height:1.55}body.mm-pss10-assessment-page .mm-sa-note{border-left:3px solid #e71872;padding:11px 14px;margin:22px 0;line-height:1.55}body.mm-pss10-assessment-page .mm-sa-btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 18px;font-weight:800;border:1px solid transparent;cursor:pointer;text-decoration:none}body.mm-pss10-assessment-page .mm-sa-btn-primary{background:var(--accent);color:#fff!important}body.mm-pss10-assessment-page .mm-sa-btn-secondary{background:#fff;border-color:#ead7df;color:#4d464c!important}body.mm-pss10-assessment-page .mm-sa-btn:disabled{opacity:.45;cursor:not-allowed}body.mm-pss10-assessment-page .mm-sa-quiz-head{display:flex;justify-content:space-between;align-items:end;gap:16px}body.mm-pss10-assessment-page .mm-sa-progress-label{font-weight:800;margin-top:8px}body.mm-pss10-assessment-page .mm-sa-reset-link{background:none;border:0;text-decoration:underline;color:#6b6268;cursor:pointer}body.mm-pss10-assessment-page .mm-sa-progress{height:7px;background:#eee6ea;border-radius:999px;overflow:hidden;margin:12px 0 18px}body.mm-pss10-assessment-page .mm-sa-progress>div{height:100%;background:var(--accent);border-radius:999px}body.mm-pss10-assessment-page .mm-sa-question-card{border:1px solid #ead7df;border-radius:18px;background:#fff;padding:28px 32px}body.mm-pss10-assessment-page .mm-sa-question-card h2{font-size:28px;width:100%;max-width:none}body.mm-pss10-assessment-page .mm-sa-dimension{display:inline-block;background:#fff0f6;color:#c6115a;border-radius:999px;padding:6px 10px;font-weight:800;font-size:12px}body.mm-pss10-assessment-page .mm-sa-options{display:grid;gap:10px;margin-top:20px}body.mm-pss10-assessment-page .mm-sa-option{display:flex;align-items:center;gap:12px;border:1px solid #decbd4;border-radius:12px;padding:13px 14px;cursor:pointer}body.mm-pss10-assessment-page .mm-sa-option input{position:absolute;opacity:0}body.mm-pss10-assessment-page .mm-sa-radio{width:16px;height:16px;border:1.5px solid #c8bbc1;border-radius:50%;flex:0 0 auto}body.mm-pss10-assessment-page .mm-sa-option.is-selected{border-color:#e26b9d;background:#fff7fa}body.mm-pss10-assessment-page .mm-sa-option.is-selected body.mm-pss10-assessment-page .mm-sa-radio{border:5px solid var(--accent)}body.mm-pss10-assessment-page .mm-sa-nav{display:flex;justify-content:space-between;margin-top:13px}body.mm-pss10-assessment-page .mm-sa-score-line{display:flex;align-items:baseline;gap:8px}body.mm-pss10-assessment-page .mm-sa-score-line strong{font-size:58px;line-height:1}body.mm-pss10-assessment-page .mm-sa-score-line span{font-size:18px;color:#746b71}body.mm-pss10-assessment-page .mm-sa-status-large{font-size:22px;font-weight:800;margin-top:10px}body.mm-pss10-assessment-page .mm-sa-clinical-action{margin-top:20px}body.mm-pss10-assessment-page .mm-sa-clinical-action h3{margin:0}body.mm-pss10-assessment-page .mm-sa-next-steps{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;margin-top:25px;border-radius:20px;background:#29242a;color:#fff;padding:27px}body.mm-pss10-assessment-page .mm-sa-next-steps h3{color:#fff;margin:.2rem 0 .5rem}body.mm-pss10-assessment-page .mm-sa-next-steps p{color:#dfd9dd;margin:0}body.mm-pss10-assessment-page .mm-sa-actions{display:flex;flex-direction:column;gap:9px;justify-content:center}@media(max-width:760px){body.mm-pss10-assessment-page .mm-sa-intro-grid,body.mm-pss10-assessment-page .mm-sa-result-hero,body.mm-pss10-assessment-page .mm-sa-next-steps{grid-template-columns:1fr}body.mm-pss10-assessment-page .mm-sa-question-card{padding:22px}body.mm-pss10-assessment-page .mm-sa-question-card h2{font-size:24px}}
+body.mm-pss10-assessment-page .mm-sa #sa-quiz,body.mm-pss10-assessment-page .mm-sa #sa-quiz body.mm-pss10-assessment-page .mm-sa-quiz-head,body.mm-pss10-assessment-page .mm-sa #sa-quiz body.mm-pss10-assessment-page .mm-sa-progress,body.mm-pss10-assessment-page .mm-sa #sa-quiz body.mm-pss10-assessment-page .mm-sa-question-card,body.mm-pss10-assessment-page .mm-sa #sa-quiz body.mm-pss10-assessment-page .mm-sa-nav{width:100%!important;max-width:none!important}body.mm-pss10-assessment-page .mm-sa #sa-question{display:block!important;width:100%!important;max-width:none!important;inline-size:100%!important;box-sizing:border-box!important;text-wrap:wrap!important;text-wrap-style:auto!important}
+
+/* Compact assessment mode: minimise page-height/scrolling while answering. */
+@media (min-width: 761px) {
+  body.mm-pss10-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:10px !important; padding-bottom:10px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa { margin-bottom:0 !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-quiz-head { min-height:38px; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-progress-label { margin-top:3px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-progress { margin:7px 0 10px !important; height:6px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-question-card { padding:18px 22px !important; border-radius:16px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-question-card h2,
+  body.mm-pss10-assessment-page.mm-sa-quiz-active #sa-question { font-size:clamp(22px,2.2vw,28px) !important; line-height:1.08 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-dimension { padding:5px 9px !important; font-size:11px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-option { padding:9px 12px !important; min-height:42px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-nav { margin-top:8px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-btn { padding:10px 16px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-eyebrow { font-size:11px !important; }
+}
+@media (max-width: 760px) {
+  body.mm-pss10-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:8px !important; padding-bottom:8px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-question-card { padding:16px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-question-card h2,
+  body.mm-pss10-assessment-page.mm-sa-quiz-active #sa-question { font-size:22px !important; line-height:1.1 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-progress { margin:7px 0 10px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-option { padding:10px 11px !important; }
+  body.mm-pss10-assessment-page.mm-sa-quiz-active body.mm-pss10-assessment-page .mm-sa-nav { margin-top:8px !important; }
+}
+
+/* --- sleep.md --- */
+body.mm-sleep-assessment-page .mm-sa{--accent:#d81670;--accent-soft:#fff0f6;--ink:#28242a;--muted:#655f67;--line:#eadde4;--panel:#fff;--soft:#fff8fb;width:100%;max-width:none;margin:0 0 3rem}body.mm-sleep-assessment-page .mm-sa *{box-sizing:border-box}body.mm-sleep-assessment-page .mm-sa-shell{margin-top:1.1rem}body.mm-sleep-assessment-page .mm-sa-eyebrow{text-transform:uppercase;letter-spacing:.09em;font-size:12px;font-weight:800;color:var(--accent);margin-bottom:9px}body.mm-sleep-assessment-page .mm-sa-intro-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(240px,.8fr);gap:22px;align-items:stretch}body.mm-sleep-assessment-page .mm-sa h2{font-size:clamp(26px,3.5vw,39px);line-height:1.15;margin:.15rem 0 .8rem;color:var(--ink)}body.mm-sleep-assessment-page .mm-sa-lead{font-size:17px;line-height:1.65;color:var(--muted);margin:.4rem 0 1rem}body.mm-sleep-assessment-page .mm-sa-facts{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}body.mm-sleep-assessment-page .mm-sa-facts span{background:#f7f4f6;border-radius:999px;padding:7px 10px;font-size:13px;font-weight:700;color:#575159}body.mm-sleep-assessment-page .mm-sa-mini-card{border:1px solid var(--line);border-radius:16px;padding:20px;background:var(--soft);display:flex;flex-direction:column;justify-content:center}body.mm-sleep-assessment-page .mm-sa-mini-card strong{font-size:16px}body.mm-sleep-assessment-page .mm-sa-mini-card p{color:var(--muted);line-height:1.55;margin:.5rem 0 0}body.mm-sleep-assessment-page .mm-sa-note{border-left:3px solid var(--accent);background:var(--soft);padding:14px 16px;border-radius:0 10px 10px 0;margin:22px 0;color:#4d474f;line-height:1.55}body.mm-sleep-assessment-page .mm-sa-btn{appearance:none;border:0;border-radius:999px;padding:12px 19px;font:inherit;font-weight:800;cursor:pointer;text-decoration:none!important;display:inline-flex;align-items:center;justify-content:center;transition:transform .15s ease,box-shadow .15s ease,opacity .15s ease}body.mm-sleep-assessment-page .mm-sa-btn:hover{transform:translateY(-1px)}body.mm-sleep-assessment-page .mm-sa-btn:disabled{opacity:.4;cursor:not-allowed;transform:none}body.mm-sleep-assessment-page .mm-sa-btn-primary{background:var(--accent);color:#fff!important;box-shadow:0 7px 18px rgba(216,22,112,.16)}body.mm-sleep-assessment-page .mm-sa-btn-secondary{background:#fff;color:#423940!important;border:1px solid #dacdd4}body.mm-sleep-assessment-page .mm-sa-text-link{margin-left:13px;color:#6f6269!important;text-decoration:none!important;font-weight:700}body.mm-sleep-assessment-page .mm-sa-quiz-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px}body.mm-sleep-assessment-page .mm-sa-progress-label{font-weight:800;font-size:17px}body.mm-sleep-assessment-page .mm-sa-reset-link{border:0;background:transparent;color:#716970;text-decoration:underline;cursor:pointer;font:inherit}body.mm-sleep-assessment-page .mm-sa-progress{height:8px;background:#f1e9ed;border-radius:99px;overflow:hidden;margin:14px 0 24px}body.mm-sleep-assessment-page .mm-sa-progress>div{height:100%;width:10%;background:var(--accent);border-radius:99px;transition:width .2s ease}body.mm-sleep-assessment-page .mm-sa-question-card{border:1px solid var(--line);border-radius:20px;background:var(--panel);padding:clamp(22px,5vw,42px);box-shadow:0 14px 38px rgba(55,36,46,.05)}body.mm-sleep-assessment-page .mm-sa-dimension{display:inline-block;background:var(--accent-soft);color:#b4125b;border-radius:999px;padding:6px 9px;font-size:12px;font-weight:800;margin-bottom:12px}body.mm-sleep-assessment-page .mm-sa-question-card h2{font-size:clamp(23px,3vw,31px);width:100%;max-width:none}body.mm-sleep-assessment-page .mm-sa-options{display:grid;gap:12px;margin-top:25px}body.mm-sleep-assessment-page .mm-sa-option{position:relative;display:flex;align-items:center;gap:13px;border:1px solid #ded3d9;border-radius:13px;padding:15px 16px;cursor:pointer;background:#fff;transition:border-color .15s ease,background .15s ease,box-shadow .15s ease}body.mm-sleep-assessment-page .mm-sa-option:hover{border-color:#d9a1bb}body.mm-sleep-assessment-page .mm-sa-option.is-selected{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 2px rgba(216,22,112,.08)}body.mm-sleep-assessment-page .mm-sa-option input{position:absolute;opacity:0;pointer-events:none}body.mm-sleep-assessment-page .mm-sa-radio{width:19px;height:19px;border-radius:50%;border:2px solid #b8abb2;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}body.mm-sleep-assessment-page .mm-sa-option.is-selected body.mm-sleep-assessment-page .mm-sa-radio{border-color:var(--accent)}body.mm-sleep-assessment-page .mm-sa-option.is-selected body.mm-sleep-assessment-page .mm-sa-radio:after{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent)}body.mm-sleep-assessment-page .mm-sa-option-label{font-weight:700;color:#363038}body.mm-sleep-assessment-page .mm-sa-nav{display:flex;justify-content:space-between;margin-top:18px}body.mm-sleep-assessment-page .mm-sa-result-hero{display:grid;grid-template-columns:150px 1fr;gap:26px;align-items:center;border:1px solid var(--line);border-radius:20px;padding:28px;background:linear-gradient(135deg,#fff 0%,#fff7fb 100%)}body.mm-sleep-assessment-page .mm-sa-score-ring{width:132px;height:132px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;background:#fff;border:10px solid #f4d6e4;color:var(--ink);box-shadow:inset 0 0 0 1px #eee}body.mm-sleep-assessment-page .mm-sa-score-ring span{font-size:42px;font-weight:900;line-height:1}body.mm-sleep-assessment-page .mm-sa-score-ring small{color:#777;font-weight:700;margin-top:5px}body.mm-sleep-assessment-page .mm-sa-result-hero h2{font-size:31px;margin-bottom:.35rem}body.mm-sleep-assessment-page .mm-sa-section-title{font-size:21px;margin:30px 0 14px}body.mm-sleep-assessment-page .mm-sa-results-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}body.mm-sleep-assessment-page .mm-sa-dim-card{border:1px solid var(--line);border-radius:16px;padding:18px;background:#fff}body.mm-sleep-assessment-page .mm-sa-dim-card h4{font-size:16px;line-height:1.3;margin:0 0 10px;color:var(--ink)}body.mm-sleep-assessment-page .mm-sa-dim-score{display:flex;align-items:baseline;gap:6px;margin-bottom:9px}body.mm-sleep-assessment-page .mm-sa-dim-score strong{font-size:27px}body.mm-sleep-assessment-page .mm-sa-dim-score span{color:#837a81;font-size:13px}body.mm-sleep-assessment-page .mm-sa-meter{height:7px;background:#f0e9ed;border-radius:99px;overflow:hidden;margin:7px 0 13px}body.mm-sleep-assessment-page .mm-sa-meter>div{height:100%;background:var(--accent);border-radius:99px}body.mm-sleep-assessment-page .mm-sa-status{font-weight:800;color:#343036;margin-bottom:5px}body.mm-sleep-assessment-page .mm-sa-dim-card p{color:var(--muted);font-size:14px;line-height:1.48;margin:0}body.mm-sleep-assessment-page .mm-sa-attention{margin-top:22px;border:1px solid #eadbe2;border-radius:16px;padding:20px;background:#fcfafb}body.mm-sleep-assessment-page .mm-sa-attention h3{margin:0 0 6px}body.mm-sleep-assessment-page .mm-sa-attention p{color:var(--muted);margin:0 0 12px}body.mm-sleep-assessment-page .mm-sa-attention li{margin:.5rem 0;color:#4f484f}body.mm-sleep-assessment-page .mm-sa-next-steps{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;margin-top:25px;border-radius:20px;background:#29242a;color:#fff;padding:27px}body.mm-sleep-assessment-page .mm-sa-next-steps body.mm-sleep-assessment-page .mm-sa-eyebrow{color:#ff92c4}body.mm-sleep-assessment-page .mm-sa-next-steps h3{font-size:23px;margin:.2rem 0 .5rem;color:#fff}body.mm-sleep-assessment-page .mm-sa-next-steps p{color:#dfd9dd;line-height:1.55;margin:0}body.mm-sleep-assessment-page .mm-sa-actions{display:flex;flex-direction:column;align-items:stretch;gap:9px;justify-content:center}body.mm-sleep-assessment-page .mm-sa-next-steps body.mm-sleep-assessment-page .mm-sa-btn-secondary{background:#403940;color:#fff!important;border-color:#5c5159}body.mm-sleep-assessment-page .mm-sa-note-bottom{margin-bottom:0}@media(min-width:761px){body.mm-sleep-assessment-page .mm-sa-shell{margin-top:.8rem}body.mm-sleep-assessment-page .mm-sa-question-card{padding:28px 32px}body.mm-sleep-assessment-page .mm-sa-question-card h2{font-size:28px;line-height:1.12;margin:.1rem 0 .65rem}body.mm-sleep-assessment-page .mm-sa-options{gap:9px;margin-top:18px}body.mm-sleep-assessment-page .mm-sa-option{padding:12px 14px}body.mm-sleep-assessment-page .mm-sa-progress{margin:10px 0 16px}body.mm-sleep-assessment-page .mm-sa-nav{margin-top:12px}body.mm-sleep-assessment-page .mm-sa-intro-grid{gap:20px}body.mm-sleep-assessment-page .mm-sa h2{margin-top:0}body.mm-sleep-assessment-page .mm-sa-note{margin:17px 0}body.mm-sleep-assessment-page .mm-sa-facts{margin-top:14px}}@media(max-width:760px){body.mm-sleep-assessment-page .mm-sa-intro-grid,body.mm-sleep-assessment-page .mm-sa-result-hero,body.mm-sleep-assessment-page .mm-sa-next-steps{grid-template-columns:1fr}body.mm-sleep-assessment-page .mm-sa-results-grid{grid-template-columns:1fr}body.mm-sleep-assessment-page .mm-sa-score-ring{width:108px;height:108px;border-width:8px}body.mm-sleep-assessment-page .mm-sa-score-ring span{font-size:34px}body.mm-sleep-assessment-page .mm-sa-question-card{padding:22px}body.mm-sleep-assessment-page .mm-sa-text-link{display:block;margin:15px 0 0}body.mm-sleep-assessment-page .mm-sa-nav body.mm-sleep-assessment-page .mm-sa-btn{min-width:115px}}@media(max-width:430px){body.mm-sleep-assessment-page .mm-sa-nav{gap:10px}body.mm-sleep-assessment-page .mm-sa-nav body.mm-sleep-assessment-page .mm-sa-btn{flex:1;min-width:0}body.mm-sleep-assessment-page .mm-sa-facts span{font-size:12px}}
+
+/* Ensure the quiz and question heading use the complete available content width.
+   !important is intentional here because the site theme also applies heading width rules. */
+body.mm-sleep-assessment-page .mm-sa #sa-quiz,
+body.mm-sleep-assessment-page .mm-sa #sa-quiz body.mm-sleep-assessment-page .mm-sa-quiz-head,
+body.mm-sleep-assessment-page .mm-sa #sa-quiz body.mm-sleep-assessment-page .mm-sa-progress,
+body.mm-sleep-assessment-page .mm-sa #sa-quiz body.mm-sleep-assessment-page .mm-sa-question-card,
+body.mm-sleep-assessment-page .mm-sa #sa-quiz body.mm-sleep-assessment-page .mm-sa-nav {
+  width: 100% !important;
+  max-width: none !important;
+}
+body.mm-sleep-assessment-page .mm-sa #sa-question {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  inline-size: 100% !important;
+  box-sizing: border-box !important;
+  /* The site theme balances heading lines. That makes a full-width heading
+     look artificially narrow on some questions. Use normal wrapping here so
+     text only moves to the next line when it actually reaches the card edge. */
+  text-wrap: wrap !important;
+  text-wrap-style: auto !important;
+}
+
+/* Compact assessment mode: minimise page-height/scrolling while answering. */
+@media (min-width: 761px) {
+  body.mm-sleep-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:10px !important; padding-bottom:10px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa { margin-bottom:0 !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-quiz-head { min-height:38px; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-progress-label { margin-top:3px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-progress { margin:7px 0 10px !important; height:6px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-question-card { padding:18px 22px !important; border-radius:16px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-question-card h2,
+  body.mm-sleep-assessment-page.mm-sa-quiz-active #sa-question { font-size:clamp(22px,2.2vw,28px) !important; line-height:1.08 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-dimension { padding:5px 9px !important; font-size:11px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-option { padding:9px 12px !important; min-height:42px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-nav { margin-top:8px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-btn { padding:10px 16px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-eyebrow { font-size:11px !important; }
+}
+@media (max-width: 760px) {
+  body.mm-sleep-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:8px !important; padding-bottom:8px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-question-card { padding:16px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-question-card h2,
+  body.mm-sleep-assessment-page.mm-sa-quiz-active #sa-question { font-size:22px !important; line-height:1.1 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-progress { margin:7px 0 10px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-option { padding:10px 11px !important; }
+  body.mm-sleep-assessment-page.mm-sa-quiz-active body.mm-sleep-assessment-page .mm-sa-nav { margin-top:8px !important; }
+}
+
+/* --- personality.md --- */
+body.mm-ocean-assessment-page .mm-sa{width:100%;max-width:none;margin:0 0 3rem;--accent:#d31363;--ink:#272229;--muted:#665e65}body.mm-ocean-assessment-page .mm-sa-shell{width:100%}body.mm-ocean-assessment-page .mm-sa-eyebrow{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}body.mm-ocean-assessment-page .mm-sa-intro-grid,body.mm-ocean-assessment-page .mm-sa-result-hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:28px;align-items:start}body.mm-ocean-assessment-page .mm-sa h2{font-size:clamp(28px,4vw,42px);line-height:1.08;margin:.45rem 0 .75rem;color:var(--ink)}body.mm-ocean-assessment-page .mm-sa-lead,body.mm-ocean-assessment-page .mm-sa-result-hero p{font-size:16px;line-height:1.6;color:var(--muted)}body.mm-ocean-assessment-page .mm-sa-facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}body.mm-ocean-assessment-page .mm-sa-facts span{background:#faf6f8;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}body.mm-ocean-assessment-page .mm-sa-mini-card{border:1px solid #ead7df;border-radius:16px;padding:20px;background:#fff8fb}body.mm-ocean-assessment-page .mm-sa-mini-card p{margin:.55rem 0 0;line-height:1.55}body.mm-ocean-assessment-page .mm-sa-note{border-left:3px solid #e71872;padding:11px 14px;margin:22px 0;line-height:1.55}body.mm-ocean-assessment-page .mm-sa-btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 18px;font-weight:800;border:1px solid transparent;cursor:pointer;text-decoration:none}body.mm-ocean-assessment-page .mm-sa-btn-primary{background:var(--accent);color:#fff!important}body.mm-ocean-assessment-page .mm-sa-btn-secondary{background:#fff;border-color:#ead7df;color:#4d464c!important}body.mm-ocean-assessment-page .mm-sa-btn:disabled{opacity:.45;cursor:not-allowed}body.mm-ocean-assessment-page .mm-sa-quiz-head{display:flex;justify-content:space-between;align-items:end;gap:16px}body.mm-ocean-assessment-page .mm-sa-progress-label{font-weight:800;margin-top:8px}body.mm-ocean-assessment-page .mm-sa-reset-link{background:none;border:0;text-decoration:underline;color:#6b6268;cursor:pointer}body.mm-ocean-assessment-page .mm-sa-progress{height:7px;background:#eee6ea;border-radius:999px;overflow:hidden;margin:12px 0 18px}body.mm-ocean-assessment-page .mm-sa-progress>div{height:100%;background:var(--accent);border-radius:999px}body.mm-ocean-assessment-page .mm-sa-question-card{border:1px solid #ead7df;border-radius:18px;background:#fff;padding:28px 32px}body.mm-ocean-assessment-page .mm-sa-question-card h2{font-size:28px;width:100%;max-width:none}body.mm-ocean-assessment-page .mm-sa-dimension{display:inline-block;background:#fff0f6;color:#c6115a;border-radius:999px;padding:6px 10px;font-weight:800;font-size:12px}body.mm-ocean-assessment-page .mm-sa-options{display:grid;gap:10px;margin-top:20px}body.mm-ocean-assessment-page .mm-sa-option{display:flex;align-items:center;gap:12px;border:1px solid #decbd4;border-radius:12px;padding:13px 14px;cursor:pointer}body.mm-ocean-assessment-page .mm-sa-option input{position:absolute;opacity:0}body.mm-ocean-assessment-page .mm-sa-radio{width:16px;height:16px;border:1.5px solid #c8bbc1;border-radius:50%;flex:0 0 auto}body.mm-ocean-assessment-page .mm-sa-option.is-selected{border-color:#e26b9d;background:#fff7fa}body.mm-ocean-assessment-page .mm-sa-option.is-selected body.mm-ocean-assessment-page .mm-sa-radio{border:5px solid var(--accent)}body.mm-ocean-assessment-page .mm-sa-nav{display:flex;justify-content:space-between;margin-top:13px}body.mm-ocean-assessment-page .mm-sa-traits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:22px}body.mm-ocean-assessment-page .mm-sa-trait-card{border:1px solid #ead7df;border-radius:18px;background:#fff;padding:20px}body.mm-ocean-assessment-page .mm-sa-trait-card:last-child:nth-child(odd){grid-column:1/-1}body.mm-ocean-assessment-page .mm-sa-trait-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}body.mm-ocean-assessment-page .mm-sa-trait-card h3{margin:0;color:var(--ink)}body.mm-ocean-assessment-page .mm-sa-trait-score{white-space:nowrap;font-weight:800;color:var(--accent)}body.mm-ocean-assessment-page .mm-sa-trait-label{font-size:17px;font-weight:800;margin:.7rem 0 .2rem}body.mm-ocean-assessment-page .mm-sa-trait-card p{margin:0;color:var(--muted);line-height:1.5}body.mm-ocean-assessment-page .mm-sa-next-steps{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;margin-top:25px;border-radius:20px;background:#29242a;color:#fff;padding:27px}body.mm-ocean-assessment-page .mm-sa-next-steps h3{color:#fff;margin:.2rem 0 .5rem}body.mm-ocean-assessment-page .mm-sa-next-steps p{color:#dfd9dd;margin:0}body.mm-ocean-assessment-page .mm-sa-actions{display:flex;flex-direction:column;gap:9px;justify-content:center}@media(max-width:760px){body.mm-ocean-assessment-page .mm-sa-intro-grid,body.mm-ocean-assessment-page .mm-sa-result-hero,body.mm-ocean-assessment-page .mm-sa-next-steps,body.mm-ocean-assessment-page .mm-sa-traits{grid-template-columns:1fr}body.mm-ocean-assessment-page .mm-sa-trait-card:last-child:nth-child(odd){grid-column:auto}body.mm-ocean-assessment-page .mm-sa-question-card{padding:22px}body.mm-ocean-assessment-page .mm-sa-question-card h2{font-size:24px}}
+body.mm-ocean-assessment-page .mm-sa #sa-quiz,body.mm-ocean-assessment-page .mm-sa #sa-quiz body.mm-ocean-assessment-page .mm-sa-quiz-head,body.mm-ocean-assessment-page .mm-sa #sa-quiz body.mm-ocean-assessment-page .mm-sa-progress,body.mm-ocean-assessment-page .mm-sa #sa-quiz body.mm-ocean-assessment-page .mm-sa-question-card,body.mm-ocean-assessment-page .mm-sa #sa-quiz body.mm-ocean-assessment-page .mm-sa-nav{width:100%!important;max-width:none!important}body.mm-ocean-assessment-page .mm-sa #sa-question{display:block!important;width:100%!important;max-width:none!important;inline-size:100%!important;box-sizing:border-box!important;text-wrap:wrap!important;text-wrap-style:auto!important}
+
+/* Compact assessment mode: minimise page-height/scrolling while answering. */
+@media (min-width: 761px) {
+  body.mm-ocean-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:10px !important; padding-bottom:10px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa { margin-bottom:0 !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-quiz-head { min-height:38px; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-progress-label { margin-top:3px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-progress { margin:7px 0 10px !important; height:6px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-question-card { padding:18px 22px !important; border-radius:16px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-question-card h2,
+  body.mm-ocean-assessment-page.mm-sa-quiz-active #sa-question { font-size:clamp(22px,2.2vw,28px) !important; line-height:1.08 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-dimension { padding:5px 9px !important; font-size:11px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-option { padding:9px 12px !important; min-height:42px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-nav { margin-top:8px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-btn { padding:10px 16px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-eyebrow { font-size:11px !important; }
+}
+@media (max-width: 760px) {
+  body.mm-ocean-assessment-page.mm-sa-quiz-active .mm-page-hero { display:none !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active .mm-assessment-back-section { display:none !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active .mm-section.mm-section--tight { padding-top:8px !important; padding-bottom:8px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-question-card { padding:16px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-question-card h2,
+  body.mm-ocean-assessment-page.mm-sa-quiz-active #sa-question { font-size:22px !important; line-height:1.1 !important; margin:.45rem 0 .6rem !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-progress { margin:7px 0 10px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-options { gap:7px !important; margin-top:10px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-option { padding:10px 11px !important; }
+  body.mm-ocean-assessment-page.mm-sa-quiz-active body.mm-ocean-assessment-page .mm-sa-nav { margin-top:8px !important; }
+}
+
+/* --- wellness-assessment.md --- */
+.mm-assessment-launcher {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.6fr);
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1.1rem;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--mm-border, #ead7df);
+    border-radius: 18px;
+    background: #fff;
+  }
+  .mm-assessment-launcher__copy h2 {
+    margin: 0.15rem 0 0.3rem;
+    font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+  }
+  .mm-assessment-launcher__copy p {
+    margin: 0;
+    max-width: 34rem;
+  }
+  .mm-assessment-launcher__tests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    justify-content: flex-start;
+  }
+  .mm-assessment-test {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 42px;
+    padding: 0.65rem 0.9rem;
+    border: 1px solid #ead7df;
+    border-radius: 999px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .mm-assessment-test--available {
+    color: #d31363;
+    background: #fff4f8;
+    border-color: #efbfd1;
+  }
+  .mm-assessment-test--available:hover,
+  .mm-assessment-test--available:focus-visible {
+    background: #fde7f0;
+    text-decoration: none;
+  }
+  .mm-assessment-test--disabled {
+    color: #5f5860;
+    background: #faf8f9;
+    cursor: default;
+  }
+  .mm-assessment-test small {
+    font-size: 0.68rem;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+  @media (max-width: 760px) {
+    .mm-assessment-launcher {
+      grid-template-columns: 1fr;
+    }
+    .mm-assessment-launcher__tests {
+      gap: 0.5rem;
+    }
+  }
+
+
+/* =========================================================
+   Assessment radio controls — reliable selected state
+   Uses the actual checked input as the source of truth so the
+   visual state does not depend on page-specific selector chains.
+   ========================================================= */
+body.mm-assessment-page .mm-sa-option input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.mm-assessment-page .mm-sa-option .mm-sa-radio {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  border: 2px solid #b8abb2;
+  border-radius: 50%;
+  background: #fff;
+}
+
+body.mm-assessment-page .mm-sa-option input[type="radio"]:checked + .mm-sa-radio,
+body.mm-assessment-page .mm-sa-option.is-selected .mm-sa-radio {
+  border-color: var(--accent, #d31363) !important;
+}
+
+body.mm-assessment-page .mm-sa-option input[type="radio"]:checked + .mm-sa-radio::after,
+body.mm-assessment-page .mm-sa-option.is-selected .mm-sa-radio::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent, #d31363);
+}

@@ -45,7 +45,7 @@ body_class: mm-understand-page
     <div class="mm-section-heading"><span class="mm-eyebrow">Go deeper</span><h2>Understand the broader wellbeing framework.</h2></div>
     <div class="mm-card-grid mm-card-grid--2 mm-card-grid--centered">
       <a class="mm-card" href="{{ '/understand-yourself/mente-mirror-intelligence/' | relative_url }}"><span class="mm-card__icon">{% include mm-icon.html name="sparkles" %}</span><h2>Mente Mirror Intelligence</h2><p>Discover the Five Wells of Happiness and the Quality of Life framework.</p><span class="mm-card__link">Explore Mente Mirror Intelligence</span></a>
-      <a class="mm-card" href="{{ '/ai-wellness/' | relative_url }}"><span class="mm-card__icon">{% include mm-icon.html name="chat" %}</span><h2>Mjuzi AI Wellness</h2><p>Move from occasional assessment to recurring reflection, tools and everyday wellness support.</p><span class="mm-card__link">Explore Mjuzi</span></a>
+      <a class="mm-card" href="{{ '/ai-wellness/' | relative_url }}"><span class="mm-card__icon">{% include mm-icon.html name="chat" %}</span><h2>Mjuzi AI Wellness</h2><p>Move from occasional assessment to recurring reflection, tools and everyday wellness support.</p><span class="mm-card__link">Meet Mjuzi</span></a>
     </div>
   </div>
 </section>

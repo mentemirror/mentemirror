@@ -25,10 +25,26 @@ body_class: mm-assessment-page
   <div class="mm-container">
     <div class="mm-assessment-expectations">
       <article><span>{% include mm-icon.html name="target" %}</span><strong>1. Choose an area</strong><p>Select the aspect of wellbeing most relevant to you.</p></article>
-      <article><span>{% include mm-icon.html name="edit" %}</span><strong>2. Complete the self-assessment</strong><p>Take a test now – Click for Self assessment Questionnaire.</p></article>
+      <article><span>{% include mm-icon.html name="edit" %}</span><strong>2. Complete the self-assessment</strong><p>Answer a short questionnaire for the wellbeing area you choose.</p></article>
       <article><span>{% include mm-icon.html name="chart" %}</span><strong>3. Review the focused output</strong><p>Use the result as a reflection on your current wellbeing.</p></article>
       <article><span>{% include mm-icon.html name="compass" %}</span><strong>4. Choose a next step</strong><p> Based on your output, continue with wellness tools in Mjuzi or seek human professional support when appropriate.</p></article>
     </div>
+
+    <div class="mm-assessment-launcher" aria-labelledby="mm-assessment-launcher-title">
+      <div class="mm-assessment-launcher__copy">
+        <span class="mm-eyebrow">Start a self-assessment</span>
+        <h2 id="mm-assessment-launcher-title">Choose a test</h2>
+        <p>Begin with the area you want to reflect on. More assessments will be added here as they become available.</p>
+      </div>
+      <div class="mm-assessment-launcher__tests" aria-label="Available and upcoming self-assessments">
+        <a class="mm-assessment-test mm-assessment-test--available" href="{{ '/understand-yourself/wellness-assessment/depression/' | relative_url }}">Depression <span aria-hidden="true">→</span></a>
+        <a class="mm-assessment-test mm-assessment-test--available" href="{{ '/understand-yourself/wellness-assessment/anxiety/' | relative_url }}">Anxiety <span aria-hidden="true">→</span></a>
+        <a class="mm-assessment-test mm-assessment-test--available" href="{{ '/understand-yourself/wellness-assessment/stress/' | relative_url }}">Stress <span aria-hidden="true">→</span></a>
+        <a class="mm-assessment-test mm-assessment-test--available" href="{{ '/understand-yourself/wellness-assessment/sleep/' | relative_url }}">Sleep <span aria-hidden="true">→</span></a>
+        <a class="mm-assessment-test mm-assessment-test--available" href="{{ '/understand-yourself/wellness-assessment/personality/' | relative_url }}">Personality <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
     <div class="mm-safety-callout" role="note">
       <span aria-hidden="true">{% include mm-icon.html name="shield" %}</span>
       <p><strong>A wellness check is not a diagnosis.</strong> Self-assessment can help you reflect on current patterns, but it does not replace psychological or medical evaluation. If you are in immediate danger or need urgent mental-health support, use the <a href="{{ '/urgent-help/' | relative_url }}">urgent-help resources</a>.</p>
@@ -50,13 +66,14 @@ body_class: mm-assessment-page
         <tr><td data-label="Assessment"><strong>Cognitive Processing</strong></td><td data-label="Output">Processing speed</td></tr>
         <tr><td data-label="Assessment"><strong>Academic Wellbeing</strong></td><td data-label="Output">Study stress / focus / distraction</td></tr>
         <tr><td data-label="Assessment"><strong>Social Wellbeing</strong></td><td data-label="Output">Loneliness / connection</td></tr>
+        <tr><td data-label="Assessment"><strong>Personality</strong></td><td data-label="Output">Big Five (OCEAN) profile</td></tr>
         <tr><td data-label="Assessment"><strong>Senior Cognitive Wellness</strong></td><td data-label="Output">Memory / cognitive performance</td></tr>
       </tbody></table>
     </div>
   </div>
 </section>
 
-{% include mm-next-steps.html %}
+{% include mm-next-steps.html wellness_url="/understand-yourself/psychological-tests/" wellness_label="Start Psychological Testing" %}
 
 
 <section class="mm-section mm-section--tight">
@@ -66,5 +83,4 @@ body_class: mm-assessment-page
     </div>
   </div>
 </section>
-
 

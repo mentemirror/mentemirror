@@ -36,6 +36,53 @@ body_class: mm-intelligence-page
   </div>
 </section>
 
+
+<style>
+.mm-intelligence-page .mm-wells-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.mm-intelligence-page .mm-wells-table .mm-well-row > td {
+  background-clip: padding-box;
+}
+
+.mm-intelligence-page .mm-wells-table .mm-well-row--emotional > td {
+  background: #ffe4ec;
+}
+.mm-intelligence-page .mm-wells-table .mm-well-row--emotional > td:first-child {
+  border-left: 6px solid #ef3b73;
+}
+
+.mm-intelligence-page .mm-wells-table .mm-well-row--cognitive > td {
+  background: #dff1ec;
+}
+.mm-intelligence-page .mm-wells-table .mm-well-row--cognitive > td:first-child {
+  border-left: 6px solid #128f7c;
+}
+
+.mm-intelligence-page .mm-wells-table .mm-well-row--physical > td {
+  background: #d7f0ef;
+}
+.mm-intelligence-page .mm-wells-table .mm-well-row--physical > td:first-child {
+  border-left: 6px solid #08a69a;
+}
+
+.mm-intelligence-page .mm-wells-table .mm-well-row--social > td {
+  background: #fff0d3;
+}
+.mm-intelligence-page .mm-wells-table .mm-well-row--social > td:first-child {
+  border-left: 6px solid #f59a23;
+}
+
+.mm-intelligence-page .mm-wells-table .mm-well-row--spiritual > td {
+  background: #eadfff;
+}
+.mm-intelligence-page .mm-wells-table .mm-well-row--spiritual > td:first-child {
+  border-left: 6px solid #6e38cc;
+}
+</style>
+
 <section class="mm-section mm-section--soft mm-five-wells-detail">
   <div class="mm-container">
     <div class="mm-section-heading">
@@ -48,29 +95,29 @@ body_class: mm-intelligence-page
         <thead>
           <tr>
             <th scope="col">Dimension</th>
-            <th scope="col">Question</th>
+            <th scope="col">Relevance</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--emotional">{% include mm-icon.html name="heart" %}</span><strong>Emotional</strong></td>
-            <td data-label="Question">How am I feeling? - gives you balance.</td>
+          <tr class="mm-well-row mm-well-row--emotional">
+            <td data-label="Dimension"><strong>Emotional</strong></td>
+            <td data-label="Relevance"><strong>Heart</strong> — emotional balance and resilience. Emotional wellbeing directly improves your social and spiritual quotient.</td>
           </tr>
-          <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--cognitive">{% include mm-icon.html name="brain" %}</span><strong>Cognitive</strong></td>
-            <td data-label="Question">How am I thinking and learning? - gives you growth.</td>
+          <tr class="mm-well-row mm-well-row--cognitive">
+            <td data-label="Dimension"><strong>Cognitive</strong></td>
+            <td data-label="Relevance"><strong>Mind</strong> — thinking, learning and growth. A brighter mind helps to regulate your emotion and social interactions.</td>
           </tr>
-          <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--physical">↗</span><strong>Physical</strong></td>
-            <td data-label="Question">How is my body recovering? - gives you energy.</td>
+          <tr class="mm-well-row mm-well-row--physical">
+            <td data-label="Dimension"><strong>Physical</strong></td>
+            <td data-label="Relevance"><strong>Body</strong> — vitality, energy and recovery. Energetic body provides nutrition for your emotional, cognitive, and social balance.</td>
           </tr>
-          <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--social">●</span><strong>Social</strong></td>
-            <td data-label="Question">How connected am I? - gives you connection.</td>
+          <tr class="mm-well-row mm-well-row--social">
+            <td data-label="Dimension"><strong>Social</strong></td>
+            <td data-label="Relevance"><strong>Connection</strong> — relationships and belonging. Social interactions synergize with emotional resilience.</td>
           </tr>
-          <tr>
-            <td data-label="Dimension"><span class="mm-well-dot mm-well-dot--spiritual">{% include mm-icon.html name="sparkles" %}</span><strong>Spiritual / Purpose</strong></td>
-            <td data-label="Question">What gives my life meaning?</td>
+          <tr class="mm-well-row mm-well-row--spiritual">
+            <td data-label="Dimension"><strong>Spiritual / Purpose</strong></td>
+            <td data-label="Relevance"><strong>Compass</strong> — meaning, values and direction. Understanding your inner self helps to see through the lens of emotional and cognitive functions.</td>
           </tr>
         </tbody>
       </table>

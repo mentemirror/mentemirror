@@ -56,7 +56,7 @@ og_image: /assets/images/mjuzi/liva-product-screen.jpeg
 
 <section class="mm-section mm-section--soft">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--center"><span class="mm-eyebrow">Explore Mjuzi</span><h2>Choose the part of the wellness ecosystem you want to understand.</h2></div>
+    <div class="mm-section-heading mm-section-heading--center"><span class="mm-eyebrow">Meet Mjuzi</span><h2>Choose the part of the wellness ecosystem you want to understand.</h2></div>
     <div class="mm-card-grid mm-card-grid--3">
       <a class="mm-card" href="{{ '/ai-wellness/mjuzi/' | relative_url }}"><h3>AI Companion</h3><p>Conversational reflection with clear AI boundaries, controlled continuity and human-care pathways.</p><span class="mm-card__link">Explore AI Companion</span></a>
       <a class="mm-card" href="{{ '/ai-wellness/wearables/' | relative_url }}"><h3>Wearable Insights</h3><p>Supported sleep, HRV, stress, recovery and activity signals can add context—subject to consent, quality and device support.</p><span class="mm-card__link">Explore wearable insights</span></a>
