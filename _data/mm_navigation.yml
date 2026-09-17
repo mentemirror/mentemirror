@@ -9,7 +9,7 @@ main:
       - title: Seniors
         url: /for-you/seniors/
       - title: Families
-        url: /for-you/families/
+        url: /family-wellness/
 
   - title: Understand Yourself
     url: /understand-yourself/
@@ -58,17 +58,6 @@ main:
         url: /human-care/corporate-counselling/
       - title: Fees & Packages
         url: /human-care/fees-packages/
-  - title: Family Wellness
-    url: /family-wellness/
-    children:
-      - title: Family Dashboard
-        url: /family-wellness/family-dashboard/
-      - title: Parent Support
-        url: /family-wellness/parent-support/
-      - title: Senior Care
-        url: /family-wellness/senior-care/
-      - title: Caregiver Support
-        url: /family-wellness/caregiver-support/
   - title: Resources
     url: /resources/
     children:
