@@ -14,6 +14,16 @@ body_class: mm-audience-page
   </div>
 </section>
 
+<section class="mm-page-hero">
+      <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/foryou/senior.png' | relative_url }}"
+        alt="Adult"
+        loading="lazy"
+      >
+    </div>
+</section>
+
 <section class="mm-section mm-section--tight">
   <div class="mm-container">
     <div class="mm-audience-decision-grid">
@@ -21,10 +31,10 @@ body_class: mm-audience-page
         <span class="mm-card__icon">{% include mm-icon.html name="compass" %}</span>
         <h2>When Mente Mirror can help</h2>
         <ul class="mm-check-list">
-          <li>Changes in mood, connection, sleep or daily activity deserve more attention.</li>
-          <li>Memory or cognitive wellbeing is a concern you want to explore constructively.</li>
-          <li>A senior would benefit from simpler voice-led or caregiver-supported interactions.</li>
-          <li>Family members want a clearer way to support wellbeing without replacing professional care.</li>
+          <li>Changes in mood, connection, sleep or daily activity.</li>
+          <li>Memory or cognitive wellbeing is a concern.</li>
+          <li>A senior needs simpler voice-led companion.</li>
+          <li>Family members want a simpler way to track and support wellbeing without replacing professional care.</li>
         </ul>
       </article>
       <article class="mm-audience-decision">
@@ -32,13 +42,12 @@ body_class: mm-audience-page
         <h2>What your journey can include</h2>
         <ul class="mm-check-list">
           <li>Cognitive and emotional wellness activities suited to the senior journey.</li>
-          <li>Check-ins and available activity, sleep or wearable context.</li>
-          <li>Family and caregiver-oriented support pathways.</li>
+          <li>Daily Check-ins. Activity, sleep remote tracking by caregivers through wearables .</li>
+          <li>24x7 AI assisted communication to improve social interactions</li>
           <li>Human counselling or medical consultation when the situation calls for it.</li>
         </ul>
       </article>
     </div>
-    <p class="mm-capability-note">Wearable, mobility and voice capabilities can depend on the connected device, sensor availability and current product release. Confirm current availability before relying on a specific feature.</p>
   </div>
 </section>
 

@@ -19,13 +19,13 @@ body_class: mm-audience-page mm-family-page
     <div class="mm-audience-decision-grid">
       <article class="mm-audience-decision">
         <span class="mm-card__icon">{% include mm-icon.html name="compass" %}</span>
-        <h2>When family wellness can help</h2>
-        <ul class="mm-check-list"><li>Different family members need different forms of wellness support.</li><li>Parents or caregivers want better ways to support adolescents or seniors.</li><li>Stress, communication or life-stage changes are affecting the family system.</li><li>You want individual pathways while keeping appropriate family support connected.</li></ul>
+        <h2>DELETE THIS PAGE. FIT THIS SECTION INTO THE FAMILY WELLNESS PAGE AND BRING IT UNDER HOME: FOR YOU.  When family wellness can help</h2>
+        <ul class="mm-check-list"><li>You want individual pathways for each generation while keeping relevant family information inter-connected.</li><li>Parents or caregivers want better ways to track adolescents or seniors.</li><li>Stress, communication or life-stage changes are affecting the family system.</li><li>You are looking for interconnected support between family members without a breach of privacy.</li></ul>
       </article>
       <article class="mm-audience-decision">
         <span class="mm-card__icon">{% include mm-icon.html name="family" %}</span>
-        <h2>What the family journey can include</h2>
-        <ul class="mm-check-list"><li>Separate age-appropriate journeys for students, adults and seniors.</li><li>Parent, senior-care and caregiver support pathways.</li><li>Wellness tools and human care that can be selected according to need.</li><li>Family-oriented features where they are available in the current product release.</li></ul>
+        <h2>DELETE THIS PAGE. FIT THIS SECTION INTO THE FAMILY WELLNESS PAGE AND BRING IT UNDER HOME: FOR YOU.  What the family journey can include</h2>
+        <ul class="mm-check-list"><li>Separate age-appropriate journeys for students, adults and seniors.</li><li>Parent, senior-care and caregiver support pathways.</li><li>Wellness tools and human care that can be prompted to other members according to need.</li><li>Family Dashboard for the person in control.</li></ul>
       </article>
     </div>
     <p class="mm-capability-note">Family-dashboard and connected-family capabilities may vary by current product release. Confirm availability before relying on a specific feature.</p>

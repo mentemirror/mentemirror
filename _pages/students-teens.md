@@ -1,6 +1,6 @@
 ---
 layout: mm-default
-title: Student Counselling & Mental Wellness Support
+title: Students & Teens
 description: Wellness support for students and teens covering focus, academic stress, exam anxiety, sleep, emotional wellbeing and parent-supported wellness.
 permalink: /for-you/students-teens/
 body_class: mm-audience-page
@@ -12,6 +12,16 @@ body_class: mm-audience-page
     <h1>Students & Teens</h1>
     <p><strong>Study better. Think better. Feel better.</strong></p>
   </div>
+</section>
+
+<section class="mm-page-hero">
+      <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/foryou/students-teen.png' | relative_url }}"
+        alt="Student"
+        loading="lazy"
+      >
+    </div>
 </section>
 
 <section class="mm-section mm-section--tight">
@@ -31,9 +41,9 @@ body_class: mm-audience-page
         <span class="mm-card__icon">{% include mm-icon.html name="sparkles" %}</span>
         <h2>What your journey can include</h2>
         <ul class="mm-check-list">
-          <li>A focused wellness check or psychological assessment when appropriate.</li>
-          <li>Mjuzi tools for check-ins, reflection, focus, sleep and stress support.</li>
-          <li>Progress tracking and personalised wellness actions.</li>
+          <li>A focused wellness check, Aptitude and Interest Assessment.</li>
+          <li>Mjuzi Smart Rings for monitoring sleep and stress, tools for reflection, focus and memory.</li>
+          <li>Parental skill assessment and guidance.</li>
           <li>Access to a psychologist when human support would be more useful.</li>
         </ul>
       </article>
@@ -57,7 +67,7 @@ body_class: mm-audience-page
       <article class="mm-card mm-card--compact"><span class="mm-card__icon">{% include mm-icon.html name="brain" %}</span><h3>Memory training</h3></article>
       <article class="mm-card mm-card--compact"><span class="mm-card__icon">{% include mm-icon.html name="moon" %}</span><h3>Sleep & recovery</h3></article>
       <article class="mm-card mm-card--compact"><span class="mm-card__icon">{% include mm-icon.html name="heart" %}</span><h3>Emotional wellbeing</h3></article>
-      <article class="mm-card mm-card--compact"><span class="mm-card__icon">{% include mm-icon.html name="sparkles" %}</span><h3>AI wellness support</h3></article>
+      <article class="mm-card mm-card--compact"><span class="mm-card__icon">{% include mm-icon.html name="sparkles" %}</span><h3>24x7 AI wellness companion</h3></article>
       <article class="mm-card mm-card--compact"><span class="mm-card__icon">{% include mm-icon.html name="family" %}</span><h3>Parent-supported wellness</h3></article>
     </div>
   </div>

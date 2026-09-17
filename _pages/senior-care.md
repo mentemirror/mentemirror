@@ -9,25 +9,110 @@ body_class: mm-family-detail-page
 <section class="mm-page-hero mm-family-wellness-hero">
   <div class="mm-container">
     <span class="mm-eyebrow">Family Wellness</span>
-    <h1>Senior Care</h1>
+    <h1>Caring your Senior</h1>
     <p><strong>Stay connected. Stay mentally active. Stay independent.</strong></p>
   </div>
 </section>
 
+<style>
+.mm-senior-care-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(340px, .85fr);
+  gap: 40px;
+  align-items: stretch;
+  padding: 36px;
+  border: 1px solid var(--mm-border);
+  border-radius: 22px;
+  background: linear-gradient(135deg, #fff 0%, #fff9fb 56%, #f6f7fb 100%);
+  box-shadow: var(--mm-shadow-soft);
+}
+
+.mm-senior-care-intro__copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mm-senior-care-intro__copy h2 {
+  margin: 10px 0 16px;
+  max-width: none;
+  font-size: clamp(1.9rem, 3vw, 2.7rem);
+  line-height: 1.15;
+}
+
+.mm-senior-care-intro__copy p {
+  margin: 0 0 14px;
+  max-width: 760px;
+  color: var(--mm-muted);
+  line-height: 1.7;
+}
+
+.mm-senior-care-intro__copy p:last-child { margin-bottom: 0; }
+
+.mm-senior-care-intro__visual {
+  position: relative;
+  min-height: 340px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fff;
+  border: 1px solid #eadde6;
+}
+
+.mm-senior-care-intro__visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 5px solid var(--mm-primary);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.mm-senior-care-intro__visual img {
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 900px) {
+  .mm-senior-care-intro {
+    grid-template-columns: 1fr;
+    padding: 26px;
+  }
+  .mm-senior-care-intro__visual,
+  .mm-senior-care-intro__visual img { min-height: 285px; }
+}
+
+@media (max-width: 640px) {
+  .mm-senior-care-intro {
+    padding: 20px;
+    gap: 24px;
+    border-radius: 16px;
+  }
+  .mm-senior-care-intro__visual,
+  .mm-senior-care-intro__visual img { min-height: 235px; }
+}
+</style>
+
 <section class="mm-section mm-section--tight">
   <div class="mm-container">
-    <div class="mm-family-detail-intro">
-      <div>
+    <div class="mm-senior-care-intro">
+      <div class="mm-senior-care-intro__copy">
         <span class="mm-eyebrow">Wellbeing across later life</span>
         <h2>Support independence while staying connected.</h2>
         <p>Senior wellbeing is shaped by more than physical health alone. Cognitive engagement, memory, mood, social connection, sleep, activity and a sense of purpose all contribute to quality of life.</p>
         <p>Within Family Wellness, Senior Care is designed to help older adults stay engaged with their own wellbeing while giving family members appropriate context when support may be useful.</p>
       </div>
-      <aside class="mm-family-summary-card">
-        <span class="mm-family-summary-card__icon" aria-hidden="true">{% include mm-icon.html name="senior" %}</span>
-        <h3>Independence with connection</h3>
-        <p>The goal is supportive awareness, not taking control away from the senior.</p>
-      </aside>
+
+      <div class="mm-senior-care-intro__visual">
+        <img
+          src="{{ './assets/images/family-wellness/father father.png' | relative_url }}"
+          alt="Older adult receiving supportive family connection"
+          loading="lazy"
+        >
+      </div>
     </div>
   </div>
 </section>
@@ -51,14 +136,6 @@ body_class: mm-family-detail-page
 
 <section class="mm-section">
   <div class="mm-container">
-    <div class="mm-section-heading mm-section-heading--center"><span class="mm-eyebrow">A respectful support model</span><h2>Engage → Observe → Connect → Assist</h2></div>
-    <div class="mm-family-process-grid">
-      <article><span>01</span><h3>Engage</h3><p>Keep the senior actively involved in their own routines, choices and wellbeing.</p></article>
-      <article><span>02</span><h3>Observe</h3><p>Notice meaningful changes over time without treating every variation as a problem.</p></article>
-      <article><span>03</span><h3>Connect</h3><p>Maintain regular family and social connection, especially when isolation becomes a concern.</p></article>
-      <article><span>04</span><h3>Assist</h3><p>Coordinate practical or professional support when the senior needs more help.</p></article>
-    </div>
-
     <div class="mm-family-privacy-note"><strong>Important</strong><p>Wellness tools and family observations do not diagnose cognitive, psychiatric or medical conditions. New, persistent or concerning changes should be discussed with an appropriate qualified professional.</p></div>
     <div class="mm-actions"><a class="mm-text-link" href="{{ '/family-wellness/' | relative_url }}">← Back to Family Wellness</a></div>
   </div>

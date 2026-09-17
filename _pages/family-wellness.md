@@ -1,10 +1,66 @@
 ---
 layout: mm-default
-title: Parent & Family Mental Wellness Support
+title: Family Wellness
 description: Connected family wellness for teens, parents, seniors and caregivers through a shared family dashboard, parent support, senior care and caregiver support.
 permalink: /family-wellness/
 body_class: mm-family-wellness-page
 ---
+
+<style>
+/* Family Wellness hero: use the full available content width. */
+.mm-family-wellness-page .mm-family-wellness-hero .mm-container {
+  width: min(calc(100% - 40px), var(--mm-container)) !important;
+}
+
+.mm-family-wellness-page .mm-family-wellness-hero h1,
+.mm-family-wellness-page .mm-family-wellness-hero p {
+  width: 100% !important;
+  max-width: none !important;
+  inline-size: 100% !important;
+  text-wrap: wrap !important;
+  text-wrap-style: auto !important;
+}
+
+@media (max-width: 640px) {
+  .mm-family-wellness-page .mm-family-wellness-hero .mm-container {
+    width: min(calc(100% - 28px), var(--mm-container)) !important;
+  }
+}
+</style>
+
+
+<style>
+/* Family Wellness: balanced three-card layout after removing Caregiver Support. */
+.mm-family-wellness-page .mm-family-area-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+
+.mm-family-wellness-page .mm-family-area-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mm-family-wellness-page .mm-family-area-card .mm-text-link {
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+@media (max-width: 980px) {
+  .mm-family-wellness-page .mm-family-area-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .mm-family-wellness-page .mm-family-area-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
 <section class="mm-page-hero mm-family-wellness-hero">
   <div class="mm-container">
@@ -14,11 +70,21 @@ body_class: mm-family-wellness-page
   </div>
 </section>
 
+<section class="mm-page-hero">
+      <div class="mm-psychologists-intro-image">
+      <img
+        src="{{ './assets/images/family-wellness/family.png' | relative_url }}"
+        alt="Wellness Assessment"
+        loading="lazy"
+      >
+    </div>
+</section>
+
 <section class="mm-section mm-section--tight">
   <div class="mm-container">
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">Across generations</span>
-      <h2>Teen → Parent → Grandparent</h2>
+      
       <p>Family wellbeing changes across life stages. Mente Mirror brings those different needs into one connected ecosystem without treating every family member in the same way.</p>
     </div>
 
@@ -36,8 +102,8 @@ body_class: mm-family-wellness-page
   <div class="mm-container">
     <div class="mm-section-heading">
       <span class="mm-eyebrow">Family Wellness</span>
-      <h2>Four ways to support the whole family</h2>
-      <p>The Family Wellness section brings together a family command centre for the adult, practical parent support, senior wellbeing and support for the people providing care.</p>
+      <h2>Three ways to support the whole family</h2>
+      <p>The Family Wellness section brings together a family command centre for the leading adult, practical parental support for children, senior wellbeing and support.</p>
     </div>
 
     <div class="mm-family-area-grid">
@@ -52,7 +118,7 @@ body_class: mm-family-wellness-page
       <a class="mm-family-area-card" href="{{ '/family-wellness/parent-support/' | relative_url }}">
         <span class="mm-family-area-card__icon" aria-hidden="true">{% include mm-icon.html name="family" %}</span>
         <span class="mm-family-area-card__kicker">Guide without overwhelming</span>
-        <h2>Parent Support</h2>
+        <h2>Parental Support</h2>
         <p>Practical support for understanding a child or adolescent’s emotional, academic, behavioural and lifestyle needs while strengthening communication at home.</p>
         <span class="mm-text-link">Explore Parent Support →</span>
       </a>
@@ -65,13 +131,7 @@ body_class: mm-family-wellness-page
         <span class="mm-text-link">Explore Senior Care →</span>
       </a>
 
-      <a class="mm-family-area-card" href="{{ '/family-wellness/caregiver-support/' | relative_url }}">
-        <span class="mm-family-area-card__icon" aria-hidden="true">{% include mm-icon.html name="heart" %}</span>
-        <span class="mm-family-area-card__kicker">Care for the caregiver</span>
-        <h2>Caregiver Support</h2>
-        <p>Tools and guidance to help caregivers stay informed, coordinate support, notice their own stress and maintain healthier boundaries while caring for someone else.</p>
-        <span class="mm-text-link">Explore Caregiver Support →</span>
-      </a>
+      
     </div>
   </div>
 </section>
@@ -80,18 +140,18 @@ body_class: mm-family-wellness-page
   <div class="mm-container">
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">Connected support</span>
-      <h2>Learn → Monitor → Connect → Support</h2>
-      <p>A simple family wellness journey that moves from awareness to action.</p>
+      
+      <p>A simple family wellness journey that moves from information to action.</p>
     </div>
 
     <div class="mm-family-steps mm-family-steps--center" aria-label="Learn, Monitor, Connect and Support">
-      <div class="mm-family-steps__item"><span>01</span><strong>Learn</strong><p>Understand wellbeing needs, patterns and life-stage challenges.</p></div>
+      <div class="mm-family-steps__item"><span>01</span><strong>Be informed</strong><p>Understand wellbeing needs, patterns and life-stage challenges for members.</p></div>
       <span class="mm-family-steps__arrow" aria-hidden="true">→</span>
       <div class="mm-family-steps__item"><span>02</span><strong>Monitor</strong><p>Notice meaningful changes in routines, check-ins and wellbeing signals.</p></div>
       <span class="mm-family-steps__arrow" aria-hidden="true">→</span>
       <div class="mm-family-steps__item"><span>03</span><strong>Connect</strong><p>Encourage healthier conversations and coordinated family support.</p></div>
       <span class="mm-family-steps__arrow" aria-hidden="true">→</span>
-      <div class="mm-family-steps__item"><span>04</span><strong>Support</strong><p>Use wellness tools and involve human care when more support is needed.</p></div>
+      <div class="mm-family-steps__item"><span>04</span><strong>Intervention</strong><p>Use wellness tools and involve human care when more support is needed.</p></div>
     </div>
   </div>
 </section>
@@ -100,7 +160,7 @@ body_class: mm-family-wellness-page
   <div class="mm-container">
     <div class="mm-family-principles">
       <div>
-        <span class="mm-eyebrow">Designed for families</span>
+        <span class="mm-eyebrow">Designed for families CHANGE SECTION COLOUR - NOW SAME AS FOOTER GREY - NOT DISTINGUISHABLE FROM FOOTER</span>
         <h2>Connection should not mean loss of privacy.</h2>
       </div>
       <div class="mm-family-principles__grid">
