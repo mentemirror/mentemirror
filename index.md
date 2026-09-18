@@ -1,31 +1,167 @@
 ---
 layout: mm-default
-title: Online Mental Wellness, Psychologists & Counselling India | Mente Mirror
-description: Mente Mirror combines online counselling, psychologists, psychological assessments and AI-supported preventive mental wellness for students, adults, seniors and families.
+title: Mente Mirror
+description: Preventive and personalised mental wellness combining psychological science, behavioural insights, wearables, AI support and human care.
 permalink: /
 body_class: mm-home
 og_image: /assets/images/home/consulings.png
 ---
 
-<section class="mm-hero">
-  <div class="mm-container mm-hero__grid">
-    <div class="mm-hero__copy">
+<style>
+.mm-home-hero-redesign {
+  padding: 62px 0 58px;
+  background:
+    radial-gradient(circle at 88% 22%, rgba(235,63,122,.10), transparent 26%),
+    radial-gradient(circle at 72% 82%, rgba(139,79,166,.08), transparent 24%),
+    linear-gradient(110deg,#fff 0%,#fff9fb 58%,#f8f5fb 100%);
+  border-bottom: 1px solid #eee9ef;
+}
+
+.mm-home-hero-redesign__grid {
+  display: grid;
+  grid-template-columns: minmax(0,1.06fr) minmax(360px,.94fr);
+  gap: 50px;
+  align-items: center;
+}
+
+.mm-home-hero-redesign__copy h1 {
+  margin: 14px 0 22px;
+  max-width: 680px;
+  font-size: clamp(2.7rem,4.6vw,4.25rem);
+  line-height: 1.04;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+}
+
+.mm-home-hero-redesign__intro {
+  max-width: 690px;
+  margin-top: 20px;
+  padding-left: 18px;
+  border-left: 3px solid rgba(220,39,104,.38);
+}
+
+.mm-home-hero-redesign__lead {
+  margin: 0 0 12px;
+  font-size: 1.18rem;
+  line-height: 1.48;
+  font-weight: 700;
+  color: var(--mm-text);
+}
+
+.mm-home-hero-redesign__support {
+  margin: 0;
+  color: var(--mm-muted);
+  line-height: 1.7;
+}
+
+.mm-home-hero-redesign .mm-actions--hero {
+  margin-top: 28px;
+}
+
+.mm-home-hero-redesign__tertiary {
+  margin-top: 20px;
+}
+
+.mm-home-hero-redesign__visual {
+  position: relative;
+  min-height: 470px;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid var(--mm-border);
+  background: #fff;
+  box-shadow: var(--mm-shadow-soft);
+}
+
+.mm-home-hero-redesign__visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 6px solid var(--mm-primary);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.mm-home-hero-redesign__visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 470px;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+@media (max-width: 980px) {
+  .mm-home-hero-redesign__grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .mm-home-hero-redesign__copy h1 {
+    max-width: 820px;
+  }
+
+  .mm-home-hero-redesign__visual,
+  .mm-home-hero-redesign__visual img {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mm-home-hero-redesign {
+    padding: 44px 0 42px;
+  }
+
+  .mm-home-hero-redesign__copy h1 {
+    font-size: clamp(2.45rem,11vw,3.5rem);
+    text-wrap: wrap;
+  }
+
+  .mm-home-hero-redesign__intro {
+    padding-left: 14px;
+  }
+
+  .mm-home-hero-redesign .mm-actions--hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mm-home-hero-redesign .mm-actions--hero .mm-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .mm-home-hero-redesign__visual,
+  .mm-home-hero-redesign__visual img {
+    min-height: 280px;
+  }
+}
+</style>
+
+<section class="mm-home-hero-redesign">
+  <div class="mm-container mm-home-hero-redesign__grid">
+    <div class="mm-home-hero-redesign__copy">
       <span class="mm-eyebrow">Preventive • Personalised • Human-centred</span>
-      <h1><span class="mm-hero__headline-line">Your mind deserves</span> <span class="mm-hero__headline-line">more than a</span> <span class="mm-hero__headline-line">crisis response.</span></h1>
-      <div class="mm-hero__intro">
-        <p class="mm-hero__lead">Understand your mind. Strengthen your wellbeing. Stay ahead of mental health challenges.</p>
-        <p class="mm-hero__support">Mente Mirror brings together psychological science, AI-supported wellness, wearable context and human care to help you understand patterns, build healthier habits and choose the right support.</p>
+
+      <h1>Your mind deserves more than a crisis response.</h1>
+
+      <div class="mm-home-hero-redesign__intro">
+        <p class="mm-home-hero-redesign__lead">Understand your mind. Strengthen your wellbeing. Stay ahead of mental health challenges.</p>
+        <p class="mm-home-hero-redesign__support">Mente Mirror brings together psychological science, AI-supported wellness, wearable context and human care to help you understand patterns, build healthier habits and choose the right support.</p>
       </div>
+
       <div class="mm-actions mm-actions--hero">
         <a class="mm-btn mm-btn--primary" data-cta="hero-wellness-check" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}">Explore Wellness Check</a>
         <a class="mm-btn mm-btn--secondary" data-cta="hero-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}">Explore Human Care</a>
       </div>
-      <div class="mm-hero__tertiary-row">
-        <a class="mm-hero__tertiary" data-cta="hero-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Meet  Mjuzi AI Wellness <span aria-hidden="true">→</span></a>
-        <a class="mm-hero__start-link" data-cta="hero-get-started" href="{{ '/get-started/' | relative_url }}">New to Mente Mirror? Start here <span aria-hidden="true">→</span></a>
+
+      <div class="mm-home-hero-redesign__tertiary">
+        <a class="mm-hero__tertiary" data-cta="hero-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Meet Mjuzi AI Wellness <span aria-hidden="true">→</span></a>
       </div>
     </div>
 
+    <div class="mm-home-hero-redesign__visual">
+      <img src="{{ './assets/images/home/home.png' | relative_url }}" alt="Home" loading="lazy">
+    </div>
   </div>
 </section>
 
@@ -34,14 +170,14 @@ og_image: /assets/images/home/consulings.png
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">Choose your journey</span>
       <h2>Who would you like to support today?</h2>
-      <p>Choose the pathway that best matches your stage of life or the person you are supporting.</p>
+      <p>Choose the pathway that best matches the life-stage of the person needing support.</p>
     </div>
     <div class="mm-card-grid mm-card-grid--4">
       <a class="mm-card mm-audience-card" href="{{ '/for-you/students-teens/' | relative_url }}">
         <span class="mm-card__icon">{% include mm-icon.html name="student" %}</span><h3>I’m a student</h3><p>Focus, academic stress, sleep, emotional wellbeing and parent-supported wellness.</p><span class="mm-card__link">Explore student wellness</span>
       </a>
       <a class="mm-card mm-audience-card" href="{{ '/for-you/adults/' | relative_url }}">
-        <span class="mm-card__icon">{% include mm-icon.html name="briefcase" %}</span><h3>I’m an adult</h3><p>Stress, burnout, work-life balance, emotional regulation, resilience and human counselling.</p><span class="mm-card__link">Explore adult wellness</span>
+        <span class="mm-card__icon">{% include mm-icon.html name="briefcase" %}</span><h3>I’m an adult</h3><p>Stress, burnout, work-life balance, emotional regulation, resilience and productivity.</p><span class="mm-card__link">Explore adult wellness</span>
       </a>
       <a class="mm-card mm-audience-card" href="{{ '/for-you/seniors/' | relative_url }}">
         <span class="mm-card__icon">{% include mm-icon.html name="senior" %}</span><h3>I’m supporting a senior</h3><p>Memory, mood, connection, activity, sleep and caregiver-oriented support.</p><span class="mm-card__link">Explore senior wellness</span>
@@ -63,12 +199,12 @@ og_image: /assets/images/home/consulings.png
     <div class="mm-choice-grid">
       <a class="mm-choice-card" data-cta="choice-wellness" href="{{ '/understand-yourself/wellness-assessment/' | relative_url }}"><span>{% include mm-icon.html name="clipboard" %}</span><div><strong>I want to understand how I’m doing</strong><small>Start with a self-guided Wellness Check.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-testing" href="{{ '/understand-yourself/psychological-tests/' | relative_url }}"><span>{% include mm-icon.html name="brain" %}</span><div><strong>I want structured psychological testing</strong><small>Explore psychologist-supported tests and interpretation.</small></div><b aria-hidden="true">→</b></a>
-      <a class="mm-choice-card" data-cta="choice-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}"><span>{% include mm-icon.html name="chat" %}</span><div><strong>I want someone to talk to</strong><small>Explore counselling with a psychologist.</small></div><b aria-hidden="true">→</b></a>
+      <a class="mm-choice-card" data-cta="choice-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}"><span>{% include mm-icon.html name="chat" %}</span><div><strong>I want someone to talk to</strong><small>Explore counselling with a psychologist with post session reports and assistance.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-psychiatrist" href="{{ '/human-care/psychiatrists/' | relative_url }}"><span>{% include mm-icon.html name="medical" %}</span><div><strong>I may need medical or psychiatric care</strong><small>Explore psychiatric evaluation and medical support.</small></div><b aria-hidden="true">→</b></a>
-      <a class="mm-choice-card" data-cta="choice-mjuzi" href="{{ '/ai-wellness/' | relative_url }}"><span>{% include mm-icon.html name="sparkles" %}</span><div><strong>I want everyday AI-supported wellness</strong><small>Meet Mjuzi, check-ins, tools and wearable context.</small></div><b aria-hidden="true">→</b></a>
+      <a class="mm-choice-card" data-cta="choice-mjuzi" href="{{ '/ai-wellness/' | relative_url }}"><span>{% include mm-icon.html name="sparkles" %}</span><div><strong>USE SMART RING ICON FOR THIS PART I want everyday AI-supported wellness</strong><small>Explore Mjuzi, daily check-ins, Wearable Smart Ring real time monitoring 24x7 and growth tools.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-family" href="{{ '/family-wellness/' | relative_url }}"><span>{% include mm-icon.html name="family" %}</span><div><strong>I’m supporting someone else</strong><small>Explore family, parent, senior and caregiver pathways.</small></div><b aria-hidden="true">→</b></a>
     </div>
-    <div class="mm-actions mm-actions--center mm-choice-guide__start"><a class="mm-text-link" data-cta="choice-get-started" href="{{ '/get-started/' | relative_url }}">See the first-time-user guide →</a></div>
+    <div class="mm-actions mm-actions--center mm-choice-guide__start"><a class="mm-text-link" data-cta="choice-get-started" href="{{ '/get-started/' | relative_url }}">New to Mente Mirror? Start here →</a></div>
   </div>
 </section>
 
@@ -76,15 +212,15 @@ og_image: /assets/images/home/consulings.png
   <div class="mm-container">
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">How Mente Mirror works</span>
-      <h2>Understand → Connect → Learn → Practise → Improve</h2>
+      
       <p>One journey that combines awareness, everyday signals, personalised tools and human support when appropriate.</p>
     </div>
     <ol class="mm-journey">
-      <li><span class="mm-journey__number">01</span><h3>Understand</h3><p>Reflect through assessment and conversation.</p></li>
-      <li><span class="mm-journey__number">02</span><h3>Connect</h3><p>Add available behavioural and wearable context.</p></li>
-      <li><span class="mm-journey__number">03</span><h3>Learn</h3><p>Notice patterns and changes worth reflecting on.</p></li>
+      <li><span class="mm-journey__number">01</span><h3>Awareness</h3><p>Reflect through assessment and conversation.</p></li>
+      <li><span class="mm-journey__number">02</span><h3>Track</h3><p>Add available behavioural and wearable context.</p></li>
+      <li><span class="mm-journey__number">03</span><h3>Trends</h3><p>Notice patterns and changes worth reflecting on.</p></li>
       <li><span class="mm-journey__number">04</span><h3>Practise</h3><p>Use personalised wellness tools and exercises.</p></li>
-      <li><span class="mm-journey__number">05</span><h3>Improve</h3><p>Track progress and connect with human care when needed.</p></li>
+      <li><span class="mm-journey__number">05</span><h3>Transform</h3><p>Track progress and connect with human care when needed.</p></li>
     </ol>
   </div>
 </section>
@@ -100,13 +236,13 @@ og_image: /assets/images/home/consulings.png
       <article class="mm-home-duo__card">
         <span class="mm-card__icon">{% include mm-icon.html name="sparkles" %}</span>
         <h3>Mjuzi AI Wellness</h3>
-        <p>Daily check-ins, conversational reflection, wearable context and wellness tools designed to support—not diagnose—your mental wellness journey.</p>
+        <p>Mjuzi is a preventive, personalised and context-aware AI wellness platform designed to help you notice changes, reflect on patterns and take practical wellbeing actions.</p>
         <a class="mm-btn mm-btn--secondary" data-cta="home-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Meet Mjuzi</a>
       </article>
       <article class="mm-home-duo__card">
         <span class="mm-card__icon">{% include mm-icon.html name="heart" %}</span>
         <h3>Human Care</h3>
-        <p>Psychological assessment, counselling and psychiatric consultation when your needs benefit from human understanding and professional care.</p>
+        <p>Psychological assessment, counselling and psychiatric consultation or medication when your needs benefit from human understanding and professional care.</p>
         <a class="mm-btn mm-btn--secondary" data-cta="home-human-care" href="{{ '/human-care/' | relative_url }}">Explore Human Care</a>
       </article>
     </div>
@@ -139,10 +275,10 @@ og_image: /assets/images/home/consulings.png
       <h2>Clear boundaries. Human options. Support across generations.</h2>
     </div>
     <div class="mm-trust-grid mm-trust-grid--compact">
-      <article class="mm-trust-item"><span>{% include mm-icon.html name="users" %}</span><div><h3>Human care available</h3><p>Psychologists and psychiatrists remain part of the care pathway.</p></div></article>
-      <article class="mm-trust-item"><span>{% include mm-icon.html name="clipboard" %}</span><div><h3>Structured assessment</h3><p>Self-assessment and psychological testing are separated from diagnosis and medical care.</p></div></article>
-      <article class="mm-trust-item"><span>{% include mm-icon.html name="shield" %}</span><div><h3>Privacy &amp; safety information</h3><p>Dedicated safety, privacy, terms and urgent-help resources are easy to find.</p></div></article>
-      <article class="mm-trust-item"><span>{% include mm-icon.html name="family" %}</span><div><h3>Multi-generational</h3><p>Dedicated pathways for students, adults, seniors, families and caregivers.</p></div></article>
+      <article class="mm-trust-item"><span>{% include mm-icon.html name="users" %}</span><div><h3>Human care, Online and offline sessions if needed</h3><p>Psychologists and psychiatrists remain part of the care pathway.</p></div></article>
+      <article class="mm-trust-item"><span>{% include mm-icon.html name="clipboard" %}</span><div><h3>Your choice of Wellness or Diagnosis </h3><p>Self-assessment and wellness programs are separated from diagnosis and medical care.</p></div></article>
+      <article class="mm-trust-item"><span>{% include mm-icon.html name="shield" %}</span><div><h3>Privacy &amp; safety information</h3><p>Dedicated data safety and privacy terms with encrypted data.</p></div></article>
+      <article class="mm-trust-item"><span>{% include mm-icon.html name="family" %}</span><div><h3>Multi-generational</h3><p>Custom pathways for students, adults, seniors, families and caregivers.</p></div></article>
     </div>
   </div>
 </section>
@@ -152,7 +288,7 @@ og_image: /assets/images/home/consulings.png
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">Client experiences</span>
       <h2>Different journeys. Different kinds of support.</h2>
-      <p>Individual experiences vary, but these stories show how clients and families describe their work with Mente Mirror.</p>
+      <p>Individual experiences vary, but the stories show how clients and families describe their relationship with Mente Mirror.</p>
     </div>
     <div class="mm-testimonial-grid mm-testimonial-grid--home">
       <a class="mm-testimonial-card mm-testimonial-card--link" href="{{ '/resources/testimonials/dr-b-bharathi/' | relative_url }}">
