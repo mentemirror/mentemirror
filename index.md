@@ -135,6 +135,122 @@ og_image: /assets/images/home/consulings.png
     min-height: 280px;
   }
 }
+
+.mm-home-wearable {
+  padding: 64px 0;
+  background: #fff;
+}
+
+.mm-home-wearable__panel {
+  display: grid;
+  grid-template-columns: minmax(360px,.95fr) minmax(0,1.05fr);
+  gap: 54px;
+  align-items: center;
+  padding: 34px;
+  border: 1px solid var(--mm-border);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(235,63,122,.07), transparent 24%),
+    radial-gradient(circle at 82% 78%, rgba(139,79,166,.06), transparent 26%),
+    linear-gradient(135deg,#fff 0%,#fffafd 58%,#f8f5fb 100%);
+  box-shadow: var(--mm-shadow-soft);
+}
+
+.mm-home-wearable__visual {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 22px;
+  background: #fff;
+  border: 1px solid #eee7ed;
+}
+
+.mm-home-wearable__visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-top: 5px solid var(--mm-primary);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.mm-home-wearable__visual img {
+  width: 100%;
+  height: 100%;
+  max-height: 470px;
+  object-fit: contain;
+  display: block;
+}
+
+.mm-home-wearable__copy h2 {
+  margin: 10px 0 18px;
+  max-width: 720px;
+  font-size: clamp(2.15rem,4vw,3.7rem);
+  line-height: 1.05;
+  letter-spacing: -.02em;
+}
+
+.mm-home-wearable__copy p {
+  margin: 0;
+  max-width: 720px;
+  color: var(--mm-muted);
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+.mm-home-wearable__signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.mm-home-wearable__signals span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--mm-border);
+  background: rgba(255,255,255,.86);
+  font-weight: 700;
+  font-size: .92rem;
+}
+
+@media (max-width: 900px) {
+  .mm-home-wearable__panel {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 26px;
+  }
+
+  .mm-home-wearable__visual {
+    min-height: 330px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mm-home-wearable {
+    padding: 44px 0;
+  }
+
+  .mm-home-wearable__panel {
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+  .mm-home-wearable__visual {
+    min-height: 260px;
+  }
+
+  .mm-home-wearable__copy h2 {
+    font-size: clamp(2rem,10vw,3rem);
+  }
+}
+
 </style>
 
 <section class="mm-home-hero-redesign">
@@ -161,6 +277,34 @@ og_image: /assets/images/home/consulings.png
 
     <div class="mm-home-hero-redesign__visual">
       <img src="{{ './assets/images/home/home.png' | relative_url }}" alt="Home" loading="lazy">
+    </div>
+  </div>
+</section>
+
+
+<section class="mm-home-wearable">
+  <div class="mm-container">
+    <div class="mm-home-wearable__panel">
+      <div class="mm-home-wearable__visual">
+        <img
+          src="{{ './assets/images/home/ring2.png' | relative_url }}"
+          alt="Mjuzi Smart Ring"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="mm-home-wearable__copy">
+        <span class="mm-eyebrow">Mjuzi Smart Ring</span>
+        <h2>A wearable that listens to your body. And analyses patterns.</h2>
+        <p>It starts with a smart ring that reads your body's signals — sleep, HRV, stress, and recovery — day and night.</p>
+
+        <div class="mm-home-wearable__signals" aria-label="Signals tracked by the Mjuzi Smart Ring">
+          <span>Sleep</span>
+          <span>HRV</span>
+          <span>Stress</span>
+          <span>Recovery</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
