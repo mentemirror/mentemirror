@@ -251,6 +251,197 @@ og_image: /assets/images/home/consulings.png
   }
 }
 
+
+/* ===== Homepage visual refinement ===== */
+
+/* Hero: calmer hierarchy and softer secondary action */
+.mm-home-hero-redesign__copy h1 {
+  max-width: 620px;
+  font-size: clamp(2.65rem,4.25vw,4rem);
+  line-height: 1.06;
+}
+.mm-home-hero-redesign .mm-btn--secondary {
+  background: transparent;
+  color: var(--mm-primary);
+  border: 1px solid rgba(177,17,101,.34);
+  box-shadow: none;
+}
+
+/* Ring: flagship product story, not another card */
+.mm-home-wearable {
+  padding: 76px 0;
+  background:
+    radial-gradient(circle at 18% 45%, rgba(235,63,122,.075), transparent 24%),
+    radial-gradient(circle at 83% 62%, rgba(111,56,204,.065), transparent 24%),
+    linear-gradient(180deg,#fff 0%,#fffafd 100%);
+}
+.mm-home-wearable__panel {
+  grid-template-columns: minmax(360px,.92fr) minmax(0,1.08fr);
+  gap: clamp(42px,6vw,80px);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.mm-home-wearable__visual {
+  min-height: 430px;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  background: radial-gradient(circle at 50% 52%, rgba(235,63,122,.10), transparent 44%);
+}
+.mm-home-wearable__visual::before { display: none; }
+.mm-home-wearable__visual img {
+  max-height: 500px;
+  filter: drop-shadow(0 24px 40px rgba(64,38,77,.10));
+}
+.mm-home-wearable__copy { max-width: 680px; }
+.mm-home-wearable__copy h2 {
+  font-size: clamp(2.25rem,3.6vw,3.45rem);
+  line-height: 1.08;
+}
+.mm-home-wearable__bridge {
+  margin-top: 18px !important;
+  font-weight: 600;
+  color: var(--mm-text) !important;
+}
+.mm-home-wearable__link {
+  display: inline-flex;
+  margin-top: 24px;
+}
+
+/* Audience cards: same system, stronger recognition */
+.mm-home-audience .mm-card-grid--4 { gap: 18px; }
+.mm-home-audience .mm-audience-card {
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid transparent;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.mm-home-audience .mm-audience-card:hover { transform: translateY(-3px); }
+.mm-home-audience .mm-audience-card:nth-child(1) { border-top-color: #e83b78; }
+.mm-home-audience .mm-audience-card:nth-child(2) { border-top-color: #7442b5; }
+.mm-home-audience .mm-audience-card:nth-child(3) { border-top-color: #169b91; }
+.mm-home-audience .mm-audience-card:nth-child(4) { border-top-color: #ee942f; }
+.mm-home-audience .mm-audience-card:nth-child(1) .mm-card__icon { background: #fff0f5; }
+.mm-home-audience .mm-audience-card:nth-child(2) .mm-card__icon { background: #f3edfb; }
+.mm-home-audience .mm-audience-card:nth-child(3) .mm-card__icon { background: #e9f8f6; }
+.mm-home-audience .mm-audience-card:nth-child(4) .mm-card__icon { background: #fff5e8; }
+
+/* Choice guide: cleaner two-column decision rows */
+.mm-choice-grid {
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 14px;
+}
+.mm-choice-card {
+  min-height: 104px;
+  padding: 20px 22px;
+  border-radius: 16px;
+}
+.mm-choice-card > span { flex: 0 0 auto; }
+.mm-choice-card small {
+  display: block;
+  margin-top: 5px;
+  line-height: 1.45;
+}
+
+/* How it works: connected journey */
+.mm-home-journey { background: #fff; }
+.mm-home-journey .mm-section-heading h2 { margin-top: 8px; }
+.mm-home-journey .mm-journey {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5,minmax(0,1fr));
+  gap: 0;
+  margin-top: 38px;
+  padding: 0;
+  list-style: none;
+}
+.mm-home-journey .mm-journey::before {
+  content: "";
+  position: absolute;
+  top: 29px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg,#df2d70,#8f4bb4,#1a9f95,#ee942f);
+  opacity: .28;
+}
+.mm-home-journey .mm-journey li {
+  position: relative;
+  z-index: 1;
+  padding: 0 18px;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.mm-home-journey .mm-journey__number {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid rgba(177,17,101,.24);
+  box-shadow: 0 8px 24px rgba(45,24,58,.07);
+  font-weight: 700;
+}
+.mm-home-journey .mm-journey li:nth-child(2) .mm-journey__number { border-color: rgba(116,66,181,.34); }
+.mm-home-journey .mm-journey li:nth-child(3) .mm-journey__number { border-color: rgba(26,159,149,.34); }
+.mm-home-journey .mm-journey li:nth-child(4) .mm-journey__number { border-color: rgba(238,148,47,.40); }
+.mm-home-journey .mm-journey li:nth-child(5) .mm-journey__number { border-color: rgba(177,17,101,.30); }
+.mm-home-journey .mm-journey h3 { margin: 0 0 8px; }
+.mm-home-journey .mm-journey p {
+  margin: 0;
+  color: var(--mm-muted);
+  line-height: 1.55;
+}
+
+/* Deliberate section rhythm */
+.mm-home-audience { background: #faf7fb; }
+.mm-section--choice-guide { background: #fff; }
+
+@media (max-width: 900px) {
+  .mm-home-wearable__panel { grid-template-columns: 1fr; }
+  .mm-home-wearable__copy { max-width: none; }
+  .mm-home-journey .mm-journey {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .mm-home-journey .mm-journey::before {
+    top: 28px;
+    bottom: 28px;
+    left: 29px;
+    right: auto;
+    width: 2px;
+    height: auto;
+  }
+  .mm-home-journey .mm-journey li {
+    display: grid;
+    grid-template-columns: 58px 1fr;
+    column-gap: 18px;
+    text-align: left;
+    padding: 0;
+  }
+  .mm-home-journey .mm-journey__number {
+    grid-row: 1 / span 2;
+    margin: 0;
+  }
+  .mm-home-journey .mm-journey h3 { align-self: end; }
+}
+
+@media (max-width: 720px) {
+  .mm-choice-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .mm-home-wearable { padding: 50px 0; }
+  .mm-home-wearable__visual { min-height: 280px; }
+}
+
 </style>
 
 <section class="mm-home-hero-redesign">
@@ -276,7 +467,7 @@ og_image: /assets/images/home/consulings.png
     </div>
 
     <div class="mm-home-hero-redesign__visual">
-      <img src="{{ './assets/images/home/home.png' | relative_url }}" alt="Home" loading="lazy">
+      <img src="{{ './assets/images/home/home.png' | relative_url }}" alt="Home" fetchpriority="high">
     </div>
   </div>
 </section>
@@ -295,8 +486,10 @@ og_image: /assets/images/home/consulings.png
 
       <div class="mm-home-wearable__copy">
         <span class="mm-eyebrow">Mjuzi Smart Ring</span>
-        <h2>A wearable that listens to your body. And analyses patterns.</h2>
+        <h2>A wearable that listens to your body and analyses patterns.</h2>
         <p>It starts with a smart ring that reads your body's signals — sleep, HRV, stress, and recovery — day and night.</p>
+        <p class="mm-home-wearable__bridge">The ring provides the signals. Mjuzi helps turn them into reflection, patterns and practical wellness actions.</p>
+
 
         <div class="mm-home-wearable__signals" aria-label="Signals tracked by the Mjuzi Smart Ring">
           <span>Sleep</span>
@@ -304,6 +497,9 @@ og_image: /assets/images/home/consulings.png
           <span>Stress</span>
           <span>Recovery</span>
         </div>
+
+        <a class="mm-text-link mm-home-wearable__link" href="{{ '/ai-wellness/' | relative_url }}">Explore Mjuzi AI Wellness →</a>
+
       </div>
     </div>
   </div>
@@ -326,7 +522,7 @@ og_image: /assets/images/home/consulings.png
       <a class="mm-card mm-audience-card" href="{{ '/for-you/seniors/' | relative_url }}">
         <span class="mm-card__icon">{% include mm-icon.html name="senior" %}</span><h3>I’m supporting a senior</h3><p>Memory, mood, connection, activity, sleep and caregiver-oriented support.</p><span class="mm-card__link">Explore senior wellness</span>
       </a>
-      <a class="mm-card mm-audience-card" href="{{ '/for-you/families/' | relative_url }}">
+      <a class="mm-card mm-audience-card" href="{{ '/family-wellness/' | relative_url }}">
         <span class="mm-card__icon">{% include mm-icon.html name="family" %}</span><h3>I’m supporting my family</h3><p>Connected pathways for teens, adults, seniors, parents and caregivers.</p><span class="mm-card__link">Explore family wellness</span>
       </a>
     </div>
@@ -345,26 +541,26 @@ og_image: /assets/images/home/consulings.png
       <a class="mm-choice-card" data-cta="choice-testing" href="{{ '/understand-yourself/psychological-tests/' | relative_url }}"><span>{% include mm-icon.html name="brain" %}</span><div><strong>I want structured psychological testing</strong><small>Explore psychologist-supported tests and interpretation.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}"><span>{% include mm-icon.html name="chat" %}</span><div><strong>I want someone to talk to</strong><small>Explore counselling with a psychologist with post session reports and assistance.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-psychiatrist" href="{{ '/human-care/psychiatrists/' | relative_url }}"><span>{% include mm-icon.html name="medical" %}</span><div><strong>I may need medical or psychiatric care</strong><small>Explore psychiatric evaluation and medical support.</small></div><b aria-hidden="true">→</b></a>
-      <a class="mm-choice-card" data-cta="choice-mjuzi" href="{{ '/ai-wellness/' | relative_url }}"><span>{% include mm-icon.html name="sparkles" %}</span><div><strong>USE SMART RING ICON FOR THIS PART I want everyday AI-supported wellness</strong><small>Explore Mjuzi, daily check-ins, Wearable Smart Ring real time monitoring 24x7 and growth tools.</small></div><b aria-hidden="true">→</b></a>
+      <a class="mm-choice-card" data-cta="choice-mjuzi" href="{{ '/ai-wellness/' | relative_url }}"><span>{% include mm-icon.html name="sparkles" %}</span><div><strong>I want everyday AI-supported wellness</strong><small>Explore Mjuzi, daily check-ins, Wearable Smart Ring real time monitoring 24x7 and growth tools.</small></div><b aria-hidden="true">→</b></a>
       <a class="mm-choice-card" data-cta="choice-family" href="{{ '/family-wellness/' | relative_url }}"><span>{% include mm-icon.html name="family" %}</span><div><strong>I’m supporting someone else</strong><small>Explore family, parent, senior and caregiver pathways.</small></div><b aria-hidden="true">→</b></a>
     </div>
     <div class="mm-actions mm-actions--center mm-choice-guide__start"><a class="mm-text-link" data-cta="choice-get-started" href="{{ '/get-started/' | relative_url }}">New to Mente Mirror? Start here →</a></div>
   </div>
 </section>
 
-<section class="mm-section">
+<section class="mm-section mm-home-journey">
   <div class="mm-container">
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">How Mente Mirror works</span>
-      
+      <h2>Understand. Track. Notice patterns. Act. Get support.</h2>
       <p>One journey that combines awareness, everyday signals, personalised tools and human support when appropriate.</p>
     </div>
     <ol class="mm-journey">
-      <li><span class="mm-journey__number">01</span><h3>Awareness</h3><p>Reflect through assessment and conversation.</p></li>
+      <li><span class="mm-journey__number">01</span><h3>Understand</h3><p>Reflect through assessment and conversation.</p></li>
       <li><span class="mm-journey__number">02</span><h3>Track</h3><p>Add available behavioural and wearable context.</p></li>
-      <li><span class="mm-journey__number">03</span><h3>Trends</h3><p>Notice patterns and changes worth reflecting on.</p></li>
-      <li><span class="mm-journey__number">04</span><h3>Practise</h3><p>Use personalised wellness tools and exercises.</p></li>
-      <li><span class="mm-journey__number">05</span><h3>Transform</h3><p>Track progress and connect with human care when needed.</p></li>
+      <li><span class="mm-journey__number">03</span><h3>Notice patterns</h3><p>See trends and changes worth reflecting on.</p></li>
+      <li><span class="mm-journey__number">04</span><h3>Act</h3><p>Use personalised wellness tools and exercises.</p></li>
+      <li><span class="mm-journey__number">05</span><h3>Get support</h3><p>Track progress and connect with human care when needed.</p></li>
     </ol>
   </div>
 </section>
