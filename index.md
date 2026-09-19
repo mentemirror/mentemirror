@@ -406,7 +406,18 @@ og_image: /assets/images/home/consulings.png
 
 @media (max-width: 900px) {
   .mm-home-wearable__panel { grid-template-columns: 1fr; }
-  .mm-home-wearable__copy { max-width: none; }
+
+  /* Mobile/tablet: put the ring text before the ring image.
+     Without this, the hero image is immediately followed by the ring image
+     because the desktop DOM order is visual -> copy for the wearable section. */
+  .mm-home-wearable__copy {
+    max-width: none;
+    order: 1;
+  }
+
+  .mm-home-wearable__visual {
+    order: 2;
+  }
   .mm-home-journey .mm-journey {
     grid-template-columns: 1fr;
     gap: 22px;
@@ -461,9 +472,6 @@ og_image: /assets/images/home/consulings.png
         <a class="mm-btn mm-btn--secondary" data-cta="hero-psychologist" href="{{ '/human-care/psychologists/' | relative_url }}">Explore Human Care</a>
       </div>
 
-      <div class="mm-home-hero-redesign__tertiary">
-        <a class="mm-hero__tertiary" data-cta="hero-mjuzi" href="{{ '/ai-wellness/' | relative_url }}">Meet Mjuzi AI Wellness <span aria-hidden="true">→</span></a>
-      </div>
     </div>
 
     <div class="mm-home-hero-redesign__visual">
