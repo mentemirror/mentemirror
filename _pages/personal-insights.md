@@ -91,6 +91,7 @@ permalink: /ai-wellness/personal-insights/
       </aside>
     </div>
     <div class="mm-ai-safety-note"><strong>Insights are prompts for reflection.</strong><p>They should be presented as supportive observations, not definitive explanations of why you feel a certain way. When complexity or clinical need exceeds the role of technology, human care should remain available.</p></div>
-    <div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/' | relative_url }}">← Back to AI Wellness</a></div>
   </div>
 </section>
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/' | relative_url }}">← Back to AI Wellness</a></div></div></section>

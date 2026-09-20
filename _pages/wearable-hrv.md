@@ -83,5 +83,7 @@ permalink: /ai-wellness/wearables/hrv/
       <p>Mjuzi can help place HR and HRV trends beside other available wellness signals so they become part of a conversation rather than isolated scores.</p>
     </aside>
   </div>
-  <div class="mm-container"><div class="mm-ai-safety-note"><strong>Important:</strong><p>Wearable HRV varies with device quality, measurement conditions and many everyday factors. It should not be presented as a diagnostic or treatment metric.</p></div><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
+  <div class="mm-container"><div class="mm-ai-safety-note"><strong>Important:</strong><p>Wearable HRV varies with device quality, measurement conditions and many everyday factors. It should not be presented as a diagnostic or treatment metric.</p></div></div>
 </section>
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div></section>

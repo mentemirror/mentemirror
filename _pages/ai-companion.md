@@ -541,3 +541,5 @@ body_class: mm-ai-companion-page
 </section>
 
 {% include mm-next-steps.html %}
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/' | relative_url }}">← Back to AI Wellness</a></div></div></section>

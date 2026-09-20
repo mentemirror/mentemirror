@@ -85,6 +85,7 @@ permalink: /ai-wellness/wellness-recommendations/
       </aside>
     </div>
     <div class="mm-ai-safety-note"><strong>Not medical advice.</strong><p>Wellness recommendations are general supportive actions. They should not replace diagnosis, treatment, medication advice or emergency care.</p></div>
-    <div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/' | relative_url }}">← Back to AI Wellness</a></div>
   </div>
 </section>
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/' | relative_url }}">← Back to AI Wellness</a></div></div></section>

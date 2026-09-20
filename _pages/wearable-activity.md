@@ -82,5 +82,6 @@ permalink: /ai-wellness/wearables/activity/
       <p>Different people have different capabilities, health needs and routines. Mjuzi supports awareness rather than prescribing a universal activity target.</p>
     </aside>
   </div>
-  <div class="mm-container"><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
 </section>
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div></section>

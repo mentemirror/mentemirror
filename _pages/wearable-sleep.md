@@ -93,5 +93,7 @@ permalink: /ai-wellness/wearables/sleep/
       <p>Mjuzi uses sleep duration, stages and timing as contextual signals alongside other approved wellbeing information to help you reflect on patterns over time.</p>
     </aside>
   </div>
-  <div class="mm-container"><div class="mm-ai-safety-note"><strong>Remember:</strong><p>Consumer wearable sleep estimates are not a clinical sleep study. If sleep problems are persistent or concerning, appropriate professional care may be needed.</p></div><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
+  <div class="mm-container"><div class="mm-ai-safety-note"><strong>Remember:</strong><p>Consumer wearable sleep estimates are not a clinical sleep study. If sleep problems are persistent or concerning, appropriate professional care may be needed.</p></div></div>
 </section>
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div></section>

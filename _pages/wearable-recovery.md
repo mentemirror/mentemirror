@@ -82,5 +82,7 @@ permalink: /ai-wellness/wearables/recovery/
       <p>Recovery patterns can add useful context when reflecting on learning readiness, energy and day-to-day wellbeing.</p>
     </aside>
   </div>
-  <div class="mm-container"><div class="mm-ai-safety-note"><strong>Wellness guidance only.</strong><p>A recovery indicator should not be used to clear someone for exercise, work, medical treatment or other safety-critical decisions.</p></div><div class="mm-ai-detail-back"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div>
+  <div class="mm-container"><div class="mm-ai-safety-note"><strong>Wellness guidance only.</strong><p>A recovery indicator should not be used to clear someone for exercise, work, medical treatment or other safety-critical decisions.</p></div></div>
 </section>
+
+<section class="mm-section mm-section--tight mm-assessment-back-section"><div class="mm-container"><div class="mm-actions"><a class="mm-text-link" href="{{ '/ai-wellness/wearables/' | relative_url }}">← Back to Smart Wearable Insights</a></div></div></section>

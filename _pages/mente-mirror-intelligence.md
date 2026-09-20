@@ -99,13 +99,13 @@ body_class: mm-intelligence-page
           </tr>
         </thead>
         <tbody>
-          <tr class="mm-well-row mm-well-row--emotional">
-            <td data-label="Dimension"><strong>Emotional</strong></td>
-            <td data-label="Relevance"><strong>Heart</strong> — emotional balance and resilience. Emotional wellbeing directly improves your social and spiritual quotient.</td>
-          </tr>
           <tr class="mm-well-row mm-well-row--cognitive">
             <td data-label="Dimension"><strong>Cognitive</strong></td>
             <td data-label="Relevance"><strong>Mind</strong> — thinking, learning and growth. A brighter mind helps to regulate your emotion and social interactions.</td>
+          </tr>
+          <tr class="mm-well-row mm-well-row--emotional">
+            <td data-label="Dimension"><strong>Emotional</strong></td>
+            <td data-label="Relevance"><strong>Heart</strong> — emotional balance and resilience. Emotional wellbeing directly improves your social and spiritual quotient.</td>
           </tr>
           <tr class="mm-well-row mm-well-row--physical">
             <td data-label="Dimension"><strong>Physical</strong></td>
