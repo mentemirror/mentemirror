@@ -2966,7 +2966,7 @@ body.mm-body { line-height: 1.62; }
 
 /* Desktop sticky header: ~110px instead of ~136px. */
 .mm-utility__inner { min-height: 64px; gap: 22px; }
-.mm-brand__logo { max-width: 225px; max-height: 58px; }
+.mm-brand__logo { max-width: 230px; max-height: 58px; }
 .mm-utility__right { gap: 16px; }
 .mm-utility__message { font-size: .8rem; }
 .mm-phone { font-size: .84rem; }
@@ -3047,7 +3047,7 @@ body.mm-body { line-height: 1.62; }
 /* Tablet/mobile header becomes a single visible row: logo + hamburger. */
 @media (max-width: 920px) {
   .mm-utility__inner { min-height: 64px; }
-  .mm-brand__logo { max-width: 195px; max-height: 54px; }
+  .mm-brand__logo { max-width: 220px; max-height: 58px; }
   .mm-utility__right { display: none; }
 
   .mm-nav-shell { height: 0; border-top: 0; }
@@ -3076,7 +3076,7 @@ body.mm-body { line-height: 1.62; }
 }
 
 @media (max-width: 640px) {
-  .mm-brand__logo { max-width: 178px; max-height: 50px; }
+  .mm-brand__logo { max-width: 210px; max-height: 56px; }
   .mm-hero { padding: 38px 0 42px; }
   .mm-hero h1 { font-size: clamp(2.15rem, 9.2vw, 3rem); }
   .mm-page-hero { padding: 30px 0 32px; }
@@ -3636,8 +3636,8 @@ a.mm-card:hover .mm-card__link::after { transform: translateX(3px); }
 
 /* Desktop shell: keep the two-row information architecture, but make it compact. */
 @media (min-width: 921px) {
-  .mm-utility__inner { min-height: 52px; gap: 18px; }
-  .mm-brand__logo { max-width: 188px; max-height: 46px; }
+  .mm-utility__inner { min-height: 64px; gap: 18px; }
+  .mm-brand__logo { max-width: 230px; max-height: 58px; }
   .mm-utility__right { gap: 13px; }
   .mm-utility__message { font-size: var(--mm-text-xs); white-space: nowrap; }
   .mm-phone { font-size: .76rem; }
