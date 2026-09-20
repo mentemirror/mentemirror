@@ -480,7 +480,6 @@ body_class: mm-wearables-page
   <div class="mm-container">
     <div class="mm-section-heading mm-section-heading--center">
       <span class="mm-eyebrow">How an insight should be formed</span>
-      <h2>Consent → Baseline → Quality → Change → Your context → Reflection</h2>
       <p>A number on a wearable is not psychological truth. Useful interpretation requires permission, a meaningful baseline, usable data and confirmation of what was happening in your life.</p>
     </div>
 
