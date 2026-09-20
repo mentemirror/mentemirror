@@ -60,6 +60,32 @@ body_class: mm-family-wellness-page
     grid-template-columns: 1fr;
   }
 }
+
+/* Keep the closing family-principles section visually separate from the footer. */
+.mm-family-wellness-page .mm-family-principles-section {
+  background: linear-gradient(180deg, #fff7fb 0%, #f7f3ff 100%) !important;
+  color: var(--mm-text) !important;
+  border-top: 1px solid rgba(201, 40, 97, .10);
+}
+
+.mm-family-wellness-page .mm-family-principles-section .mm-eyebrow {
+  color: var(--mm-primary) !important;
+}
+
+.mm-family-wellness-page .mm-family-principles-section h2,
+.mm-family-wellness-page .mm-family-principles-section strong {
+  color: var(--mm-text) !important;
+}
+
+.mm-family-wellness-page .mm-family-principles-section p {
+  color: var(--mm-muted) !important;
+}
+
+.mm-family-wellness-page .mm-family-principles-section .mm-family-principles__grid article {
+  background: rgba(255, 255, 255, .86);
+  border-color: rgba(37, 36, 45, .10);
+  box-shadow: 0 12px 28px rgba(37, 36, 45, .06);
+}
 </style>
 
 <section class="mm-page-hero mm-family-wellness-hero">
@@ -156,11 +182,11 @@ body_class: mm-family-wellness-page
   </div>
 </section>
 
-<section class="mm-section mm-section--dark">
+<section class="mm-section mm-family-principles-section">
   <div class="mm-container">
     <div class="mm-family-principles">
       <div>
-        <span class="mm-eyebrow">Designed for families CHANGE SECTION COLOUR - NOW SAME AS FOOTER GREY - NOT DISTINGUISHABLE FROM FOOTER</span>
+        <span class="mm-eyebrow">Designed for families</span>
         <h2>Connection should not mean loss of privacy.</h2>
       </div>
       <div class="mm-family-principles__grid">
