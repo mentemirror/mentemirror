@@ -18,8 +18,8 @@ email:
 description: >-
   Mental health, counselling, therapy, psychological testing and wellness services.
 
-url: "https://mentemirror.github.io"
-baseurl: "/mentemirror"
+url: "https://mentemirror.com"
+baseurl: ""
 
 
 minimal_mistakes_skin: default
