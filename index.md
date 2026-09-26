@@ -481,37 +481,7 @@ og_image: /assets/images/home/consulings.png
 </section>
 
 
-<section class="mm-home-wearable">
-  <div class="mm-container">
-    <div class="mm-home-wearable__panel">
-      <div class="mm-home-wearable__visual">
-        <img
-          src="{{ './assets/images/home/ring2.png' | relative_url }}"
-          alt="Mjuzi Smart Ring"
-          loading="lazy"
-        >
-      </div>
-
-      <div class="mm-home-wearable__copy">
-        <span class="mm-eyebrow">Mjuzi Smart Ring</span>
-        <h2>A wearable that listens to your body and analyses patterns.</h2>
-        <p>It starts with a smart ring that reads your body's signals — sleep, HRV, stress, and recovery — day and night.</p>
-        <p class="mm-home-wearable__bridge">The ring provides the signals. Mjuzi helps turn them into reflection, patterns and practical wellness actions.</p>
-
-
-        <div class="mm-home-wearable__signals" aria-label="Signals tracked by the Mjuzi Smart Ring">
-          <span>Sleep</span>
-          <span>HRV</span>
-          <span>Stress</span>
-          <span>Recovery</span>
-        </div>
-
-        <a class="mm-text-link mm-home-wearable__link" href="{{ '/ai-wellness/' | relative_url }}">Explore Mjuzi AI Wellness →</a>
-
-      </div>
-    </div>
-  </div>
-</section>
+{% include mm-offerings-carousel.html %}
 
 <section class="mm-section mm-section--soft mm-home-audience">
   <div class="mm-container">

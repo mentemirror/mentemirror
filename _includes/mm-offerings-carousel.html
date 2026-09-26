@@ -1,0 +1,87 @@
+<section class="mm-offerings" aria-labelledby="mm-offerings-title">
+  <link rel="stylesheet" href="{{ '/assets/css/mm-offerings-carousel.css' | relative_url }}">
+
+  <div class="mm-container">
+    <div class="mm-section-heading mm-section-heading--center mm-offerings__heading">
+      <span class="mm-eyebrow">One ecosystem for your wellbeing</span>
+      <h2 id="mm-offerings-title">Different kinds of support, connected in one journey.</h2>
+      <p>Understand how you’re doing, build everyday wellness habits and connect with human care when you need it.</p>
+    </div>
+
+    <div
+      class="mm-offerings-carousel"
+      data-mm-carousel
+      aria-roledescription="carousel"
+      aria-label="Mente Mirror offerings"
+    >
+      <div class="mm-offerings-carousel__viewport" aria-live="polite">
+        {% for slide in site.data.home_carousel %}
+          <article
+            class="mm-offerings-slide{% if forloop.first %} is-active{% endif %}"
+            data-mm-slide
+            data-index="{{ forloop.index0 }}"
+            data-slide-label="{{ slide.eyebrow | escape }}"
+            aria-roledescription="slide"
+            aria-label="{{ forloop.index }} of {{ forloop.length }}"
+            {% unless forloop.first %}hidden{% endunless %}
+          >
+            <div class="mm-offerings-slide__visual mm-offerings-slide__visual--{{ slide.image_mode | default: 'cover' }}">
+              <img
+                src="{{ slide.image | relative_url }}"
+                alt="{{ slide.image_alt | escape }}"
+                {% unless forloop.first %}loading="lazy"{% endunless %}
+                decoding="async"
+              >
+            </div>
+
+            <div class="mm-offerings-slide__content">
+              <span class="mm-eyebrow">{{ slide.eyebrow }}</span>
+              <h3>{{ slide.title }}</h3>
+              <p>{{ slide.description }}</p>
+              <a
+                class="mm-btn mm-btn--primary mm-offerings-slide__cta"
+                data-cta="home-carousel-{{ forloop.index }}"
+                href="{{ slide.url | relative_url }}"
+              >
+                {{ slide.cta }} <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+
+      <div class="mm-offerings-carousel__controls">
+        <button
+          class="mm-offerings-carousel__arrow"
+          type="button"
+          data-mm-prev
+          aria-label="Previous offering"
+        >
+          <span aria-hidden="true">←</span>
+        </button>
+
+        <div class="mm-offerings-carousel__status" aria-live="polite" aria-atomic="true">
+          <div class="mm-offerings-carousel__count">
+            <span data-mm-current>01</span>
+            <span class="mm-offerings-carousel__count-separator">/</span>
+            <span data-mm-total>{{ site.data.home_carousel | size | prepend: '0' | slice: -2, 2 }}</span>
+          </div>
+          <div class="mm-offerings-carousel__label" data-mm-label>
+            {{ site.data.home_carousel[0].eyebrow }}
+          </div>
+        </div>
+
+        <button
+          class="mm-offerings-carousel__arrow"
+          type="button"
+          data-mm-next
+          aria-label="Next offering"
+        >
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ '/assets/js/mm-offerings-carousel.js' | relative_url }}" defer></script>
+</section>

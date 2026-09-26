@@ -1,0 +1,309 @@
+/* Mente Mirror homepage offerings carousel
+   Viewport-aware version: card + controls stay visible on common laptop screens.
+*/
+.mm-offerings{
+  padding:16px 0 12px;
+  background:
+    radial-gradient(circle at 12% 12%,rgba(235,63,122,.055),transparent 25%),
+    radial-gradient(circle at 88% 88%,rgba(111,56,204,.05),transparent 26%),
+    linear-gradient(180deg,#fff 0%,#fffafd 100%);
+}
+
+/* Keep this if the section heading is still used elsewhere.
+   For the homepage carousel itself, compact the heading heavily so it does not
+   consume the available viewport height. */
+.mm-offerings__heading{
+  max-width:820px;
+  margin:0 auto 14px;
+}
+.mm-offerings__heading h2{margin-bottom:6px}
+.mm-offerings__heading p{margin-bottom:0}
+
+.mm-offerings-carousel{
+  max-width:1120px;
+  margin:0 auto;
+}
+
+/*
+  Main viewport budget:
+  - ~110px is occupied by the site header/navigation in the current layout.
+  - ~90-100px is reserved for carousel controls, margins and breathing room.
+  - The card therefore adapts to the remaining browser height.
+*/
+.mm-offerings-slide{
+  display:grid;
+  grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr);
+  align-items:stretch;
+  height:clamp(360px,calc(100vh - 225px),500px);
+  min-height:0;
+  overflow:hidden;
+  border:1px solid var(--mm-border);
+  border-radius:28px;
+  background:#fff;
+  box-shadow:var(--mm-shadow-soft);
+}
+
+.mm-offerings-slide[hidden]{display:none}
+
+.mm-offerings-slide__visual{
+  position:relative;
+  min-height:0;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 50% 48%,rgba(235,63,122,.08),transparent 44%),
+    #faf7fb;
+}
+
+.mm-offerings-slide__visual::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-top:5px solid var(--mm-primary);
+  pointer-events:none;
+  z-index:2;
+}
+
+.mm-offerings-slide__visual img{
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+.mm-offerings-slide__visual--cover img{
+  object-fit:cover;
+}
+
+.mm-offerings-slide__visual--contain{
+  padding:clamp(18px,3vw,38px);
+}
+
+.mm-offerings-slide__visual--contain img{
+  object-fit:contain;
+  max-height:100%;
+  filter:drop-shadow(0 14px 28px rgba(50,32,62,.10));
+}
+
+.mm-offerings-slide__content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:0;
+  overflow:auto;
+  padding:clamp(24px,3.7vw,48px);
+}
+
+.mm-offerings-slide__content h3{
+  margin:8px 0 14px;
+  font-size:clamp(1.85rem,2.8vw,2.8rem);
+  line-height:1.06;
+  letter-spacing:-.02em;
+  text-wrap:balance;
+}
+
+.mm-offerings-slide__content p{
+  margin:0;
+  color:var(--mm-muted);
+  font-size:clamp(.96rem,1.15vw,1.04rem);
+  line-height:1.58;
+}
+
+.mm-offerings-slide__cta{
+  align-self:flex-start;
+  margin-top:20px;
+}
+
+.mm-offerings-carousel__controls{
+  display:grid;
+  grid-template-columns:44px minmax(170px,1fr) 44px;
+  align-items:center;
+  gap:18px;
+  max-width:520px;
+  margin:14px auto 0;
+}
+
+.mm-offerings-carousel__arrow{
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--mm-border);
+  border-radius:50%;
+  background:#fff;
+  color:var(--mm-text);
+  font:inherit;
+  cursor:pointer;
+  box-shadow:0 5px 16px rgba(45,24,58,.06);
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+.mm-offerings-carousel__arrow:hover{
+  transform:translateY(-1px);
+  border-color:rgba(177,17,101,.34);
+  box-shadow:0 8px 20px rgba(45,24,58,.09);
+}
+.mm-offerings-carousel__arrow:focus-visible{
+  outline:3px solid rgba(177,17,101,.22);
+  outline-offset:3px;
+}
+
+.mm-offerings-carousel__status{
+  min-width:0;
+  text-align:center;
+}
+
+.mm-offerings-carousel__count{
+  display:flex;
+  align-items:baseline;
+  justify-content:center;
+  gap:7px;
+  font-size:1rem;
+  line-height:1;
+  font-weight:800;
+  letter-spacing:.08em;
+  color:var(--mm-primary);
+}
+
+.mm-offerings-carousel__count-separator{
+  color:#b8afb9;
+  font-weight:600;
+}
+
+.mm-offerings-carousel__label{
+  margin-top:6px;
+  min-height:1.3em;
+  color:var(--mm-text);
+  font-size:.9rem;
+  line-height:1.3;
+  font-weight:650;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/* Short laptop/browser windows: compact typography and CTA further. */
+@media (min-width:901px) and (max-height:720px){
+  .mm-offerings{
+    padding-top:10px;
+    padding-bottom:8px;
+  }
+  .mm-offerings__heading{
+    margin-bottom:10px;
+  }
+  .mm-offerings__heading p{
+    display:none;
+  }
+  .mm-offerings-slide{
+    height:clamp(350px,calc(100vh - 205px),445px);
+  }
+  .mm-offerings-slide__content{
+    padding:22px 34px;
+  }
+  .mm-offerings-slide__content h3{
+    font-size:clamp(1.75rem,2.45vw,2.45rem);
+    margin:7px 0 11px;
+  }
+  .mm-offerings-slide__content p{
+    font-size:.94rem;
+    line-height:1.5;
+  }
+  .mm-offerings-slide__cta{
+    margin-top:16px;
+  }
+  .mm-offerings-carousel__controls{
+    margin-top:10px;
+  }
+}
+
+/* Very short desktop windows: prioritize the carousel itself. */
+@media (min-width:901px) and (max-height:620px){
+  .mm-offerings__heading{
+    display:none;
+  }
+  .mm-offerings-slide{
+    height:clamp(330px,calc(100vh - 175px),405px);
+  }
+  .mm-offerings-slide__content{
+    padding:18px 30px;
+  }
+  .mm-offerings-slide__content h3{
+    font-size:clamp(1.55rem,2.15vw,2.15rem);
+  }
+  .mm-offerings-slide__content p{
+    font-size:.9rem;
+    line-height:1.42;
+  }
+  .mm-offerings-slide__cta{
+    margin-top:12px;
+  }
+}
+
+@media(max-width:900px){
+  .mm-offerings{
+    padding:36px 0;
+  }
+  .mm-offerings__heading{
+    margin-bottom:22px;
+  }
+  .mm-offerings-slide{
+    grid-template-columns:1fr;
+    height:auto;
+    min-height:0;
+  }
+  .mm-offerings-slide__visual{
+    min-height:300px;
+    height:auto;
+    aspect-ratio:16/9;
+  }
+  .mm-offerings-slide__content{
+    overflow:visible;
+    padding:30px 28px 34px;
+  }
+}
+
+@media(max-width:640px){
+  .mm-offerings{
+    padding:30px 0;
+  }
+  .mm-offerings__heading{
+    margin-bottom:20px;
+  }
+  .mm-offerings-slide{
+    border-radius:20px;
+  }
+  .mm-offerings-slide__visual{
+    min-height:240px;
+  }
+  .mm-offerings-slide__visual--contain{
+    padding:22px;
+  }
+  .mm-offerings-slide__content{
+    padding:26px 22px 28px;
+  }
+  .mm-offerings-slide__content h3{
+    font-size:clamp(1.75rem,8vw,2.35rem);
+  }
+  .mm-offerings-slide__cta{
+    width:100%;
+    justify-content:center;
+  }
+  .mm-offerings-carousel__controls{
+    grid-template-columns:42px minmax(0,1fr) 42px;
+    gap:12px;
+    max-width:100%;
+    margin-top:14px;
+  }
+  .mm-offerings-carousel__arrow{
+    width:42px;
+    height:42px;
+  }
+  .mm-offerings-carousel__label{
+    font-size:.84rem;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .mm-offerings-carousel__arrow{transition:none}
+}
